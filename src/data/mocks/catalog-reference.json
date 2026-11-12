@@ -1,0 +1,1987 @@
+[
+  {
+    "slug": "5-amino-1mq-10-mg",
+    "name": "5-Amino-1MQ",
+    "subtitle": "",
+    "category": "GLP-1 & Metabolic",
+    "formula": "C10H11N2+…",
+    "strengths": [
+      "10 mg",
+      "20 mg",
+      "50 mg"
+    ],
+    "purity": "≥99%",
+    "specs": {
+      "Physical Form": "Lyophilized powder",
+      "Molecular Formula": "C10H11N2+ (supplied as the iodide salt, C10H11IN2)",
+      "Molecular Weight": "159.21 (cation) / 286.11 (iodide salt) g/mol"
+    },
+    "images": [
+      "/assets/mint-catalog/5-amino-1mq-10-mg-01-10-mg-purity-label.webp",
+      "/assets/mint-catalog/5-amino-1mq-10-mg-02-20-mg-purity-label.webp",
+      "/assets/mint-catalog/5-amino-1mq-10-mg-03-50-mg-purity-label.webp"
+    ]
+  },
+  {
+    "slug": "5-amino-1mq-50-mg-slu-pp-332-1-mg-tablets-50-mg-1-mg-30-ct",
+    "name": "5-Amino-1MQ (50 mg) + SLU-PP-332 (1 mg) Tablets",
+    "subtitle": "",
+    "category": "Peptide Blends",
+    "formula": "—",
+    "strengths": [
+      "50 mg / 1 mg · 30 ct"
+    ],
+    "purity": "—",
+    "specs": {},
+    "images": [
+      "/assets/mint-catalog/5-amino-1mq-50-mg-slu-pp-332-1-mg-tablets-50-mg-1-mg-30-ct-01-50-mg-1-mg-30-ct.webp"
+    ]
+  },
+  {
+    "slug": "5-amino-1mq-tablets-50-mg-30-ct",
+    "name": "5-Amino-1MQ Tablets",
+    "subtitle": "",
+    "category": "GLP-1 & Metabolic",
+    "formula": "—",
+    "strengths": [
+      "50 mg · 30 ct"
+    ],
+    "purity": "—",
+    "specs": {},
+    "images": [
+      "/assets/mint-catalog/5-amino-1mq-tablets-50-mg-30-ct-01-50-mg-30-ct.webp"
+    ]
+  },
+  {
+    "slug": "adamax-10-mg",
+    "name": "Adamax",
+    "subtitle": "",
+    "category": "Research Peptides",
+    "formula": "—",
+    "strengths": [
+      "10 mg"
+    ],
+    "purity": "—",
+    "specs": {},
+    "images": [
+      "/assets/mint-catalog/adamax-10-mg-01-10-mg-purity-label.webp"
+    ]
+  },
+  {
+    "slug": "adamax-nasal-spray-10-mg-10-ml",
+    "name": "Adamax Nasal Spray",
+    "subtitle": "",
+    "category": "Liquid Sprays",
+    "formula": "—",
+    "strengths": [
+      "10 mg · 10 mL"
+    ],
+    "purity": "—",
+    "specs": {},
+    "images": [
+      "/assets/mint-catalog/adamax-nasal-spray-10-mg-10-ml-01-10-mg-10-ml.webp"
+    ]
+  },
+  {
+    "slug": "aod-9604-5-mg",
+    "name": "AOD-9604",
+    "subtitle": "hGH fragment 176-191 analogue",
+    "category": "Research Peptides",
+    "formula": "C78H123N23O23S2",
+    "strengths": [
+      "5 mg",
+      "10 mg"
+    ],
+    "purity": "≥99%",
+    "specs": {
+      "Physical Form": "Lyophilized powder",
+      "CAS Number": "221231-10-3",
+      "Molecular Formula": "C78H123N23O23S2",
+      "Molecular Weight": "1815.08 g/mol",
+      "Amino Acid Count": "16",
+      "Sequence": "Tyr-Leu-Arg-Ile-Val-Gln-Cys-Arg-Ser-Val-Glu-Gly-Ser-Cys-Gly-Phe (disulfide Cys7-Cys15)"
+    },
+    "images": [
+      "/assets/mint-catalog/aod-9604-5-mg-01-5-mg-purity-label.webp",
+      "/assets/mint-catalog/aod-9604-5-mg-02-10-mg-purity-label.webp"
+    ]
+  },
+  {
+    "slug": "ara-290-10-mg",
+    "name": "ARA-290",
+    "subtitle": "Cibinetide",
+    "category": "Research Peptides",
+    "formula": "C55H82N18O18",
+    "strengths": [
+      "10 mg",
+      "16 mg"
+    ],
+    "purity": "≥99%",
+    "specs": {
+      "Physical Form": "Lyophilized powder",
+      "CAS Number": "1208243-50-8",
+      "Molecular Formula": "C55H82N18O18",
+      "Molecular Weight": "1259.34 g/mol",
+      "Amino Acid Count": "11",
+      "Sequence": "Pyr-Glu-Gln-Leu-Glu-Arg-Ala-Leu-Asn-Ser-Ser"
+    },
+    "images": [
+      "/assets/mint-catalog/ara-290-10-mg-01-10-mg-purity-label.webp",
+      "/assets/mint-catalog/ara-290-10-mg-02-16-mg-purity-label.webp"
+    ]
+  },
+  {
+    "slug": "bacteriostatic-water-30-ml",
+    "name": "Bacteriostatic Water",
+    "subtitle": "",
+    "category": "Lab Supplies",
+    "formula": "—",
+    "strengths": [
+      "30 mL"
+    ],
+    "purity": "≥99%",
+    "specs": {},
+    "images": [
+      "/assets/mint-catalog/bacteriostatic-water-30-ml-01-30-ml-purity-label.webp"
+    ]
+  },
+  {
+    "slug": "bpc-157-5-mg",
+    "name": "BPC-157",
+    "subtitle": "Body Protection Compound-157",
+    "category": "Research Peptides",
+    "formula": "C62H98N16O22",
+    "strengths": [
+      "5 mg",
+      "10 mg",
+      "15 mg",
+      "60 mg",
+      "100 mg"
+    ],
+    "purity": "≥99%",
+    "specs": {
+      "Physical Form": "Lyophilized powder",
+      "CAS Number": "137525-51-0",
+      "Molecular Formula": "C62H98N16O22",
+      "Molecular Weight": "1419.55 g/mol",
+      "Amino Acid Count": "15",
+      "Sequence": "Gly-Glu-Pro-Pro-Pro-Gly-Lys-Pro-Ala-Asp-Asp-Ala-Gly-Leu-Val"
+    },
+    "images": [
+      "/assets/mint-catalog/bpc-157-5-mg-01-5-mg-purity-label.webp",
+      "/assets/mint-catalog/bpc-157-5-mg-02-10-mg-purity-label.webp",
+      "/assets/mint-catalog/bpc-157-5-mg-03-15-mg-purity-label.webp",
+      "/assets/mint-catalog/bpc-157-5-mg-04-60-mg-purity-label.webp",
+      "/assets/mint-catalog/bpc-157-5-mg-05-100-mg-purity-label.webp"
+    ]
+  },
+  {
+    "slug": "bpc-157-500-mcg-kpv-500-mcg-larazotide-500-mcg-tablets-500-mcg-500-mcg-500-mcg-30-ct",
+    "name": "BPC-157 (500 mcg) + KPV (500 mcg) + Larazotide (500 mcg) Tablets",
+    "subtitle": "",
+    "category": "Peptide Blends",
+    "formula": "—",
+    "strengths": [
+      "500 mcg / 500 mcg / 500 mcg · 30 ct"
+    ],
+    "purity": "—",
+    "specs": {},
+    "images": [
+      "/assets/mint-catalog/bpc-157-500-mcg-kpv-500-mcg-larazotide-500-mcg-tablets-500-mcg-500-mcg-500-mcg-30-ct-01-500-mcg-500-mcg-500-mcg-30-ct.webp"
+    ]
+  },
+  {
+    "slug": "bpc-157-tb-500-frag-50-mg-50-mg",
+    "name": "BPC-157 / TB-500 FRAG",
+    "subtitle": "BPC-157 + TB-500 blend",
+    "category": "Peptide Blends",
+    "formula": "BPC-157: C62H98N16O22\nTB-500: C38H68N10O14",
+    "strengths": [
+      "50 mg / 50 mg",
+      "100 mg / 100 mg"
+    ],
+    "purity": "≥99%",
+    "specs": {
+      "Physical Form": "Lyophilized powder",
+      "CAS Number": "BPC-157: 137525-51-0 TB-500: 885340-08-9",
+      "Molecular Formula": "BPC-157: C62H98N16O22\nTB-500: C38H68N10O14",
+      "Molecular Weight": "BPC-157: 1419.55 TB-500: 889.02 g/mol",
+      "Amino Acid Count": "BPC-157: 15 TB-500: 7",
+      "Sequence": "BPC-157: Gly-Glu-Pro-Pro-Pro-Gly-Lys-Pro-Ala-Asp-Asp-Ala-Gly-Leu-Val TB-500: Ac-Leu-Lys-Lys-Thr-Glu-Thr-Gln-OH"
+    },
+    "images": [
+      "/assets/mint-catalog/bpc-157-tb-500-frag-50-mg-50-mg-01-50-mg-50-mg-purity-label.webp",
+      "/assets/mint-catalog/bpc-157-tb-500-frag-50-mg-50-mg-02-100-mg-100-mg-purity-label.webp"
+    ]
+  },
+  {
+    "slug": "bpc-157-tablets-500-mcg-30-ct",
+    "name": "BPC-157 Tablets",
+    "subtitle": "",
+    "category": "Research Peptides",
+    "formula": "—",
+    "strengths": [
+      "500 mcg · 30 ct"
+    ],
+    "purity": "—",
+    "specs": {},
+    "images": [
+      "/assets/mint-catalog/bpc-157-tablets-500-mcg-30-ct-01-500-mcg-30-ct.webp"
+    ]
+  },
+  {
+    "slug": "cagrilintide-5-mg",
+    "name": "Cagrilintide",
+    "subtitle": "",
+    "category": "GLP-1 & Metabolic",
+    "formula": "C194H312N54O59S2",
+    "strengths": [
+      "5 mg",
+      "10 mg",
+      "20 mg"
+    ],
+    "purity": "≥99%",
+    "specs": {
+      "Physical Form": "Lyophilized powder",
+      "CAS Number": "1415456-99-3",
+      "Molecular Formula": "C194H312N54O59S2",
+      "Molecular Weight": "4409.07 g/mol",
+      "Amino Acid Count": "37"
+    },
+    "images": [
+      "/assets/mint-catalog/cagrilintide-5-mg-01-5-mg-purity-label.webp",
+      "/assets/mint-catalog/cagrilintide-5-mg-02-10-mg-purity-label.webp",
+      "/assets/mint-catalog/cagrilintide-5-mg-03-20-mg-purity-label.webp"
+    ]
+  },
+  {
+    "slug": "cagrisema-5-mg-5-mg",
+    "name": "Cagrisema",
+    "subtitle": "Cagrilintide + semaglutide blend",
+    "category": "GLP-1 & Metabolic",
+    "formula": "Cagrilintide: C194H312N54O59S2\nSemaglutide: C187H291N45O59",
+    "strengths": [
+      "5 mg / 5 mg"
+    ],
+    "purity": "—",
+    "specs": {},
+    "images": [
+      "/assets/mint-catalog/cagrisema-5-mg-5-mg-01-5-mg-5-mg-purity-label.webp"
+    ]
+  },
+  {
+    "slug": "cjc-ghrp-6-5-mg-5-mg",
+    "name": "CJC / GHRP-6",
+    "subtitle": "Mod-GRF(1-29) / GHRP-6 blend",
+    "category": "Peptide Blends",
+    "formula": "CJC-1295 (no DAC): C152H252N44O42\nGHRP-6: C46H56N12O6",
+    "strengths": [
+      "5 mg / 5 mg"
+    ],
+    "purity": "≥99%",
+    "specs": {},
+    "images": [
+      "/assets/mint-catalog/cjc-ghrp-6-5-mg-5-mg-01-5-mg-5-mg-purity-label.webp"
+    ]
+  },
+  {
+    "slug": "cjc-ipamorelin-5-mg-5-mg",
+    "name": "CJC / Ipamorelin",
+    "subtitle": "Mod-GRF(1-29) / Ipamorelin blend",
+    "category": "Peptide Blends",
+    "formula": "CJC-1295 (no DAC): C152H252N44O42\nIpamorelin: C38H49N9O5",
+    "strengths": [
+      "5 mg / 5 mg",
+      "10 mg / 10 mg"
+    ],
+    "purity": "≥99%",
+    "specs": {
+      "Physical Form": "Lyophilized powder",
+      "CAS Number": "CJC-1295 (no DAC): 863288-34-0 Ipamorelin: 170851-70-4",
+      "Molecular Formula": "CJC-1295 (no DAC): C152H252N44O42\nIpamorelin: C38H49N9O5",
+      "Molecular Weight": "CJC-1295 (no DAC): 3367.93 Ipamorelin: 711.85 g/mol",
+      "Amino Acid Count": "CJC-1295 (no DAC): 29 Ipamorelin: 5",
+      "Sequence": "CJC-1295 (no DAC / Mod GRF 1-29): Tyr-D-Ala-Asp-Ala-Ile-Phe-Thr-Gln-Ser-Tyr-Arg-Lys-Val-Leu-Ala-Gln-Leu-Ser-Ala-Arg-Lys-Leu-Leu-Gln-Asp-Ile-Met-Ser-Arg-NH2 Ipamorelin: Aib-His-D-2-Nal-D-Phe-Lys-NH2"
+    },
+    "images": [
+      "/assets/mint-catalog/cjc-ipamorelin-5-mg-5-mg-01-5-mg-5-mg-purity-label.webp",
+      "/assets/mint-catalog/cjc-ipamorelin-5-mg-5-mg-02-10-mg-10-mg-purity-label.webp"
+    ]
+  },
+  {
+    "slug": "cjc-1295-ipamorelin-dissolvable-strips-250-mcg-250-mcg-per-strip-30-strips",
+    "name": "CJC-1295 / Ipamorelin Dissolvable Strips",
+    "subtitle": "Mod-GRF(1-29) / Ipamorelin blend",
+    "category": "Dissolving Strips",
+    "formula": "CJC-1295 (no DAC): C152H252N44O42\nIpamorelin: C38H49N9O5",
+    "strengths": [
+      "250 mcg + 250 mcg per strip · 30 strips"
+    ],
+    "purity": "≥99%",
+    "specs": {
+      "Physical Form": "Lyophilized powder",
+      "CAS Number": "CJC-1295 (no DAC): 863288-34-0 Ipamorelin: 170851-70-4",
+      "Molecular Formula": "CJC-1295 (no DAC): C152H252N44O42\nIpamorelin: C38H49N9O5",
+      "Molecular Weight": "CJC-1295 (no DAC): 3367.93 Ipamorelin: 711.85 g/mol",
+      "Amino Acid Count": "CJC-1295 (no DAC): 29 Ipamorelin: 5",
+      "Sequence": "CJC-1295 (no DAC / Mod GRF 1-29): Tyr-D-Ala-Asp-Ala-Ile-Phe-Thr-Gln-Ser-Tyr-Arg-Lys-Val-Leu-Ala-Gln-Leu-Ser-Ala-Arg-Lys-Leu-Leu-Gln-Asp-Ile-Met-Ser-Arg-NH2 Ipamorelin: Aib-His-D-2-Nal-D-Phe-Lys-NH2"
+    },
+    "images": [
+      "/assets/mint-catalog/cjc-1295-ipamorelin-dissolvable-strips-250-mcg-250-mcg-per-strip-30-strips-01-250-mcg-250-mcg-per-strip-30-strips.webp"
+    ]
+  },
+  {
+    "slug": "cjc-1295-no-dac-5-mg",
+    "name": "CJC-1295 No DAC",
+    "subtitle": "Mod-GRF(1-29)",
+    "category": "Research Peptides",
+    "formula": "C152H252N44O42",
+    "strengths": [
+      "5 mg",
+      "10 mg"
+    ],
+    "purity": "—",
+    "specs": {
+      "CAS Number": "863288-34-0",
+      "Molecular Formula": "C152H252N44O42",
+      "Molecular Weight": "3367.93 g/mol",
+      "Amino Acid Count": "29"
+    },
+    "images": [
+      "/assets/mint-catalog/cjc-1295-no-dac-5-mg-01-5-mg-purity-label.webp",
+      "/assets/mint-catalog/cjc-1295-no-dac-5-mg-02-10-mg-purity-label.webp"
+    ]
+  },
+  {
+    "slug": "cjc-1295-w-dac-5-mg",
+    "name": "CJC-1295 w/DAC",
+    "subtitle": "CJC-1295 with Drug Affinity Complex",
+    "category": "Research Peptides",
+    "formula": "C165H269N47O46",
+    "strengths": [
+      "5 mg",
+      "10 mg"
+    ],
+    "purity": "—",
+    "specs": {
+      "Molecular Formula": "C165H269N47O46",
+      "Molecular Weight": "3647.25 g/mol",
+      "Amino Acid Count": "29"
+    },
+    "images": [
+      "/assets/mint-catalog/cjc-1295-w-dac-5-mg-01-5-mg-purity-label.webp",
+      "/assets/mint-catalog/cjc-1295-w-dac-5-mg-02-10-mg-purity-label.webp"
+    ]
+  },
+  {
+    "slug": "custom-boxes-packaging-box-style-1",
+    "name": "Custom Boxes & Packaging",
+    "subtitle": "",
+    "category": "Research Peptides",
+    "formula": "—",
+    "strengths": [
+      "Box Style 1",
+      "Box Style 2",
+      "Box Style 3",
+      "Box Style 4",
+      "Box Style 5"
+    ],
+    "purity": "—",
+    "specs": {},
+    "images": [
+      "/assets/mint-catalog/custom-boxes-packaging-box-style-1-01.webp"
+    ]
+  },
+  {
+    "slug": "dihexa-60-caps-5-mg-cap-300-mg-total",
+    "name": "Dihexa",
+    "subtitle": "N-hexanoic-Tyr-Ile-(6)-aminohexanoic amide",
+    "category": "Research Peptides",
+    "formula": "C25H33N3O4",
+    "strengths": [
+      "60 caps · 5 mg/cap · 300 mg total"
+    ],
+    "purity": "≥99%",
+    "specs": {
+      "CAS Number": "1401708-83-5",
+      "Molecular Formula": "C25H33N3O4",
+      "Molecular Weight": "439.55 g/mol"
+    },
+    "images": [
+      "/assets/mint-catalog/dihexa-60-caps-5-mg-cap-300-mg-total-01-60-caps-5-mg-cap-300-mg-total.webp"
+    ]
+  },
+  {
+    "slug": "dihexa-tablets-10-mg-30-ct",
+    "name": "Dihexa Tablets",
+    "subtitle": "",
+    "category": "Research Peptides",
+    "formula": "—",
+    "strengths": [
+      "10 mg · 30 ct"
+    ],
+    "purity": "—",
+    "specs": {},
+    "images": [
+      "/assets/mint-catalog/dihexa-tablets-10-mg-30-ct-01-10-mg-30-ct.webp"
+    ]
+  },
+  {
+    "slug": "dsip-5-mg",
+    "name": "DSIP",
+    "subtitle": "Delta Sleep-Inducing Peptide",
+    "category": "Research Peptides",
+    "formula": "C35H48N10O15",
+    "strengths": [
+      "5 mg",
+      "10 mg"
+    ],
+    "purity": "≥99%",
+    "specs": {
+      "Physical Form": "Lyophilized powder",
+      "CAS Number": "62568-57-4",
+      "Molecular Formula": "C35H48N10O15",
+      "Molecular Weight": "848.81 g/mol",
+      "Amino Acid Count": "9",
+      "Sequence": "Nonapeptide Trp-Ala-Gly-Gly-Asp-Ala-Ser-Gly-Glu (WAGGDASGE) with free N- and C-termini; originally isolated from cerebral venous blood of sleeping rabbits (full sequence per COA)."
+    },
+    "images": [
+      "/assets/mint-catalog/dsip-5-mg-01-5-mg-purity-label.webp",
+      "/assets/mint-catalog/dsip-5-mg-02-10-mg-purity-label.webp"
+    ]
+  },
+  {
+    "slug": "epithalon-10-mg",
+    "name": "Epithalon",
+    "subtitle": "Epitalon",
+    "category": "Bioregulators",
+    "formula": "C14H22N4O9",
+    "strengths": [
+      "10 mg",
+      "50 mg"
+    ],
+    "purity": "≥99%",
+    "specs": {
+      "CAS Number": "307297-39-8",
+      "Molecular Formula": "C14H22N4O9",
+      "Molecular Weight": "390.35 g/mol",
+      "Amino Acid Count": "4",
+      "Sequence": "H-Ala-Glu-Asp-Gly-OH"
+    },
+    "images": [
+      "/assets/mint-catalog/epithalon-10-mg-01-10-mg-purity-label.webp",
+      "/assets/mint-catalog/epithalon-10-mg-02-50-mg-purity-label.webp"
+    ]
+  },
+  {
+    "slug": "epithalon-tablets-3-mg-30-ct",
+    "name": "Epithalon Tablets",
+    "subtitle": "",
+    "category": "Bioregulators",
+    "formula": "—",
+    "strengths": [
+      "3 mg · 30 ct"
+    ],
+    "purity": "—",
+    "specs": {},
+    "images": [
+      "/assets/mint-catalog/epithalon-tablets-3-mg-30-ct-01-3-mg-30-ct.webp"
+    ]
+  },
+  {
+    "slug": "focused-health-dissolvable-strips-80-mg-nad-2-mg-mots-c-2-mg-5-amino-1mq-per-strip-30-strips",
+    "name": "Focused Health Dissolvable Strips",
+    "subtitle": "NAD+ + MOTS-c + 5-Amino-1MQ blend",
+    "category": "Dissolving Strips",
+    "formula": "NAD+: C21H27N7O14P2\nMOTS-c: C101H152N28O22S2\n5-Amino-1MQ: C10H11N2+…",
+    "strengths": [
+      "80 mg NAD+ + 2 mg MOTS-c + 2 mg 5-Amino-1MQ per strip · 30 strips"
+    ],
+    "purity": "≥99%",
+    "specs": {
+      "Physical Form": "Dissolvable oral strip"
+    },
+    "images": [
+      "/assets/mint-catalog/focused-health-dissolvable-strips-80-mg-nad-2-mg-mots-c-2-mg-5-amino-1mq-per-strip-30-strips-01-80-mg-nad-2-mg-mots-c-2-mg-5-amino-1mq-per-strip-30-strips.webp"
+    ]
+  },
+  {
+    "slug": "foxo4-dri-10-mg",
+    "name": "FOXO4-DRI",
+    "subtitle": "FOXO4 D-Retro-Inverso peptide",
+    "category": "Research Peptides",
+    "formula": "C228H388N86O64",
+    "strengths": [
+      "10 mg"
+    ],
+    "purity": "≥99%",
+    "specs": {
+      "Physical Form": "Lyophilized powder",
+      "CAS Number": "2460055-10-9",
+      "Molecular Formula": "C228H388N86O64",
+      "Molecular Weight": "5358.06 g/mol",
+      "Amino Acid Count": "46",
+      "Sequence": "All-D retro-inverso 46-mer: ltlrkepaseiaqsileaysqngwanrrsggkrppprrrqrrkkrg (free N-terminus, free acid C-terminus)"
+    },
+    "images": [
+      "/assets/mint-catalog/foxo4-dri-10-mg-01-10-mg-purity-label.webp"
+    ]
+  },
+  {
+    "slug": "ghk-cu-50-mg",
+    "name": "GHK-Cu",
+    "subtitle": "Copper Tripeptide-1",
+    "category": "Research Peptides",
+    "formula": "C14H22CuN6O4",
+    "strengths": [
+      "50 mg",
+      "100 mg"
+    ],
+    "purity": "≥99%",
+    "specs": {
+      "Physical Form": "Lyophilized powder",
+      "CAS Number": "89030-95-5",
+      "Molecular Formula": "C14H22CuN6O4",
+      "Molecular Weight": "~403.93 (copper(II) complex) g/mol",
+      "Amino Acid Count": "3",
+      "Sequence": "Gly-His-Lys (copper(II) complex)"
+    },
+    "images": [
+      "/assets/mint-catalog/ghk-cu-50-mg-01-50-mg-purity-label.webp",
+      "/assets/mint-catalog/ghk-cu-50-mg-02-100-mg-purity-label.webp"
+    ]
+  },
+  {
+    "slug": "ghk-cu-ir-tablets-2-mg-tablet-30cc-bottle-30-ct",
+    "name": "GHK-Cu IR Tablets",
+    "subtitle": "",
+    "category": "Research Peptides",
+    "formula": "—",
+    "strengths": [
+      "2 mg/tablet · 30cc bottle · 30 ct"
+    ],
+    "purity": "—",
+    "specs": {},
+    "images": [
+      "/assets/mint-catalog/ghk-cu-ir-tablets-2-mg-tablet-30cc-bottle-30-ct-01-2-mg-tablet-30cc-bottle-30-ct.webp"
+    ]
+  },
+  {
+    "slug": "ghrp-2-5-mg",
+    "name": "GHRP-2",
+    "subtitle": "Pralmorelin",
+    "category": "Research Peptides",
+    "formula": "C45H55N9O6",
+    "strengths": [
+      "5 mg",
+      "10 mg"
+    ],
+    "purity": "—",
+    "specs": {
+      "CAS Number": "158861-67-7",
+      "Molecular Formula": "C45H55N9O6",
+      "Molecular Weight": "817.92 g/mol",
+      "Amino Acid Count": "6",
+      "Sequence": "D-Ala-D-2-Nal-Ala-Trp-D-Phe-Lys-NH2"
+    },
+    "images": [
+      "/assets/mint-catalog/ghrp-2-5-mg-01-5-mg-purity-label.webp",
+      "/assets/mint-catalog/ghrp-2-5-mg-02-10-mg-purity-label.webp"
+    ]
+  },
+  {
+    "slug": "ghrp-6-5-mg",
+    "name": "GHRP-6",
+    "subtitle": "Growth-hormone releasing peptide-6",
+    "category": "Research Peptides",
+    "formula": "C46H56N12O6",
+    "strengths": [
+      "5 mg",
+      "10 mg"
+    ],
+    "purity": "—",
+    "specs": {
+      "CAS Number": "87616-84-0",
+      "Molecular Formula": "C46H56N12O6",
+      "Molecular Weight": "873.01 g/mol",
+      "Amino Acid Count": "6",
+      "Sequence": "His-D-Trp-Ala-Trp-D-Phe-Lys-NH2"
+    },
+    "images": [
+      "/assets/mint-catalog/ghrp-6-5-mg-01-5-mg-purity-label.webp",
+      "/assets/mint-catalog/ghrp-6-5-mg-02-10-mg-purity-label.webp"
+    ]
+  },
+  {
+    "slug": "glow-50-10-10-mg",
+    "name": "GLOW",
+    "subtitle": "GHK-Cu + BPC-157 + TB-500 blend",
+    "category": "Peptide Blends",
+    "formula": "GHK-Cu: C14H22CuN6O4\nBPC-157: C62H98N16O22\nTB-500: C38H68N10O14",
+    "strengths": [
+      "50 / 10 / 10 mg"
+    ],
+    "purity": "≥99%",
+    "specs": {},
+    "images": [
+      "/assets/mint-catalog/glow-50-10-10-mg-01-50-10-10-mg-purity-label.webp"
+    ]
+  },
+  {
+    "slug": "glutathione-1500-mg",
+    "name": "Glutathione",
+    "subtitle": "",
+    "category": "Research Peptides",
+    "formula": "C10H17N3O6S",
+    "strengths": [
+      "1500 mg"
+    ],
+    "purity": "≥99%",
+    "specs": {
+      "Physical Form": "Lyophilized powder",
+      "CAS Number": "70-18-8",
+      "Molecular Formula": "C10H17N3O6S",
+      "Molecular Weight": "307.32 g/mol",
+      "Amino Acid Count": "3",
+      "Sequence": "Linear tripeptide gamma-L-glutamyl-L-cysteinyl-glycine featuring an atypical gamma-peptide bond between Glu and Cys; the free cysteinyl thiol is the redox-active moiety (full sequence per COA)."
+    },
+    "images": [
+      "/assets/mint-catalog/glutathione-1500-mg-01-1500-mg-purity-label.webp"
+    ]
+  },
+  {
+    "slug": "glutathione-nasal-spray-500-mg-10-ml",
+    "name": "Glutathione Nasal Spray",
+    "subtitle": "",
+    "category": "Liquid Sprays",
+    "formula": "C10H17N3O6S",
+    "strengths": [
+      "500 mg · 10 mL"
+    ],
+    "purity": "≥99%",
+    "specs": {
+      "Physical Form": "Lyophilized powder",
+      "CAS Number": "70-18-8",
+      "Molecular Formula": "C10H17N3O6S",
+      "Molecular Weight": "307.32 g/mol",
+      "Amino Acid Count": "3",
+      "Sequence": "Linear tripeptide gamma-L-glutamyl-L-cysteinyl-glycine featuring an atypical gamma-peptide bond between Glu and Cys; the free cysteinyl thiol is the redox-active moiety (full sequence per COA)."
+    },
+    "images": [
+      "/assets/mint-catalog/glutathione-nasal-spray-500-mg-10-ml-01-500-mg-10-ml.webp"
+    ]
+  },
+  {
+    "slug": "gonadorelin-10-mg",
+    "name": "Gonadorelin",
+    "subtitle": "GnRH",
+    "category": "Research Peptides",
+    "formula": "C55H75N17O13",
+    "strengths": [
+      "10 mg"
+    ],
+    "purity": "—",
+    "specs": {
+      "CAS Number": "33515-09-2",
+      "Molecular Formula": "C55H75N17O13",
+      "Molecular Weight": "1182.29 g/mol",
+      "Amino Acid Count": "10",
+      "Sequence": "pGlu-His-Trp-Ser-Tyr-Gly-Leu-Arg-Pro-Gly-NH2"
+    },
+    "images": [
+      "/assets/mint-catalog/gonadorelin-10-mg-01-10-mg-purity-label.webp"
+    ]
+  },
+  {
+    "slug": "hcg-5000-iu",
+    "name": "HCG",
+    "subtitle": "Human chorionic gonadotropin",
+    "category": "Research Peptides",
+    "formula": "—",
+    "strengths": [
+      "5000 IU",
+      "10000 IU"
+    ],
+    "purity": "—",
+    "specs": {
+      "Physical Form": "Lyophilized powder",
+      "CAS Number": "9002-61-3",
+      "Molecular Weight": "~36.7 kDa g/mol",
+      "Amino Acid Count": "237 in the mature heterodimer (α-chain 92, β-chain 145)",
+      "Sequence": "Heterodimeric glycoprotein — two non-covalently associated chains, not a single peptide sequence. Glycosylation is heterogeneous, so no single molecular formula applies."
+    },
+    "images": [
+      "/assets/mint-catalog/hcg-5000-iu-01-5000-iu-purity-label.webp",
+      "/assets/mint-catalog/hcg-5000-iu-02-10000-iu-purity-label.webp"
+    ]
+  },
+  {
+    "slug": "hgh-fragment-176-191-10-iu",
+    "name": "HGH Fragment 176-191",
+    "subtitle": "hGH fragment 176-191",
+    "category": "Research Peptides",
+    "formula": "C78H125N23O23S2",
+    "strengths": [
+      "10 iu"
+    ],
+    "purity": "—",
+    "specs": {
+      "CAS Number": "66004-57-7",
+      "Molecular Formula": "C78H125N23O23S2",
+      "Molecular Weight": "1817.12 g/mol",
+      "Amino Acid Count": "16"
+    },
+    "images": [
+      "/assets/mint-catalog/hgh-fragment-176-191-10-iu-01-10-iu-purity-label.webp"
+    ]
+  },
+  {
+    "slug": "humanin-10-mg",
+    "name": "Humanin",
+    "subtitle": "",
+    "category": "Research Peptides",
+    "formula": "C119H204N34O32S2",
+    "strengths": [
+      "10 mg"
+    ],
+    "purity": "≥99%",
+    "specs": {
+      "Physical Form": "Lyophilized powder",
+      "CAS Number": "330936-69-1",
+      "Molecular Formula": "C119H204N34O32S2",
+      "Molecular Weight": "2687.27 g/mol",
+      "Amino Acid Count": "24",
+      "Sequence": "Met-Ala-Pro-Arg-Gly-Phe-Ser-Cys-Leu-Leu-Leu-Leu-Thr-Ser-Glu-Ile-Asp-Leu-Pro-Val-Lys-Arg-Arg-Ala"
+    },
+    "images": [
+      "/assets/mint-catalog/humanin-10-mg-01-10-mg-purity-label.webp"
+    ]
+  },
+  {
+    "slug": "igf-1-lr3-1-mg",
+    "name": "IGF-1 LR3",
+    "subtitle": "Long R3 Insulin-like Growth Factor-1",
+    "category": "Research Peptides",
+    "formula": "C400H625N111O115S9",
+    "strengths": [
+      "1 mg"
+    ],
+    "purity": "≥99%",
+    "specs": {
+      "Physical Form": "Lyophilized powder",
+      "CAS Number": "946870-92-4",
+      "Molecular Formula": "C400H625N111O115S9",
+      "Molecular Weight": "9117.60 g/mol",
+      "Amino Acid Count": "83",
+      "Sequence": "83-residue recombinant IGF-1 analog with Arg substituted for Glu at position 3 and a 13-residue N-terminal extension; modifications reduce IGFBP affinity and extend circulating half-life relative to native IGF-1 (full sequence per COA)."
+    },
+    "images": [
+      "/assets/mint-catalog/igf-1-lr3-1-mg-01-1-mg-purity-label.webp"
+    ]
+  },
+  {
+    "slug": "ipamorelin-5-mg",
+    "name": "Ipamorelin",
+    "subtitle": "Growth-hormone secretagogue",
+    "category": "Research Peptides",
+    "formula": "C38H49N9O5",
+    "strengths": [
+      "5 mg",
+      "10 mg"
+    ],
+    "purity": "≥99%",
+    "specs": {
+      "Physical Form": "Lyophilized powder",
+      "CAS Number": "170851-70-4",
+      "Molecular Formula": "C38H49N9O5",
+      "Molecular Weight": "711.85 g/mol",
+      "Amino Acid Count": "5",
+      "Sequence": "Aib-His-D-2-Nal-D-Phe-Lys-NH2"
+    },
+    "images": [
+      "/assets/mint-catalog/ipamorelin-5-mg-01-5-mg-purity-label.webp",
+      "/assets/mint-catalog/ipamorelin-5-mg-02-10-mg-purity-label.webp"
+    ]
+  },
+  {
+    "slug": "kisspeptin-10-10-mg",
+    "name": "Kisspeptin-10",
+    "subtitle": "Metastin(45-54)",
+    "category": "Research Peptides",
+    "formula": "C63H83N17O14",
+    "strengths": [
+      "10 mg"
+    ],
+    "purity": "≥99%",
+    "specs": {
+      "CAS Number": "374675-21-5",
+      "Molecular Formula": "C63H83N17O14",
+      "Molecular Weight": "1302.47 g/mol",
+      "Amino Acid Count": "10",
+      "Sequence": "H-Tyr-Asn-Trp-Asn-Ser-Phe-Gly-Leu-Arg-Phe-NH2"
+    },
+    "images": [
+      "/assets/mint-catalog/kisspeptin-10-10-mg-01-10-mg-purity-label.webp"
+    ]
+  },
+  {
+    "slug": "klotho-derived-peptide-1-kp1",
+    "name": "Klotho-derived Peptide 1",
+    "subtitle": "",
+    "category": "Research Peptides",
+    "formula": "—",
+    "strengths": [
+      "KP1"
+    ],
+    "purity": "—",
+    "specs": {},
+    "images": [
+      "/assets/mint-catalog/klotho-derived-peptide-1-kp1-01-kp1.webp"
+    ]
+  },
+  {
+    "slug": "klow-50-10-10-10-mg",
+    "name": "KLOW",
+    "subtitle": "KPV + GHK-Cu + BPC-157 + TB-500",
+    "category": "Peptide Blends",
+    "formula": "KPV: C16H30N4O4\nGHK-Cu: C14H22CuN6O4\nBPC-157: C62H98N16O22\nTB-500: C38H68N10O14",
+    "strengths": [
+      "50 / 10 / 10 / 10 mg"
+    ],
+    "purity": "≥99%",
+    "specs": {},
+    "images": [
+      "/assets/mint-catalog/klow-50-10-10-10-mg-01-50-10-10-10-mg-purity-label.webp"
+    ]
+  },
+  {
+    "slug": "kpv-10-mg",
+    "name": "KPV",
+    "subtitle": "α-MSH(11-13)",
+    "category": "Research Peptides",
+    "formula": "C16H30N4O4",
+    "strengths": [
+      "10 mg"
+    ],
+    "purity": "≥99%",
+    "specs": {
+      "Physical Form": "Lyophilized powder",
+      "CAS Number": "67727-97-3",
+      "Molecular Formula": "C16H30N4O4",
+      "Molecular Weight": "342.43 g/mol",
+      "Amino Acid Count": "3",
+      "Sequence": "Lys-Pro-Val"
+    },
+    "images": [
+      "/assets/mint-catalog/kpv-10-mg-01-10-mg-purity-label.webp"
+    ]
+  },
+  {
+    "slug": "l-carnitine-5000-mg",
+    "name": "L-Carnitine",
+    "subtitle": "(3R)-3-hydroxy-4-(trimethylazaniumyl)butanoate",
+    "category": "Research Peptides",
+    "formula": "C7H15NO3",
+    "strengths": [
+      "5000 mg"
+    ],
+    "purity": "≥99%",
+    "specs": {
+      "CAS Number": "541-15-1",
+      "Molecular Formula": "C7H15NO3",
+      "Molecular Weight": "161.20 g/mol"
+    },
+    "images": [
+      "/assets/mint-catalog/l-carnitine-5000-mg-01-5000-mg-purity-label.webp"
+    ]
+  },
+  {
+    "slug": "l-glutathione-600-mg",
+    "name": "L-Glutathione",
+    "subtitle": "",
+    "category": "Research Peptides",
+    "formula": "C10H17N3O6S",
+    "strengths": [
+      "600 mg"
+    ],
+    "purity": "≥99%",
+    "specs": {
+      "Physical Form": "Lyophilized powder",
+      "CAS Number": "70-18-8",
+      "Molecular Formula": "C10H17N3O6S",
+      "Molecular Weight": "307.32 g/mol",
+      "Amino Acid Count": "3",
+      "Sequence": "Linear tripeptide gamma-L-glutamyl-L-cysteinyl-glycine featuring an atypical gamma-peptide bond between Glu and Cys; the free cysteinyl thiol is the redox-active moiety (full sequence per COA)."
+    },
+    "images": [
+      "/assets/mint-catalog/l-glutathione-600-mg-01-600-mg-purity-label.webp"
+    ]
+  },
+  {
+    "slug": "lipo-pure-lipotropic-10-ml",
+    "name": "Lipo Pure (Lipotropic)",
+    "subtitle": "",
+    "category": "Research Peptides",
+    "formula": "—",
+    "strengths": [
+      "10 mL"
+    ],
+    "purity": "—",
+    "specs": {},
+    "images": [
+      "/assets/mint-catalog/lipo-pure-lipotropic-10-ml-01-10-ml-purity-label.webp"
+    ]
+  },
+  {
+    "slug": "ll-37-5-mg",
+    "name": "LL-37",
+    "subtitle": "Cathelicidin antimicrobial peptide",
+    "category": "Research Peptides",
+    "formula": "C205H340N60O53",
+    "strengths": [
+      "5 mg",
+      "10 mg"
+    ],
+    "purity": "—",
+    "specs": {
+      "CAS Number": "154947-66-7",
+      "Molecular Formula": "C205H340N60O53",
+      "Molecular Weight": "4493.33 g/mol",
+      "Amino Acid Count": "37",
+      "Sequence": "LLGDFFRKSKEKIGKEFKRIVQRIKDFLRNLVPRTES"
+    },
+    "images": [
+      "/assets/mint-catalog/ll-37-5-mg-01-5-mg-purity-label.webp",
+      "/assets/mint-catalog/ll-37-5-mg-02-10-mg-purity-label.webp"
+    ]
+  },
+  {
+    "slug": "mots-c-10-mg",
+    "name": "MOTS-c",
+    "subtitle": "Mitochondrial-derived peptide",
+    "category": "Research Peptides",
+    "formula": "C101H152N28O22S2",
+    "strengths": [
+      "10 mg",
+      "40 mg"
+    ],
+    "purity": "≥99%",
+    "specs": {
+      "Physical Form": "Lyophilized powder",
+      "CAS Number": "1627580-64-6",
+      "Molecular Formula": "C101H152N28O22S2",
+      "Molecular Weight": "2174.55 g/mol",
+      "Amino Acid Count": "16",
+      "Sequence": "Met-Arg-Trp-Gln-Glu-Met-Gly-Tyr-Ile-Phe-Tyr-Pro-Arg-Lys-Leu-Arg"
+    },
+    "images": [
+      "/assets/mint-catalog/mots-c-10-mg-01-10-mg-purity-label.webp",
+      "/assets/mint-catalog/mots-c-10-mg-02-40-mg-purity-label.webp"
+    ]
+  },
+  {
+    "slug": "mt-1-melanotan-i-10-mg",
+    "name": "MT-1 / Melanotan-I",
+    "subtitle": "Afamelanotide",
+    "category": "Research Peptides",
+    "formula": "C78H111N21O19",
+    "strengths": [
+      "10 mg"
+    ],
+    "purity": "≥99%",
+    "specs": {
+      "Physical Form": "Lyophilized powder",
+      "CAS Number": "75921-69-6",
+      "Molecular Formula": "C78H111N21O19",
+      "Molecular Weight": "1646.87 g/mol",
+      "Amino Acid Count": "13",
+      "Sequence": "Ac-Ser-Tyr-Ser-Nle-Glu-His-D-Phe-Arg-Trp-Gly-Lys-Pro-Val-NH2"
+    },
+    "images": [
+      "/assets/mint-catalog/mt-1-melanotan-i-10-mg-01-10-mg-purity-label.webp"
+    ]
+  },
+  {
+    "slug": "mt-2-10-mg",
+    "name": "MT-2",
+    "subtitle": "MT-2",
+    "category": "Research Peptides",
+    "formula": "C50H69N15O9",
+    "strengths": [
+      "10 mg"
+    ],
+    "purity": "≥99%",
+    "specs": {
+      "Physical Form": "Lyophilized powder",
+      "CAS Number": "121062-08-6",
+      "Molecular Formula": "C50H69N15O9",
+      "Molecular Weight": "1024.18 g/mol",
+      "Amino Acid Count": "7",
+      "Sequence": "Ac-Nle-cyclo[Asp-His-D-Phe-Arg-Trp-Lys]-NH2"
+    },
+    "images": [
+      "/assets/mint-catalog/mt-2-10-mg-01-10-mg-purity-label.webp"
+    ]
+  },
+  {
+    "slug": "na-semax-amidate-nasal-spray-10-mg-10-ml",
+    "name": "NA-Semax Amidate Nasal Spray",
+    "subtitle": "ACTH(4-7) analogue",
+    "category": "Liquid Sprays",
+    "formula": "C37H51N9O10S",
+    "strengths": [
+      "10 mg · 10 mL"
+    ],
+    "purity": "≥99%",
+    "specs": {
+      "Physical Form": "Lyophilized powder",
+      "CAS Number": "80714-61-0",
+      "Molecular Formula": "C37H51N9O10S",
+      "Molecular Weight": "813.93 g/mol",
+      "Amino Acid Count": "7",
+      "Sequence": "Met-Glu-His-Phe-Pro-Gly-Pro"
+    },
+    "images": [
+      "/assets/mint-catalog/na-semax-amidate-nasal-spray-10-mg-10-ml-01-10-mg-10-ml.webp"
+    ]
+  },
+  {
+    "slug": "nad-500-mg",
+    "name": "NAD+",
+    "subtitle": "",
+    "category": "Research Peptides",
+    "formula": "C21H27N7O14P2",
+    "strengths": [
+      "500 mg",
+      "1000 mg"
+    ],
+    "purity": "≥99%",
+    "specs": {
+      "Physical Form": "Coenzyme (not a peptide) - lyophilized powder",
+      "CAS Number": "53-84-9",
+      "Molecular Formula": "C21H27N7O14P2",
+      "Molecular Weight": "663.43 g/mol"
+    },
+    "images": [
+      "/assets/mint-catalog/nad-500-mg-01-500-mg-purity-label.webp",
+      "/assets/mint-catalog/nad-500-mg-02-1000-mg-purity-label.webp"
+    ]
+  },
+  {
+    "slug": "nad-dissolvable-strips-100-mg-per-strip-30-strips",
+    "name": "NAD+ Dissolvable Strips",
+    "subtitle": "",
+    "category": "Dissolving Strips",
+    "formula": "C21H27N7O14P2",
+    "strengths": [
+      "100 mg per strip · 30 strips"
+    ],
+    "purity": "≥99%",
+    "specs": {
+      "Physical Form": "Coenzyme (not a peptide) - lyophilized powder",
+      "CAS Number": "53-84-9",
+      "Molecular Formula": "C21H27N7O14P2",
+      "Molecular Weight": "663.43 g/mol"
+    },
+    "images": [
+      "/assets/mint-catalog/nad-dissolvable-strips-100-mg-per-strip-30-strips-01-100-mg-per-strip-30-strips.webp"
+    ]
+  },
+  {
+    "slug": "nad-nasal-spray-500-mg-10-ml",
+    "name": "NAD+ Nasal Spray",
+    "subtitle": "",
+    "category": "Liquid Sprays",
+    "formula": "C21H27N7O14P2",
+    "strengths": [
+      "500 mg · 10 mL"
+    ],
+    "purity": "≥99%",
+    "specs": {
+      "Physical Form": "Coenzyme (not a peptide) - lyophilized powder",
+      "CAS Number": "53-84-9",
+      "Molecular Formula": "C21H27N7O14P2",
+      "Molecular Weight": "663.43 g/mol"
+    },
+    "images": [
+      "/assets/mint-catalog/nad-nasal-spray-500-mg-10-ml-01-500-mg-10-ml.webp"
+    ]
+  },
+  {
+    "slug": "oxytocin-2-mg",
+    "name": "Oxytocin",
+    "subtitle": "Oxytocin acetate",
+    "category": "Research Peptides",
+    "formula": "C43H66N12O12S2",
+    "strengths": [
+      "2 mg",
+      "10 mg"
+    ],
+    "purity": "—",
+    "specs": {
+      "CAS Number": "50-56-6",
+      "Molecular Formula": "C43H66N12O12S2",
+      "Molecular Weight": "1007.19 g/mol",
+      "Amino Acid Count": "9",
+      "Sequence": "Cys-Tyr-Ile-Gln-Asn-Cys-Pro-Leu-Gly-NH2 (disulfide Cys1-Cys6)"
+    },
+    "images": [
+      "/assets/mint-catalog/oxytocin-2-mg-01-2-mg-purity-label.webp",
+      "/assets/mint-catalog/oxytocin-2-mg-02-10-mg-purity-label.webp"
+    ]
+  },
+  {
+    "slug": "oxytocin-nasal-spray-10-mg-10-ml",
+    "name": "Oxytocin Nasal Spray",
+    "subtitle": "Oxytocin acetate",
+    "category": "Liquid Sprays",
+    "formula": "C43H66N12O12S2",
+    "strengths": [
+      "10 mg · 10 mL"
+    ],
+    "purity": "—",
+    "specs": {
+      "CAS Number": "50-56-6",
+      "Molecular Formula": "C43H66N12O12S2",
+      "Molecular Weight": "1007.19 g/mol",
+      "Amino Acid Count": "9",
+      "Sequence": "Cys-Tyr-Ile-Gln-Asn-Cys-Pro-Leu-Gly-NH2 (disulfide Cys1-Cys6)"
+    },
+    "images": [
+      "/assets/mint-catalog/oxytocin-nasal-spray-10-mg-10-ml-01-10-mg-10-ml.webp"
+    ]
+  },
+  {
+    "slug": "p-21-5-mg",
+    "name": "P-21",
+    "subtitle": "P021",
+    "category": "Research Peptides",
+    "formula": "C27H42N6O8",
+    "strengths": [
+      "5 mg",
+      "10 mg"
+    ],
+    "purity": "≥99%",
+    "specs": {
+      "Physical Form": "Lyophilized powder",
+      "CAS Number": "1246751-68-7",
+      "Molecular Formula": "C27H42N6O8",
+      "Molecular Weight": "578.70 g/mol",
+      "Amino Acid Count": "4 residues plus one adamantylglycine",
+      "Sequence": "Ac-Asp-Gly-Gly-Leu-(adamantylglycine)-NH2 — the C-terminal residue is adamantylglycine, NOT Ala-Gly"
+    },
+    "images": [
+      "/assets/mint-catalog/p-21-5-mg-01-5-mg-purity-label.webp",
+      "/assets/mint-catalog/p-21-5-mg-02-10-mg-purity-label.webp"
+    ]
+  },
+  {
+    "slug": "pe-22-28-10-mg",
+    "name": "PE-22-28",
+    "subtitle": "Spadin analogue (TREK-1 modulator)",
+    "category": "Research Peptides",
+    "formula": "C35H55N11O9",
+    "strengths": [
+      "10 mg"
+    ],
+    "purity": "≥99%",
+    "specs": {
+      "Physical Form": "Lyophilized powder",
+      "CAS Number": "1234388-01-0",
+      "Molecular Formula": "C35H55N11O9",
+      "Molecular Weight": "773.89 g/mol",
+      "Amino Acid Count": "7",
+      "Sequence": "Heptapeptide Gly-Val-Ser-Trp-Gly-Leu-Arg (GVSWGLR) corresponding to the C-terminal 22-28 region of spadin; linear, unmodified termini (full sequence per COA)."
+    },
+    "images": [
+      "/assets/mint-catalog/pe-22-28-10-mg-01-10-mg-purity-label.webp"
+    ]
+  },
+  {
+    "slug": "pinealon-10-mg",
+    "name": "Pinealon",
+    "subtitle": "Peptide bioregulator (Glu-Asp-Arg / EDR)",
+    "category": "Bioregulators",
+    "formula": "C15H26N6O8",
+    "strengths": [
+      "10 mg",
+      "20 mg"
+    ],
+    "purity": "≥99%",
+    "specs": {
+      "Physical Form": "Lyophilized powder",
+      "CAS Number": "175175-23-2",
+      "Molecular Formula": "C15H26N6O8",
+      "Molecular Weight": "418.41 g/mol",
+      "Amino Acid Count": "3",
+      "Sequence": "Glu-Asp-Arg (EDR)"
+    },
+    "images": [
+      "/assets/mint-catalog/pinealon-10-mg-01-10-mg-purity-label.webp",
+      "/assets/mint-catalog/pinealon-10-mg-02-20-mg-purity-label.webp"
+    ]
+  },
+  {
+    "slug": "pinealon-nasal-spray-10-mg-10-ml",
+    "name": "Pinealon Nasal Spray",
+    "subtitle": "Peptide bioregulator (Glu-Asp-Arg / EDR)",
+    "category": "Liquid Sprays",
+    "formula": "C15H26N6O8",
+    "strengths": [
+      "10 mg · 10 mL"
+    ],
+    "purity": "≥99%",
+    "specs": {
+      "Physical Form": "Lyophilized powder",
+      "CAS Number": "175175-23-2",
+      "Molecular Formula": "C15H26N6O8",
+      "Molecular Weight": "418.41 g/mol",
+      "Amino Acid Count": "3",
+      "Sequence": "Glu-Asp-Arg (EDR)"
+    },
+    "images": [
+      "/assets/mint-catalog/pinealon-nasal-spray-10-mg-10-ml-01-10-mg-10-ml.webp"
+    ]
+  },
+  {
+    "slug": "prostamax-20-mg",
+    "name": "Prostamax",
+    "subtitle": "Synthetic tetrapeptide KEDP (Lys-Glu-Asp-Pro)",
+    "category": "Bioregulators",
+    "formula": "C20H33N5O9",
+    "strengths": [
+      "20 mg"
+    ],
+    "purity": "≥99%",
+    "specs": {
+      "Physical Form": "Prostate peptide bioregulator complex (lyophilized) - not a single defined molecule",
+      "CAS Number": "473578-47-1",
+      "Molecular Formula": "C20H33N5O9",
+      "Molecular Weight": "487.50 g/mol",
+      "Amino Acid Count": "4",
+      "Sequence": "H-Lys-Glu-Asp-Pro-OH"
+    },
+    "images": [
+      "/assets/mint-catalog/prostamax-20-mg-01-20-mg-purity-label.webp"
+    ]
+  },
+  {
+    "slug": "pt-141-10-mg",
+    "name": "PT-141",
+    "subtitle": "Bremelanotide",
+    "category": "Research Peptides",
+    "formula": "C50H68N14O10",
+    "strengths": [
+      "10 mg"
+    ],
+    "purity": "≥99%",
+    "specs": {
+      "Physical Form": "Lyophilized powder",
+      "CAS Number": "189691-06-3",
+      "Molecular Formula": "C50H68N14O10",
+      "Molecular Weight": "1025.16 g/mol",
+      "Amino Acid Count": "7",
+      "Sequence": "Cyclic heptapeptide Ac-Nle-cyclo[Asp-His-D-Phe-Arg-Trp-Lys]-OH with a side-chain lactam bridge between Asp and Lys; N-terminal acetylation and incorporation of norleucine and D-Phe confer protease resistance (full sequence per COA)."
+    },
+    "images": [
+      "/assets/mint-catalog/pt-141-10-mg-01-10-mg-purity-label.webp"
+    ]
+  },
+  {
+    "slug": "pt-141-nasal-spray-10-mg-10-ml",
+    "name": "PT-141 Nasal Spray",
+    "subtitle": "Bremelanotide",
+    "category": "Liquid Sprays",
+    "formula": "C50H68N14O10",
+    "strengths": [
+      "10 mg · 10 mL"
+    ],
+    "purity": "≥99%",
+    "specs": {
+      "Physical Form": "Lyophilized powder",
+      "CAS Number": "189691-06-3",
+      "Molecular Formula": "C50H68N14O10",
+      "Molecular Weight": "1025.16 g/mol",
+      "Amino Acid Count": "7",
+      "Sequence": "Cyclic heptapeptide Ac-Nle-cyclo[Asp-His-D-Phe-Arg-Trp-Lys]-OH with a side-chain lactam bridge between Asp and Lys; N-terminal acetylation and incorporation of norleucine and D-Phe confer protease resistance (full sequence per COA)."
+    },
+    "images": [
+      "/assets/mint-catalog/pt-141-nasal-spray-10-mg-10-ml-01-10-mg-10-ml.webp"
+    ]
+  },
+  {
+    "slug": "reconstitution-kit-1-kit",
+    "name": "Reconstitution Kit",
+    "subtitle": "",
+    "category": "Lab Supplies",
+    "formula": "—",
+    "strengths": [
+      "1 kit"
+    ],
+    "purity": "≥99%",
+    "specs": {},
+    "images": [
+      "/assets/mint-catalog/reconstitution-kit-1-kit-01-1-kit.webp"
+    ]
+  },
+  {
+    "slug": "reconstitution-solution-30-ml",
+    "name": "Reconstitution Solution",
+    "subtitle": "",
+    "category": "Lab Supplies",
+    "formula": "—",
+    "strengths": [
+      "30 mL"
+    ],
+    "purity": "≥99%",
+    "specs": {
+      "Physical Form": "Lyophilized powder"
+    },
+    "images": [
+      "/assets/mint-catalog/reconstitution-solution-30-ml-01-30-ml-purity-label.webp"
+    ]
+  },
+  {
+    "slug": "rem-blend-nasal-spray-dsip-10-pinealon-10-melatonin-50-gaba-250-mg-10-ml",
+    "name": "REM Blend Nasal Spray",
+    "subtitle": "DSIP + Pinealon + Melatonin + GABA blend",
+    "category": "Liquid Sprays",
+    "formula": "DSIP: C35H48N10O15\nPinealon: C15H26N6O8\nMelatonin: C13H16N2O2\nGABA: C4H9NO2",
+    "strengths": [
+      "DSIP 10 · Pinealon 10 · Melatonin 50 · GABA 250 mg · 10 mL"
+    ],
+    "purity": "≥99%",
+    "specs": {
+      "Physical Form": "Liquid nasal spray"
+    },
+    "images": [
+      "/assets/mint-catalog/rem-blend-nasal-spray-dsip-10-pinealon-10-melatonin-50-gaba-250-mg-10-ml-01-dsip-10-pinealon-10-melatonin-50-gaba-250-mg-10-ml.webp"
+    ]
+  },
+  {
+    "slug": "retatrutide-10-mg",
+    "name": "Retatrutide",
+    "subtitle": "GGG tri-agonist",
+    "category": "GLP-1 & Metabolic",
+    "formula": "C256H392N64O79",
+    "strengths": [
+      "10 mg",
+      "20 mg",
+      "30 mg",
+      "48 mg",
+      "60 mg",
+      "200 mg"
+    ],
+    "purity": "≥99%",
+    "specs": {
+      "Physical Form": "Lyophilized powder",
+      "CAS Number": "2381089-83-2",
+      "Molecular Formula": "C256H392N64O79",
+      "Molecular Weight": "4731.2 g/mol",
+      "Amino Acid Count": "39",
+      "Sequence": "39-residue GIP/GLP-1/glucagon triple agonist with Aib residues, α-Me-Leu, and a Lys-conjugated (AEEA)-γGlu-C20 diacid; C-terminal serinamide (per COA)"
+    },
+    "images": [
+      "/assets/mint-catalog/retatrutide-10-mg-01-10-mg-purity-label.webp",
+      "/assets/mint-catalog/retatrutide-10-mg-02-20-mg-purity-label.webp",
+      "/assets/mint-catalog/retatrutide-10-mg-03-30-mg-purity-label.webp",
+      "/assets/mint-catalog/retatrutide-10-mg-04-48-mg-purity-label.webp",
+      "/assets/mint-catalog/retatrutide-10-mg-05-60-mg-purity-label.webp",
+      "/assets/mint-catalog/retatrutide-10-mg-06-200-mg-purity-label.webp"
+    ]
+  },
+  {
+    "slug": "retatrutide-cagrilintide-12-5-mg-2-5-mg",
+    "name": "Retatrutide / Cagrilintide",
+    "subtitle": "Reta / Cagri blend",
+    "category": "GLP-1 & Metabolic",
+    "formula": "Retatrutide: per COA…\nCagrilintide: C194H308N56O59",
+    "strengths": [
+      "12.5 mg / 2.5 mg"
+    ],
+    "purity": "≥99%",
+    "specs": {
+      "Physical Form": "Lyophilized powder",
+      "CAS Number": "Retatrutide: 2381089-83-2 Cagrilintide: 1415456-99-3",
+      "Molecular Formula": "Retatrutide: per COA (C20-diacid conjugate)\nCagrilintide: C194H308N56O59",
+      "Molecular Weight": "Retatrutide: ~4731.3 Cagrilintide: ~4006.4 g/mol",
+      "Amino Acid Count": "Retatrutide: 39 Cagrilintide: 32",
+      "Sequence": "Retatrutide: 39-residue GIP/GLP-1/glucagon triple agonist (per COA) Cagrilintide: 32-residue long-acting amylin analogue (per COA)"
+    },
+    "images": [
+      "/assets/mint-catalog/retatrutide-cagrilintide-12-5-mg-2-5-mg-01-12-5-mg-2-5-mg-purity-label.webp"
+    ]
+  },
+  {
+    "slug": "selank-10-mg",
+    "name": "Selank",
+    "subtitle": "Tuftsin analogue (TP-7)",
+    "category": "Research Peptides",
+    "formula": "C33H57N11O9",
+    "strengths": [
+      "10 mg"
+    ],
+    "purity": "≥99%",
+    "specs": {
+      "Physical Form": "Lyophilized powder",
+      "CAS Number": "129954-34-3",
+      "Molecular Formula": "C33H57N11O9",
+      "Molecular Weight": "751.89 g/mol",
+      "Amino Acid Count": "7",
+      "Sequence": "Thr-Lys-Pro-Arg-Pro-Gly-Pro"
+    },
+    "images": [
+      "/assets/mint-catalog/selank-10-mg-01-10-mg-purity-label.webp"
+    ]
+  },
+  {
+    "slug": "selank-semax-dissolvable-strips-1-mg-1-mg-per-strip-30-strips",
+    "name": "Selank / Semax Dissolvable Strips",
+    "subtitle": "Selank / Semax blend",
+    "category": "Dissolving Strips",
+    "formula": "Selank: C33H57N11O9\nSemax: C37H51N9O10S",
+    "strengths": [
+      "1 mg + 1 mg per strip · 30 strips"
+    ],
+    "purity": "≥99%",
+    "specs": {
+      "Physical Form": "Lyophilized powder",
+      "CAS Number": "Selank: 129954-34-3 Semax: 80714-61-0",
+      "Molecular Formula": "Selank: C33H57N11O9\nSemax: C37H51N9O10S",
+      "Molecular Weight": "Selank: 751.89 Semax: 813.93 g/mol",
+      "Amino Acid Count": "Selank: 7 Semax: 7",
+      "Sequence": "Selank: Thr-Lys-Pro-Arg-Pro-Gly-Pro Semax: Met-Glu-His-Phe-Pro-Gly-Pro"
+    },
+    "images": [
+      "/assets/mint-catalog/selank-semax-dissolvable-strips-1-mg-1-mg-per-strip-30-strips-01-1-mg-1-mg-per-strip-30-strips.webp"
+    ]
+  },
+  {
+    "slug": "selank-semax-blend-nasal-spray-5-mg-5-mg-10-ml",
+    "name": "Selank + Semax Blend Nasal Spray",
+    "subtitle": "Selank / Semax blend",
+    "category": "Liquid Sprays",
+    "formula": "Selank: C33H57N11O9\nSemax: C37H51N9O10S",
+    "strengths": [
+      "5 mg + 5 mg · 10 mL"
+    ],
+    "purity": "≥99%",
+    "specs": {
+      "Physical Form": "Lyophilized powder",
+      "CAS Number": "Selank: 129954-34-3 Semax: 80714-61-0",
+      "Molecular Formula": "Selank: C33H57N11O9\nSemax: C37H51N9O10S",
+      "Molecular Weight": "Selank: 751.89 Semax: 813.93 g/mol",
+      "Amino Acid Count": "Selank: 7 Semax: 7",
+      "Sequence": "Selank: Thr-Lys-Pro-Arg-Pro-Gly-Pro Semax: Met-Glu-His-Phe-Pro-Gly-Pro"
+    },
+    "images": [
+      "/assets/mint-catalog/selank-semax-blend-nasal-spray-5-mg-5-mg-10-ml-01-5-mg-5-mg-10-ml.webp"
+    ]
+  },
+  {
+    "slug": "selank-nasal-spray-5-mg-10-ml",
+    "name": "Selank Nasal Spray",
+    "subtitle": "Tuftsin analogue (TP-7)",
+    "category": "Liquid Sprays",
+    "formula": "C33H57N11O9",
+    "strengths": [
+      "5 mg · 10 mL"
+    ],
+    "purity": "≥99%",
+    "specs": {
+      "Physical Form": "Lyophilized powder",
+      "CAS Number": "129954-34-3",
+      "Molecular Formula": "C33H57N11O9",
+      "Molecular Weight": "751.89 g/mol",
+      "Amino Acid Count": "7",
+      "Sequence": "Thr-Lys-Pro-Arg-Pro-Gly-Pro"
+    },
+    "images": [
+      "/assets/mint-catalog/selank-nasal-spray-5-mg-10-ml-01-5-mg-10-ml.webp"
+    ]
+  },
+  {
+    "slug": "semaglutide-5-mg",
+    "name": "Semaglutide",
+    "subtitle": "GLP-1 receptor agonist",
+    "category": "GLP-1 & Metabolic",
+    "formula": "C187H291N45O59",
+    "strengths": [
+      "5 mg",
+      "10 mg",
+      "20 mg",
+      "30 mg",
+      "50 mg"
+    ],
+    "purity": "≥99%",
+    "specs": {
+      "Physical Form": "Lyophilized powder",
+      "CAS Number": "910463-68-2",
+      "Molecular Formula": "C187H291N45O59",
+      "Molecular Weight": "4113.58 g/mol",
+      "Amino Acid Count": "31",
+      "Sequence": "31-residue GLP-1 receptor agonist analog with Aib at position 2 and Lys26 conjugated to γGlu-(AEEA)2-C18 diacid; C-terminal carboxylate (full sequence per COA)."
+    },
+    "images": [
+      "/assets/mint-catalog/semaglutide-5-mg-01-5-mg-purity-label.webp",
+      "/assets/mint-catalog/semaglutide-5-mg-02-10-mg-purity-label.webp",
+      "/assets/mint-catalog/semaglutide-5-mg-03-20-mg-purity-label.webp",
+      "/assets/mint-catalog/semaglutide-5-mg-04-30-mg-purity-label.webp",
+      "/assets/mint-catalog/semaglutide-5-mg-05-50-mg-purity-label.webp"
+    ]
+  },
+  {
+    "slug": "semax-10-mg",
+    "name": "Semax",
+    "subtitle": "ACTH(4-7) analogue",
+    "category": "Research Peptides",
+    "formula": "C37H51N9O10S",
+    "strengths": [
+      "10 mg",
+      "30 mg"
+    ],
+    "purity": "≥99%",
+    "specs": {
+      "Physical Form": "Lyophilized powder",
+      "CAS Number": "80714-61-0",
+      "Molecular Formula": "C37H51N9O10S",
+      "Molecular Weight": "813.93 g/mol",
+      "Amino Acid Count": "7",
+      "Sequence": "Met-Glu-His-Phe-Pro-Gly-Pro"
+    },
+    "images": [
+      "/assets/mint-catalog/semax-10-mg-01-10-mg-purity-label.webp",
+      "/assets/mint-catalog/semax-10-mg-02-30-mg-purity-label.webp"
+    ]
+  },
+  {
+    "slug": "semax-selank-5-mg-5-mg",
+    "name": "Semax / Selank",
+    "subtitle": "Selank / Semax blend",
+    "category": "Peptide Blends",
+    "formula": "Selank: C33H57N11O9\nSemax: C37H51N9O10S",
+    "strengths": [
+      "5 mg / 5 mg"
+    ],
+    "purity": "≥99%",
+    "specs": {
+      "Physical Form": "Lyophilized powder",
+      "CAS Number": "Selank: 129954-34-3 Semax: 80714-61-0",
+      "Molecular Formula": "Selank: C33H57N11O9\nSemax: C37H51N9O10S",
+      "Molecular Weight": "Selank: 751.89 Semax: 813.93 g/mol",
+      "Amino Acid Count": "Selank: 7 Semax: 7",
+      "Sequence": "Selank: Thr-Lys-Pro-Arg-Pro-Gly-Pro Semax: Met-Glu-His-Phe-Pro-Gly-Pro"
+    },
+    "images": [
+      "/assets/mint-catalog/semax-selank-5-mg-5-mg-01-5-mg-5-mg-purity-label.webp"
+    ]
+  },
+  {
+    "slug": "sermorelin-5-mg",
+    "name": "Sermorelin",
+    "subtitle": "GRF(1-29)",
+    "category": "Research Peptides",
+    "formula": "C149H246N44O42S",
+    "strengths": [
+      "5 mg",
+      "10 mg"
+    ],
+    "purity": "≥99%",
+    "specs": {
+      "Physical Form": "Lyophilized powder",
+      "CAS Number": "86168-78-7",
+      "Molecular Formula": "C149H246N44O42S",
+      "Molecular Weight": "3357.93 g/mol",
+      "Amino Acid Count": "29",
+      "Sequence": "Tyr-Ala-Asp-Ala-Ile-Phe-Thr-Asn-Ser-Tyr-Arg-Lys-Val-Leu-Gly-Gln-Leu-Ser-Ala-Arg-Lys-Leu-Leu-Gln-Asp-Ile-Met-Ser-Arg-NH2 (GRF 1-29 NH2)"
+    },
+    "images": [
+      "/assets/mint-catalog/sermorelin-5-mg-01-5-mg-purity-label.webp",
+      "/assets/mint-catalog/sermorelin-5-mg-02-10-mg-purity-label.webp"
+    ]
+  },
+  {
+    "slug": "slu-pp-332-1-mg-bam-15-10-mg-tablets-1-mg-10-mg-30-ct",
+    "name": "SLU-PP-332 (1 mg) + BAM-15 (10 mg) Tablets",
+    "subtitle": "",
+    "category": "Peptide Blends",
+    "formula": "—",
+    "strengths": [
+      "1 mg / 10 mg · 30 ct"
+    ],
+    "purity": "—",
+    "specs": {},
+    "images": [
+      "/assets/mint-catalog/slu-pp-332-1-mg-bam-15-10-mg-tablets-1-mg-10-mg-30-ct-01-1-mg-10-mg-30-ct.webp"
+    ]
+  },
+  {
+    "slug": "slu-pp-332-tablets-1-mg-30-ct",
+    "name": "SLU-PP-332 Tablets",
+    "subtitle": "",
+    "category": "Research Peptides",
+    "formula": "—",
+    "strengths": [
+      "1 mg · 30 ct"
+    ],
+    "purity": "—",
+    "specs": {},
+    "images": [
+      "/assets/mint-catalog/slu-pp-332-tablets-1-mg-30-ct-01-1-mg-30-ct.webp"
+    ]
+  },
+  {
+    "slug": "snap-8-10-mg",
+    "name": "SNAP-8",
+    "subtitle": "Acetyl octapeptide-3",
+    "category": "Research Peptides",
+    "formula": "C34H60N14O13",
+    "strengths": [
+      "10 mg"
+    ],
+    "purity": "—",
+    "specs": {
+      "CAS Number": "868844-74-0",
+      "Molecular Formula": "C34H60N14O13",
+      "Molecular Weight": "873.0 g/mol",
+      "Amino Acid Count": "8",
+      "Sequence": "Ac-Glu-Glu-Met-Gln-Arg-Arg-Ala-Asp-NH2"
+    },
+    "images": [
+      "/assets/mint-catalog/snap-8-10-mg-01-10-mg-purity-label.webp"
+    ]
+  },
+  {
+    "slug": "ss-31-10-mg",
+    "name": "SS-31",
+    "subtitle": "Elamipretide",
+    "category": "Research Peptides",
+    "formula": "C32H49N9O5",
+    "strengths": [
+      "10 mg",
+      "30 mg",
+      "50 mg"
+    ],
+    "purity": "≥99%",
+    "specs": {
+      "Physical Form": "Lyophilized powder",
+      "CAS Number": "736992-21-5",
+      "Molecular Formula": "C32H49N9O5",
+      "Molecular Weight": "639.80 g/mol",
+      "Amino Acid Count": "4",
+      "Sequence": "D-Arg-Dmt-Lys-Phe-NH2 (Dmt = 2',6'-dimethyl-L-tyrosine)"
+    },
+    "images": [
+      "/assets/mint-catalog/ss-31-10-mg-01-10-mg-purity-label.webp",
+      "/assets/mint-catalog/ss-31-10-mg-02-30-mg-purity-label.webp",
+      "/assets/mint-catalog/ss-31-10-mg-03-50-mg-purity-label.webp"
+    ]
+  },
+  {
+    "slug": "tb-500-5-mg",
+    "name": "TB-500",
+    "subtitle": "Thymosin β4 (fragment)",
+    "category": "Research Peptides",
+    "formula": "C38H68N10O14",
+    "strengths": [
+      "5 mg",
+      "10 mg",
+      "15 mg",
+      "60 mg"
+    ],
+    "purity": "≥99%",
+    "specs": {
+      "Physical Form": "Lyophilized powder",
+      "CAS Number": "885340-08-9",
+      "Molecular Formula": "C38H68N10O14",
+      "Molecular Weight": "889.02 g/mol",
+      "Amino Acid Count": "7",
+      "Sequence": "Ac-Leu-Lys-Lys-Thr-Glu-Thr-Gln-OH (Thymosin β4 17-23 active fragment)"
+    },
+    "images": [
+      "/assets/mint-catalog/tb-500-5-mg-01-5-mg-purity-label.webp",
+      "/assets/mint-catalog/tb-500-5-mg-02-10-mg-purity-label.webp",
+      "/assets/mint-catalog/tb-500-5-mg-03-15-mg-purity-label.webp",
+      "/assets/mint-catalog/tb-500-5-mg-04-60-mg-purity-label.webp"
+    ]
+  },
+  {
+    "slug": "tb-500-frag-100-mg",
+    "name": "TB-500 FRAG",
+    "subtitle": "Thymosin β4 (fragment)",
+    "category": "Research Peptides",
+    "formula": "C38H68N10O14",
+    "strengths": [
+      "100 mg"
+    ],
+    "purity": "≥99%",
+    "specs": {
+      "Physical Form": "Lyophilized powder",
+      "CAS Number": "885340-08-9",
+      "Molecular Formula": "C38H68N10O14",
+      "Molecular Weight": "889.02 g/mol",
+      "Amino Acid Count": "7",
+      "Sequence": "Ac-Leu-Lys-Lys-Thr-Glu-Thr-Gln-OH (Thymosin β4 17-23 active fragment)"
+    },
+    "images": [
+      "/assets/mint-catalog/tb-500-frag-100-mg-01-100-mg-purity-label.webp"
+    ]
+  },
+  {
+    "slug": "tesamorelin-10-mg",
+    "name": "Tesamorelin",
+    "subtitle": "GRF(1-44) analogue",
+    "category": "Research Peptides",
+    "formula": "C221H366N72O67S",
+    "strengths": [
+      "10 mg",
+      "20 mg"
+    ],
+    "purity": "≥99%",
+    "specs": {
+      "Physical Form": "Lyophilized powder",
+      "CAS Number": "218949-48-5",
+      "Molecular Formula": "C221H366N72O67S",
+      "Molecular Weight": "5135.86 g/mol",
+      "Amino Acid Count": "44",
+      "Sequence": "trans-3-hexenoyl-Tyr-Ala-Asp-Ala-Ile-Phe-Thr-Asn-Ser-Tyr-Arg-Lys-Val-Leu-Gly-Gln-Leu-Ser-Ala-Arg-Lys-Leu-Leu-Gln-Asp-Ile-Met-Ser-Arg-Gln-Gln-Gly-Glu-Ser-Asn-Gln-Glu-Arg-Gly-Ala-Arg-Ala-Arg-Leu-NH2"
+    },
+    "images": [
+      "/assets/mint-catalog/tesamorelin-10-mg-01-10-mg-purity-label.webp",
+      "/assets/mint-catalog/tesamorelin-10-mg-02-20-mg-purity-label.webp"
+    ]
+  },
+  {
+    "slug": "tesamorelin-ipamorelin-10-mg-2-mg",
+    "name": "Tesamorelin / Ipamorelin",
+    "subtitle": "Tesamorelin / Ipamorelin blend",
+    "category": "Peptide Blends",
+    "formula": "Tesamorelin: C221H366N72O67S\nIpamorelin: C38H49N9O5",
+    "strengths": [
+      "10 mg / 2 mg",
+      "10 mg / 5 mg"
+    ],
+    "purity": "≥99%",
+    "specs": {
+      "Physical Form": "Lyophilized powder",
+      "CAS Number": "Tesamorelin: 218949-48-5 Ipamorelin: 170851-70-4",
+      "Molecular Formula": "Tesamorelin: C221H366N72O67S\nIpamorelin: C38H49N9O5",
+      "Molecular Weight": "Tesamorelin: 5135.86 Ipamorelin: 711.85 g/mol",
+      "Amino Acid Count": "Tesamorelin: 44 Ipamorelin: 5",
+      "Sequence": "Tesamorelin: 44-residue GHRH analogue, trans-3-hexenoyl-modified (per COA) Ipamorelin: Aib-His-D-2-Nal-D-Phe-Lys-NH2"
+    },
+    "images": [
+      "/assets/mint-catalog/tesamorelin-ipamorelin-10-mg-2-mg-01-10-mg-2-mg-purity-label.webp",
+      "/assets/mint-catalog/tesamorelin-ipamorelin-10-mg-2-mg-02-10-mg-5-mg-purity-label.webp"
+    ]
+  },
+  {
+    "slug": "testagen-20-mg",
+    "name": "Testagen",
+    "subtitle": "Peptide bioregulator (Lys-Glu-Asp-Gly)",
+    "category": "Bioregulators",
+    "formula": "C17H29N5O9",
+    "strengths": [
+      "20 mg"
+    ],
+    "purity": "≥99%",
+    "specs": {
+      "Molecular Formula": "C17H29N5O9",
+      "Molecular Weight": "447.44 g/mol",
+      "Amino Acid Count": "4",
+      "Sequence": "H-Lys-Glu-Asp-Gly-OH"
+    },
+    "images": [
+      "/assets/mint-catalog/testagen-20-mg-01-20-mg-purity-label.webp"
+    ]
+  },
+  {
+    "slug": "thymalin-10-mg",
+    "name": "Thymalin",
+    "subtitle": "Thymus polypeptide complex (calf thymus) — a peptide fraction, not a single defined molecule",
+    "category": "Bioregulators",
+    "formula": "—",
+    "strengths": [
+      "10 mg",
+      "20 mg"
+    ],
+    "purity": "≥99%",
+    "specs": {
+      "Physical Form": "Standardized thymic polypeptide complex (lyophilized) - not a single defined molecule",
+      "CAS Number": "79621-14-0"
+    },
+    "images": [
+      "/assets/mint-catalog/thymalin-10-mg-01-10-mg-purity-label.webp",
+      "/assets/mint-catalog/thymalin-10-mg-02-20-mg-purity-label.webp"
+    ]
+  },
+  {
+    "slug": "thymosin-alpha-1-5-mg",
+    "name": "Thymosin Alpha-1",
+    "subtitle": "Thymalfasin",
+    "category": "Research Peptides",
+    "formula": "C129H215N33O55",
+    "strengths": [
+      "5 mg",
+      "10 mg"
+    ],
+    "purity": "≥99%",
+    "specs": {
+      "Physical Form": "Lyophilized powder",
+      "CAS Number": "62304-98-7",
+      "Molecular Formula": "C129H215N33O55",
+      "Molecular Weight": "3108.30 g/mol",
+      "Amino Acid Count": "28",
+      "Sequence": "Ac-Ser-Asp-Ala-Ala-Val-Asp-Thr-Ser-Ser-Glu-Ile-Thr-Thr-Lys-Asp-Leu-Lys-Glu-Lys-Lys-Glu-Val-Val-Glu-Glu-Ala-Glu-Asn"
+    },
+    "images": [
+      "/assets/mint-catalog/thymosin-alpha-1-5-mg-01-5-mg-purity-label.webp",
+      "/assets/mint-catalog/thymosin-alpha-1-5-mg-02-10-mg-purity-label.webp"
+    ]
+  },
+  {
+    "slug": "tirzepatide-10-mg",
+    "name": "Tirzepatide",
+    "subtitle": "GIP/GLP-1 receptor agonist",
+    "category": "GLP-1 & Metabolic",
+    "formula": "C225H348N48O68",
+    "strengths": [
+      "10 mg",
+      "15 mg",
+      "20 mg",
+      "30 mg",
+      "60 mg",
+      "100 mg",
+      "200 mg",
+      "400 mg"
+    ],
+    "purity": "≥99%",
+    "specs": {
+      "Physical Form": "Lyophilized powder",
+      "CAS Number": "2023788-19-2",
+      "Molecular Formula": "C225H348N48O68",
+      "Molecular Weight": "4813.45 g/mol",
+      "Amino Acid Count": "39",
+      "Sequence": "39-residue GIP/GLP-1 dual agonist; Aib at pos 2 & 13-area, Lys20 conjugated to γGlu-(AEEA)2-C20 diacid, C-terminal amide (full sequence per COA)"
+    },
+    "images": [
+      "/assets/mint-catalog/tirzepatide-10-mg-01-10-mg-purity-label.webp",
+      "/assets/mint-catalog/tirzepatide-10-mg-02-15-mg-purity-label.webp",
+      "/assets/mint-catalog/tirzepatide-10-mg-03-20-mg-purity-label.webp",
+      "/assets/mint-catalog/tirzepatide-10-mg-04-30-mg-purity-label.webp",
+      "/assets/mint-catalog/tirzepatide-10-mg-05-60-mg-purity-label.webp",
+      "/assets/mint-catalog/tirzepatide-10-mg-06-100-mg-purity-label.webp",
+      "/assets/mint-catalog/tirzepatide-10-mg-07-200-mg-purity-label.webp",
+      "/assets/mint-catalog/tirzepatide-10-mg-08-400-mg-purity-label.webp"
+    ]
+  },
+  {
+    "slug": "vesugen-20-mg",
+    "name": "Vesugen",
+    "subtitle": "Peptide bioregulator (Lys-Glu-Asp / KED)",
+    "category": "Bioregulators",
+    "formula": "C15H26N4O8",
+    "strengths": [
+      "20 mg"
+    ],
+    "purity": "≥99%",
+    "specs": {
+      "Physical Form": "Lyophilized powder",
+      "CAS Number": "204271-66-9",
+      "Molecular Formula": "C15H26N4O8",
+      "Molecular Weight": "390.39 g/mol",
+      "Amino Acid Count": "3",
+      "Sequence": "Linear tripeptide L-Lys-L-Glu-L-Asp (KED) with free N- and C-termini; one of the Khavinson short-peptide bioregulators derived from vascular tissue extracts (full sequence per COA)."
+    },
+    "images": [
+      "/assets/mint-catalog/vesugen-20-mg-01-20-mg-purity-label.webp"
+    ]
+  },
+  {
+    "slug": "vilon-20-mg",
+    "name": "Vilon",
+    "subtitle": "Peptide bioregulator (Lys-Glu / KE)",
+    "category": "Bioregulators",
+    "formula": "C11H21N3O6",
+    "strengths": [
+      "20 mg"
+    ],
+    "purity": "≥99%",
+    "specs": {
+      "Physical Form": "Lyophilized powder",
+      "CAS Number": "79443-38-8",
+      "Molecular Formula": "C11H21N3O6",
+      "Molecular Weight": "291.30 g/mol",
+      "Amino Acid Count": "2",
+      "Sequence": "Linear dipeptide L-Lys-L-Glu (KE) with free N- and C-termini; one of the shortest Khavinson bioregulator peptides (full structure per COA)."
+    },
+    "images": [
+      "/assets/mint-catalog/vilon-20-mg-01-20-mg-purity-label.webp"
+    ]
+  },
+  {
+    "slug": "vip-5-mg",
+    "name": "VIP",
+    "subtitle": "Vasoactive intestinal peptide",
+    "category": "Research Peptides",
+    "formula": "C147H238N44O42S",
+    "strengths": [
+      "5 mg"
+    ],
+    "purity": "—",
+    "specs": {
+      "CAS Number": "37221-79-7",
+      "Molecular Formula": "C147H238N44O42S",
+      "Molecular Weight": "3326.83 g/mol",
+      "Amino Acid Count": "28",
+      "Sequence": "His-Ser-Asp-Ala-Val-Phe-Thr-Asp-Asn-Tyr-Thr-Arg-Leu-Arg-Lys-Gln-Met-Ala-Val-Lys-Lys-Tyr-Leu-Asn-Ser-Ile-Leu-Asn-NH2"
+    },
+    "images": [
+      "/assets/mint-catalog/vip-5-mg-01-5-mg-purity-label.webp"
+    ]
+  },
+  {
+    "slug": "wolverine-10-mg-10-mg",
+    "name": "Wolverine",
+    "subtitle": "BPC-157 + TB-500 blend",
+    "category": "Peptide Blends",
+    "formula": "BPC-157: C62H98N16O22\nTB-500: C38H68N10O14",
+    "strengths": [
+      "10 mg / 10 mg"
+    ],
+    "purity": "≥99%",
+    "specs": {
+      "Physical Form": "Lyophilized powder",
+      "CAS Number": "BPC-157: 137525-51-0 TB-500: 885340-08-9",
+      "Molecular Formula": "BPC-157: C62H98N16O22\nTB-500: C38H68N10O14",
+      "Molecular Weight": "BPC-157: 1419.55 TB-500: 889.02 g/mol",
+      "Amino Acid Count": "BPC-157: 15 TB-500: 7",
+      "Sequence": "BPC-157: Gly-Glu-Pro-Pro-Pro-Gly-Lys-Pro-Ala-Asp-Asp-Ala-Gly-Leu-Val TB-500: Ac-Leu-Lys-Lys-Thr-Glu-Thr-Gln-OH"
+    },
+    "images": [
+      "/assets/mint-catalog/wolverine-10-mg-10-mg-01-10-mg-10-mg-purity-label.webp"
+    ]
+  },
+  {
+    "slug": "wolverine-dissolvable-strips-500-mcg-bpc-157-300-mcg-tb-500-per-strip-30-strips",
+    "name": "Wolverine Dissolvable Strips",
+    "subtitle": "BPC-157 + TB-500 blend",
+    "category": "Dissolving Strips",
+    "formula": "BPC-157: C62H98N16O22\nTB-500: C38H68N10O14",
+    "strengths": [
+      "500 mcg BPC-157 + 300 mcg TB-500 per strip · 30 strips"
+    ],
+    "purity": "≥99%",
+    "specs": {
+      "Physical Form": "Lyophilized powder",
+      "CAS Number": "BPC-157: 137525-51-0 TB-500: 885340-08-9",
+      "Molecular Formula": "BPC-157: C62H98N16O22\nTB-500: C38H68N10O14",
+      "Molecular Weight": "BPC-157: 1419.55 TB-500: 889.02 g/mol",
+      "Amino Acid Count": "BPC-157: 15 TB-500: 7",
+      "Sequence": "BPC-157: Gly-Glu-Pro-Pro-Pro-Gly-Lys-Pro-Ala-Asp-Asp-Ala-Gly-Leu-Val TB-500: Ac-Leu-Lys-Lys-Thr-Glu-Thr-Gln-OH"
+    },
+    "images": [
+      "/assets/mint-catalog/wolverine-dissolvable-strips-500-mcg-bpc-157-300-mcg-tb-500-per-strip-30-strips-01-500-mcg-bpc-157-300-mcg-tb-500-per-strip-30-strips.webp"
+    ]
+  }
+]

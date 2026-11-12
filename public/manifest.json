@@ -1,0 +1,23 @@
+{
+  "name": "Mint Clinical",
+  "short_name": "Mint Clinical",
+  "description": "Wholesale peptide supply for licensed providers.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#07130f",
+  "theme_color": "#07130f",
+  "icons": [
+    {
+      "src": "/icon",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/apple-icon",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

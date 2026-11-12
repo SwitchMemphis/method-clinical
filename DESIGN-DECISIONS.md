@@ -1,3 +1,79 @@
+## 2026-11-12 — Mint Clinical rebrand
+
+Retain the Flow symbol, emerald palette, existing layouts, and The Clinical Standard heading. Render Mint Clinical on the wordmark and packaging.
+
+## 2026-11-12 — Amino Clinical rebrand
+Retain the Flow symbol, Google Sans Flex, the emerald palette and existing layouts. Typeset the new wordmark, re-render the catalog packaging, and update the branded vial and social artwork. The favicon continues to use the standalone Flow symbol.
+
+## 2026-11-12 — Testing standards page
+Use the existing Google Sans Flex, emerald surfaces, and mint accents. Display clinical standards in an inset grid, the origin steps on an emerald panel, and the seven tests in scan-friendly numbered rows. The process reflows to one column on narrow phones. The standalone page uses the approved Flow wordmark and shared footer.
+
+## 2026-11-12 — Smooth mint buttons
+Use a deeper mint edge and a broad, soft diagonal highlight across the three buttons. The surface uses continuous gradients.
+
+## 2026-11-12: Registration header proportions
+Use the 160 px wordmark, a 24 px desktop and 22 px mobile title, and 12 px supporting copy. Tighten the gap under the logo to preserve the form’s opening position.
+
+## 2026-11-12: On-site wholesale pricing form
+Route the hero CTA to /wholesale-pricing/. Use the existing logo, form styles, and mint button. The disabled submit action keeps the preview local. The form has no privacy notice link or CAPTCHA.
+
+## 2026-11-12 — Brushed mint buttons
+Add fine horizontal brushing and increase the contrast of the existing diagonal highlight in the shared mint surface.
+
+## 2026-11-12: Registration screenshot fit
+Restore the centered 560 px desktop card and screenshot spacing. Keep the compact mobile layout with paired name fields and pair Company name with Business type. The full-width mint review button remains above the note.
+
+## 2026-11-12 — Sign in button texture
+Share the mint sheen between the hero links and the top navigation Sign in link. Keep the header link’s compact sizing for narrow screens.
+
+## 2026-11-12: Registration form ending
+Use a mint rounded-rectangle button with a centered label. Keep Review application as the native submit action and place the preview and privacy note below it.
+
+## 2026-11-12 — Hero button texture
+Layer a static diagonal highlight over a mint gradient using the existing action colors. Apply it to the two hero links so the finish is visible before hover and on touchscreens.
+
+## 2026-11-12: Wholesale pricing inquiries
+Use a dedicated Tally form in the Method Clinical dark and mint palette. Collect name, clinic or business, work email, and inquiry. Store submissions in Tally and describe that collection in the site’s privacy notice.
+
+## 2026-11-12: NPI visible on opening
+Use a centered 440 px form, shorter intro, and tighter section spacing while retaining 44 px fields and 16 px input text. Put the NPI and state license row before the optional Website field. Pair the name fields on phones to bring the NPI into view. The preview notice sits beneath the title.
+
+## 2026-11-12: Mint registration review button
+Use ArrowFillButton’s default mint fill and dark label with the same outline as Browse the catalog. Its dark arrow disc expands across the pill on hover or keyboard focus.
+
+## 2026-11-12: Registration review button
+Reuse ArrowFillButton with a dark surface, mint label, outline, and right-facing arrow. The review action uses the native submit variant to retain form validation and the application preview.
+
+## 2026-11-12: Hero button shimmer trial
+Use a spring-driven highlight clipped inside the pill. Keep the label stationary and use the existing action colors and focus outline. Use native links for the two hero actions and suppress pointer animation for touch and reduced motion.
+
+## 2026-11-12: Centered registration form
+Center the Flow wordmark, heading, and description above a 560 px form card. Use square number badges and pair the contact fields on desktop, with a wider phone field and full-width work email. Keep the Method Clinical dark palette and the existing preview-only workflow.
+
+## 2026-11-12: Registration page proportions
+Center the registration page in a 1040 px container. Use a narrower introduction column on desktop, smaller headings and labels, and tighter section spacing. Keep 16 px input text, 44 px minimum field targets, and a single field column at phone widths.
+
+## 2026-11-11: Closed mobile vial
+Keep the cap seated on narrow screens and touch devices without hover. Remove the scroll trigger from the testing vial.
+
+## 2026-11-11: Hero button motion and vial backdrop
+Keep hero button labels stationary and use short color and press feedback. Blend the emerald studio backdrop into the vial card using a soft top mask. The backdrop stays fixed inside the card.
+
+## 2026-11-11: Testing section proportions
+Share desktop column proportions between the section header and testing index. Size the seven closed rows from the card height so the list lines up with the card without resizing it when a row opens. Retain the compact and mobile layout.
+
+## 2026-11-11: Testing section spacing
+Align the headline with the vial column and the introduction with the test list at the desktop breakpoint. Retain the existing copy and mobile reading order.
+
+## 2026-11-11: Vial artwork and testing transition
+Use the original Flow symbol and wordmark pixels from flow-logo.png on the vial in the approved stacked label layout. Use a fixed hover wrapper and a single transform on the figure, so the slate and the card move together. Fade the clinic-growth helix poster and canvas at the section edges.
+
+## 2026-11-11: Testing vial animation
+Use separate transparent cap and open-neck vial assets so the cap can lift on-axis and reveal the glass mouth. On desktop, track the mouse across the full figure. Keep the hit area stationary while the backplate tilts and the slate shifts in the opposite direction. Reseat the cap and recenter both background layers on pointer exit. Disable background tracking with reduced motion. Below the tablet breakpoint and on coarse-pointer devices without hover, preserve the original viewport trigger. Reduced motion snaps to the target. Show the selected layer through the existing caption and a compact number rail. Use the lower foreground of the Green Slate hero as the stage surface.
+
+## 2026-11-10: FAQ and menu order
+Use a dedicated /faq/ page with the existing accordion, shared footer, and a home link. Order the menu as Register your clinic, Catalog, FAQs, Sourcing, Testing.
+
 ## 2026-11-09: Longer mobile helix loop
 Render the helix at its original forward speed and blend the last three seconds into the matching lead-in. Use the first frame of the new loop for the still.
 
@@ -214,3 +290,49 @@ Use a local token-backed flex gap of 16–24px between header elements, replacin
 
 ## 2026-11-08: Flow mark in identity tiles
 Isolate the existing symbol with an SVG viewport over columns 0–115 of the exact approved 548×175 flow-logo.png. Embedded source bytes remain unchanged; no redrawing or generated replacement. An alpha mask permits the existing dark emerald identity color. Provider Access keeps its mint tile and uses a contained mark. Browser favicon and Apple home-screen icon use the same mark, proportionally sized with padding. The shared server-only metadata mark also updates the share-image symbol.
+
+## Mobile verification card
+
+Place the seven layer markers below the vial on mobile so they have their own space. Scale the vial stage with viewport width and tighten the card header and footer. The accordion remains the selection control.
+
+## Method Clinical catalog artwork
+
+Use a coordinated set of emerald studio packshots with the existing Flow symbol, white brand band, and contour-patterned emerald label. Apply names and strengths from the catalog directly to the artwork. Use an individual image for each listed strength and one representative mockup for Custom Boxes & Packaging, whose style geometry is unspecified. Sync the strength radios and gallery thumbnails on product detail pages. Identify the artwork as packaging mockups in the catalog.
+
+## Catalog hero
+Feature the GHK-Cu, NAD+, and BPC-157 vial mockups on smoked emerald glass. Blend the artwork into the right side on desktop and move it below the copy inside the banner on mobile.
+
+## Testing section catalog link
+Use the existing secondary arrow button directly beneath the disclosures. It leads to /catalog/ in the same tab.
+
+## Vial label copy
+Use the existing NAD+ label as the spacing reference. Apply the line to every catalog glass vial variant and to the two side vials on the catalog banner. The homepage verification vial already includes the line.
+
+The original contour background survives in the reference with the copy printed over it. Reconstruct a clean contour plate from that label and use it behind the existing vial typography. Retain the photographed studio framing.
+
+## Desktop hover recovery
+Use actual pointer events for mouse input, including when touch is reported as the primary pointer. Mouse movement can open the testing card after hydration even if the pointer entered before hydration. Give the desktop helix poster subtle spring-based parallax when WebGL initialization fails.
+
+
+## Catalog, registration and menu sign-in buttons
+
+Use the supplied trailing-disc fill and arrow exchange with the Method Clinical palette. Keep the label fixed during the transition. Hover, keyboard focus, and press share the same filled state. The reduced-motion preference makes the state change immediate.
+
+
+## Mint button backgrounds
+
+Both hero actions share the primary Button style. The three arrow-fill buttons reuse the primary action background token (#81f5b0) and retain the dark emerald animated fill.
+
+
+## Homepage header logo spacing
+
+Increase the left inset by 0.5rem at every breakpoint. Keep the right inset, logo dimensions, and scroll width transitions as configured.
+
+
+## Website link preview
+
+Use a 1200 × 630 JPEG with the Flow logo above the NAD+ 500 mg emerald pedestal hero. Center both so a square messaging preview retains them. Publish the same file in the Open Graph and Twitter metadata with an absolute HTTPS URL.
+
+## Sign-in button contrast
+
+Use the existing deep green surface color for the Sign in label on the mint button. Scope the color to the label in the login view.

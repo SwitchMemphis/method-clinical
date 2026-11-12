@@ -1,3 +1,106 @@
+## 2026-11-12 — Mint Clinical rebrand
+
+Production export and lint passed. Checked 107 exported pages for the new name, verified all 148 catalog images, and retained The Clinical Standard on the homepage.
+
+## 2026-11-12 — The Clinical Standard
+
+Renamed the homepage sourcing heading to The Clinical Standard. Lint and the production export passed, and the exported heading retains the mint accent on Clinical.
+
+## 2026-11-12 — Amino Clinical rebrand
+
+Lint and the production export passed. Audited 107 exported HTML pages and all 148 catalog images for branding and asset references. Desktop Chrome verified navigation from the homepage to Testing Standards and the catalog. The existing public address remains the canonical URL.
+
+## 2026-11-12 — Testing standards page
+The homepage button now targets /testing-standards/. The page includes the supplied release standards, origin and fulfillment steps, all seven tests, and all six quality-process steps. The two original brand references were changed to Method Clinical at the owner's direction. The owner-supplied statements are preview copy and were not independently substantiated.
+
+Lint, TypeScript, production export, and an exported copy and link check passed. Chromium opened the page from the homepage CTA, rendered it at desktop width, and confirmed mobile reflow at 320 and 390 pixels without horizontal overflow.
+
+## 2026-11-12 — Sourcing card copy
+Updated the FDA Listed Facilities card with the supplied 503B outsourcing facility sourcing statement.
+
+## 2026-11-12 — Smooth mint buttons
+Lint, TypeScript, and the production export passed. The exported homepage uses the same smooth mint gradient on all three buttons.
+
+## 2026-11-12: Registration header proportions
+Chromium verified the 160 px wordmark, 24 px desktop and 22 px phone headings, and 12 px supporting copy at 1363 × 936 and 390 × 800. NPI fit in both opening views. Lint, TypeScript, and production export passed.
+
+## 2026-11-12: On-site wholesale pricing form
+The hero pricing CTA now targets the on-site placeholder. It has four editable fields and a disabled submit button. The site privacy notice describes the preview behavior. Lint, TypeScript, production export, and exported form and CTA checks passed.
+
+## 2026-11-12 — Brushed mint buttons
+Lint, TypeScript, and the production export passed. The exported homepage applies the shared brushed gradient to all three buttons.
+
+## 2026-11-12: Registration screenshot fit
+Chromium measured the centered desktop card at 560 px in a 1536 × 810 frame, with Website above the visible NPI field near the fold. At 390 × 800, the full NPI field fit and the page had no horizontal overflow. Both widths showed the full-width review button above the note. Lint, TypeScript, and production export passed.
+
+## 2026-11-12 — Sign in button texture
+Lint, TypeScript, and the production export passed. The exported homepage applies the same gradient to Sign in and both hero links. Sign in resolves to the exported login page.
+
+## 2026-11-12: Registration form ending
+Lint, TypeScript, and production export passed. Exported markup confirmed a full-width mint submit button above the centered preview note.
+
+## 2026-11-12 — Hero button texture
+Lint, TypeScript, and the production export passed. The exported homepage includes the mint gradient on both hero links and retains the pricing form and testing anchor destinations.
+
+## 2026-11-12: Wholesale pricing inquiries
+The homepage pricing button links to https://tally.so/r/o9e501. Responses are stored in the form’s Tally Submissions view. The privacy notice covers this collection. Lint, TypeScript, production export, and exported links passed. Chrome verified the published fields and blank-form validation. A completed production submission was not sent during QA.
+
+## 2026-11-12: NPI visible on opening
+Chromium measured the NPI input bottom at 559 px in a 1120 × 590 frame and 736 px in a 390 × 800 frame, both at zero scroll. It confirmed the 44 px control height, Website below NPI, paired names, and mint review button. Lint, TypeScript, and production export passed.
+
+## 2026-11-12: Mint registration review button
+Lint, TypeScript, and production export passed. The exported registration submit button uses the same mint, dark label, and outline classes as the catalog action.
+
+## 2026-11-12: Registration review button
+Chromium verified the outlined submit button on desktop and at 390 px, including its 48 px minimum height. Enter triggered native required-field validation and opened the local application preview once the sample form was complete. Lint, TypeScript, and the production export passed.
+
+## 2026-11-12: Hero button shimmer trial
+Integrated the shimmer on top of the centered registration release. Production export, TypeScript, lint, and static checks for both hero destinations passed. The managed preview URL refused the browser connection.
+
+## 2026-11-12: Centered registration form
+Chromium confirmed that the title and 560 px card share a center line at 1363 px. The name fields share one row and the phone is wider than the suffix. At 390 px, fields stack without horizontal overflow. Both widths retain 44 px input targets. Lint, TypeScript, and the production export passed.
+
+## 2026-11-12: Registration page proportions
+Built and linted the production export. Chromium at 1363 × 936 showed the contact and business profile sections in the opening viewport. At a 390 px frame width, the fields stacked without horizontal overflow. The first input measured 44 px high in both checks.
+
+## 2026-11-11: Closed mobile vial
+Removed the mobile scroll trigger. Chromium verified that the 390-pixel card stays closed after scrolling and selecting a test, and that the desktop hover still lifts the cap. Production export and TypeScript passed. Lint reported one existing warning.
+
+## 2026-11-11: Hero button motion and vial backdrop
+The two hero actions use color feedback and a small press response with stationary labels. The testing vial uses the new emerald studio WebP. Chromium verified hover color, stationary copy, keyboard focus, the studio image, desktop card motion, and the 390-pixel cap lift. Production export and TypeScript passed. Lint reported one existing warning.
+
+## 2026-11-11: Testing section proportions
+Balanced the desktop column widths, aligned the heading and introduction, and matched the closed test list to the vial card height. Chromium measured both columns at 446.6 pixels high in the desktop preview and confirmed that opening a test does not resize the card. Verified stacking and scroll-triggered vial motion at 390 pixels. Production export and TypeScript passed. Lint reported one existing warning.
+
+## 2026-11-11: Testing section spacing
+Moved the existing introduction above the test list on desktop to use the empty right column. Chromium confirmed the intro and list share a left edge, test selection still updates the caption, and the 390-pixel layout stays stacked with its scroll animation. Production export and TypeScript passed. Lint reported one existing warning.
+
+## 2026-11-11: Flow artwork, whole-card tilt, and helix fade
+Replaced the rendered vial logo with the approved Flow symbol and wordmark from `public/assets/flow-logo.png`, arranged in the existing stacked label format. The desktop card now tilts as a unit with its slate fixed in place, and the helix below Testing fades into the section surface. The three corrected 4K vial hero exports are in the Method Clinical Vial Heroes folder.
+
+Verified the new vial asset, desktop hover and card transform, stationary slate layer, rendered helix mask, and 390-pixel scroll lift in Chromium. Production export and TypeScript passed. Lint reported one existing warning.
+
+## 2026-11-11: Full-card hover and background motion
+Desktop hover now applies to the entire testing figure. The slate and backplate respond to mouse position while the cap is lifted. The cap reseats and the background returns to center on exit. The mobile viewport trigger is unchanged.
+
+Verified desktop header and footer hover, opposite-direction background shifts, reset on exit, the selected-layer caption, and the existing scroll lift at 390 pixels with static background layers. Production export and TypeScript passed. Lint reported one existing warning.
+
+## 2026-11-11: Desktop hover trigger
+Changed the testing vial to lift its cap only on mouse hover over the vial on desktop. The fixed silhouette keeps the trigger stable while the cap rises. Mobile retains the original viewport trigger.
+
+Verified the desktop backdrop, vial entry and pointer exit in Chromium, and confirmed the 390-pixel preview opened on scroll. The production export and TypeScript passed. Lint reported one existing warning.
+
+## 2026-11-11: Testing vial animation
+Replaced the homepage testing diagram with an on-scroll exploded NAD+ 500 mg vial based on approved label option 02. The three optimized WebP assets in `public/assets/method-testing-*.webp` provide a separate cap, an uncapped vial, and the foreground cropped from the Green Slate hero. The seven native disclosure rows and their content are retained.
+
+Verification: production export and TypeScript passed. Lint passed with one existing warning. In Chromium, confirmed the cap moves from seated to visibly separated, the glass mouth and base fit at desktop and 390-pixel widths, and selecting Mass spectrometry updates the figure caption and number. Reduced-motion behavior uses the existing spring preference; it was not tested with an OS preference change.
+
+## 2026-11-10: Menu order
+Catalog moved to 02 and FAQs to 03. The production build, changed-file lint, and checks for menu order and exported destinations passed.
+
+## 2026-11-10: Standalone FAQ and registration-first menu
+Added /faq/ with all eight existing disclosures and removed the accordion from the homepage. The main menu opens the new route and lists Register your clinic first. Production export, TypeScript, lint with one existing warning, and static checks passed.
+
 ## 2026-11-09: Longer mobile helix loop
 Extended the native 2252 × 3840 mobile loop from 11.75 seconds to 22 seconds. Compared decoded frames across the wrap and checked the change against ordinary frame-to-frame motion.
 
@@ -268,3 +371,47 @@ Remove the entire lower hero furniture shown in the owner screenshot: Method Cli
 The managed preview daemon is occupied by the separate Ascend project. It was not stopped or repointed. The new hero typography and bottom-row removal are source/build verified; fresh browser visual QA for these hero changes remains pending. Provider Access is byte-identical to its approved source.
 
 Final checks for the restoration, typography and removal: production build and TypeScript pass; changed-file lint passes; exported hero markup contains none of the removed bottom-row labels; original Provider Access source comparison passes. Publication uses the existing private Site.
+
+## Mobile verification card
+
+Browser preview checked at 320px and 390px iframe widths. The vial stays closed, all seven markers fit below it, and selecting Mass spectrometry updates the caption to 02 / Identity. The desktop preview retains the vertical markers and opens the vial on mouse entry. Production build and lint completed with existing warnings.
+
+## Catalog artwork replacement
+
+Rendered 148 branded 960 × 960 WebPs for all 94 catalog listings, including 10 nasal sprays and 19 previously unillustrated listings. Removed the 128 third-party image files from the catalog. The five generated studio templates and label renderer are in artwork/catalog. Followed the existing-project path in Devver modules 00, 03, 08, and 08A.
+
+Verified all 94 exported detail routes and their artwork paths against the catalog, every WebP decoded, and all catalog data fields other than image URLs matched the previous version. Reviewed all primary packshots in contact sheets. In desktop browser preview, the Liquid / spray filter returned 10 branded nasal listings, and the NAD+ strength radios and gallery thumbnails selected the correct 500 mg and 1000 mg images in both directions. In a 390 px browser frame, the Adamax spray artwork loaded at full width within its card. Build and lint passed with existing font and Open Graph lint warnings.
+
+## Catalog hero
+Added the 1800 × 720 WebP at public/assets/method-catalog-banner.webp. Reviewed desktop and 390 px mobile browser previews. All three vials and their caps remain visible, and the existing catalog text is readable at both sizes. The production build passed.
+
+## Testing section catalog link
+Production build passed. The new link follows the last disclosure and opened /catalog/ in desktop and 390 px browser previews.
+
+## Vial label copy and contour background
+Rebuilt 120 vial packshots using the reconstructed emerald contour artwork from the supplied NAD+ label reference. Updated the catalog banner artwork and kept the already-correct homepage verification image. OCR confirmed both lines on all 124 displayed vial depictions across the packshots, banner and verification asset. Verified catalog export bindings for all 94 detail pages. Production build and lint passed with existing warnings.
+
+## Desktop hover recovery
+Browser-tested with physical mouse movement and a touch-first media-query fixture. The vial opened and tilted on movement and closed on pointer exit. The WebGL fallback changed its background position on mouse movement without a click. In a 390 px browser preview, the vial stayed closed and the mobile hero retained its video. The preview browser did not initialize WebGL, so the WebGL-specific hover path was source-reviewed. The production build passed.
+
+
+## Catalog, registration and menu sign-in buttons
+
+Production build and TypeScript checks passed. ESLint reported one existing warning and no errors. Browser preview opened all three destinations. The menu sign-in fill and keyboard focus outline were visually checked at desktop width and in a 390 px browser frame.
+
+
+## Mint button backgrounds
+
+Production build and changed-file lint passed. Checked that the exported hero links have identical style classes, point to their existing destinations, and use the same mint background as the catalog and registration buttons. The overlay Sign in uses the same shared arrow-fill component.
+
+## Homepage header logo spacing
+
+Production build and changed-file lint passed. Visually checked the rounded header in desktop and 320px browser frames. The logo has more left clearance and fits beside Sign in and the menu control.
+
+## Website link preview
+
+Production build and changed-file lint passed. Verified the exported homepage and catalog each have one absolute HTTPS Open Graph image tag and one Twitter image tag pointing to the 1200 × 630 JPEG. Checked the artwork at full size and with a centered square crop.
+
+## Sign-in button contrast
+
+Production build and lint passed. Verified the exported login button has the deep green label, mint fill, and disabled preview state. The label and fill colors have a 14.1:1 contrast ratio.
