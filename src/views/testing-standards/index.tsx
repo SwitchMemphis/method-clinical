@@ -6,7 +6,7 @@ import { generateMetadata } from "@/utils/seo/generate-page-metadata";
 
 export const testingStandardsMetadata = generateMetadata({
   title: "Testing Standards | Mint Clinical",
-  description: "Explore the Mint Clinical release standards, seven-layer testing protocol, and quality process.",
+  description: "Explore the Mint Clinical release standards and seven-layer testing protocol.",
   url: testingStandardsPath,
 });
 
@@ -57,7 +57,7 @@ export function TestingStandardsView() {
           </ol>
         </section>
 
-        <section aria-labelledby="testing-protocol" className="py-utility-section">
+        <section aria-labelledby="testing-protocol" className="pt-utility-section">
           <h2 id="testing-protocol" className={labelClass}>{content.protocolTitle}</h2>
           <ol role="list" className="mt-5 border-t border-border-subtle">
             {content.protocol.map(({ title, description }, index) => (
@@ -67,18 +67,6 @@ export function TestingStandardsView() {
                   <h3 className="text-xl leading-snug font-semibold">{title}</h3>
                   <p className={descriptionClass}>{description}</p>
                 </div>
-              </li>
-            ))}
-          </ol>
-        </section>
-
-        <section aria-labelledby="quality-process">
-          <h2 id="quality-process" className={labelClass}>{content.processTitle}</h2>
-          <ol role="list" className="mt-5 grid gap-x-6 gap-y-4 sm:grid-cols-3 lg:grid-cols-6">
-            {content.process.map((step, index) => (
-              <li key={step} className="flex items-baseline gap-3 border-t border-border-subtle pt-4">
-                <span className="text-utility-small font-semibold text-accent tabular-nums">{stepNumber(index)}</span>
-                <span className="font-semibold">{step}</span>
               </li>
             ))}
           </ol>
