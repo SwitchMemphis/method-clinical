@@ -2,6 +2,15 @@
 
 > Before changing performance-, SEO- or scene-related code, read `obsidian/meta/optimization-history.md` — what was optimized here, why, and what must not be undone.
 
+## Website change delivery
+
+For every website change in the WebDev project, update both the site's GitHub repository and its canonical Google Drive source. For Mint Clinical, use `SwitchMemphis/method-clinical` and the existing [website source folder](https://drive.google.com/drive/folders/19FGxyGuupr6fhearOd2tALdh44W3beS_).
+
+1. Start from the latest source and preserve changes already made in either location.
+2. Commit the change to GitHub and verify the commit contains the intended edit.
+3. Apply the same change to the Drive source and replace the existing latest ZIP in place. Keep the unpacked source in sync when the site has a Drive source folder.
+4. Verify the Drive revision and the GitHub commit before reporting completion. Report any blocked destination and what remains to be done.
+
 ## This is NOT the Next.js you know
 
 This version has breaking changes — APIs, conventions, and file structure may all
