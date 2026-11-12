@@ -1,3 +1,7 @@
+## 2026-11-12 — Testing Standards process strip
+
+Removed the six-step Quality Process strip from the GitHub source. The seven-layer testing protocol now closes the page with one section of bottom spacing. Verified the committed source. The build, desktop and mobile layout review, and deployment to the separate Sites source are pending because the execution environment is unavailable.
+
 ## 2026-11-12 — Mint Clinical rebrand
 
 Production export and lint passed. Checked 107 exported pages for the new name, verified all 148 catalog images, and retained The Clinical Standard on the homepage.
