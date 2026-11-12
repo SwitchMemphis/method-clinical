@@ -1,0 +1,128 @@
+.protocol {
+  --stack-width: 41%;
+  --glass-light: #99f3bf;
+  isolation: isolate;
+  position: relative;
+  padding: 1rem clamp(1rem, 3vw, 2.75rem);
+  border: 1px solid var(--color-border-subtle, #2a483b);
+  border-radius: 1.25rem;
+  background: #0b1c16;
+}
+
+.protocol::before {
+  position: absolute;
+  z-index: -1;
+  inset: 0 auto 0 0;
+  width: calc(var(--stack-width) + 5%);
+  border-radius: inherit;
+  background: radial-gradient(ellipse at 42% 47%, #23533e 0, #102b20 48%, transparent 75%);
+  content: "";
+}
+
+.layer {
+  display: grid;
+  grid-template-columns: minmax(0, var(--stack-width)) minmax(0, 1fr);
+  align-items: stretch;
+  min-height: 4.8rem;
+}
+
+.optic {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  min-width: 0;
+}
+
+.optic::before {
+  position: absolute;
+  top: 50%;
+  right: 1rem;
+  left: 60%;
+  height: 1px;
+  background: #578d70;
+  content: "";
+}
+
+.plate {
+  position: absolute;
+  top: 50%;
+  left: 42%;
+  width: min(63%, 18rem);
+  height: clamp(2.7rem, 6.5vw, 4.45rem);
+  transform: translate(-50%, -50%) rotate(-11deg) skew(42deg, 3deg);
+  border: 1px solid #8bdeae9c;
+  border-radius: 0.26rem;
+  background: linear-gradient(126deg, #7bdcb345, #16433054 35%, #a6f4cb6b 57%, #64d7a22b 74%, #7bebb47d);
+  box-shadow: inset 0 0 14px #9bffcb38, 0 4px 0 -2px #9cf1c288, 0 9px 16px -9px #000;
+}
+
+.plate::after {
+  position: absolute;
+  inset: 3px;
+  border: 1px solid #c8ffe039;
+  border-radius: inherit;
+  content: "";
+}
+
+.layer:nth-child(even) .plate {
+  background: linear-gradient(126deg, #88e9bd63, #16433054 35%, #bafbd578 57%, #64d7a22b 74%, #76dbaa65);
+}
+
+.number {
+  z-index: 1;
+  display: grid;
+  place-items: center;
+  width: 2rem;
+  height: 2rem;
+  border: 1px solid #4b8167;
+  border-radius: 50%;
+  background: #112b20;
+  color: var(--glass-light);
+  font: 600 0.72rem/1 ui-monospace, monospace;
+}
+
+.optic::after {
+  width: clamp(0.5rem, 2.6vw, 2rem);
+  height: 1px;
+  background: linear-gradient(90deg, #579273, #41654f);
+  content: "";
+}
+
+.copy {
+  display: grid;
+  align-content: center;
+  gap: 0.2rem;
+  min-width: 0;
+  padding: 0.75rem 0 0.75rem clamp(0.65rem, 2vw, 1.55rem);
+  border-top: 1px solid #294638;
+  border-left: 1px solid #41654f;
+}
+
+.layer:first-child .copy {
+  border-top: 0;
+}
+
+@media (max-width: 640px) {
+  .protocol {
+    --stack-width: 26%;
+    padding: 0.5rem 0.7rem;
+  }
+
+  .plate {
+    left: 34%;
+    width: 66%;
+    height: 1.8rem;
+  }
+
+  .number {
+    width: 1.45rem;
+    height: 1.45rem;
+    font-size: 0.63rem;
+  }
+
+  .copy {
+    gap: 0.1rem;
+    padding-block: 0.65rem;
+  }
+}

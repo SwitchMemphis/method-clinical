@@ -4,6 +4,8 @@ import Link from "next/link";
 import { testingStandards as content, testingStandardsPath } from "@/data/testing-standards";
 import { generateMetadata } from "@/utils/seo/generate-page-metadata";
 
+import styles from "./protocol.module.css";
+
 export const testingStandardsMetadata = generateMetadata({
   title: "Testing Standards | Mint Clinical",
   description: "Explore the Mint Clinical release standards and seven-layer testing protocol.",
@@ -57,14 +59,17 @@ export function TestingStandardsView() {
           </ol>
         </section>
 
-        <section aria-labelledby="testing-protocol" className="pt-utility-section">
-          <h2 id="testing-protocol" className={labelClass}>{content.protocolTitle}</h2>
-          <ol role="list" className="mt-5 border-t border-border-subtle">
+        <section aria-labelledby="testing-protocol" className="grid gap-6 pt-utility-section lg:gap-8">
+          <h2 id="testing-protocol" className="text-balance text-3xl leading-display font-bold tracking-tight sm:text-4xl lg:text-5xl">{content.protocolTitle}</h2>
+          <ol role="list" className={styles.protocol}>
             {content.protocol.map(({ title, description }, index) => (
-              <li key={title} className="grid grid-cols-[auto_minmax(0,1fr)] items-baseline gap-x-4 gap-y-2 border-b border-border-subtle py-5 sm:gap-x-6">
-                <span className="font-semibold text-accent tabular-nums">{index + 1}</span>
-                <div className="grid gap-2 md:grid-cols-2 md:items-baseline md:gap-6">
-                  <h3 className="text-xl leading-snug font-semibold">{title}</h3>
+              <li key={title} className={styles.layer}>
+                <div aria-hidden="true" className={styles.optic}>
+                  <span className={styles.plate} />
+                  <span className={styles.number}>{stepNumber(index)}</span>
+                </div>
+                <div className={styles.copy}>
+                  <h3 className="text-lg leading-snug font-semibold tracking-tight sm:text-xl">{title}</h3>
                   <p className={descriptionClass}>{description}</p>
                 </div>
               </li>

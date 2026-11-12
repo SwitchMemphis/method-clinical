@@ -1,3 +1,7 @@
+## 2026-11-12 — Seven visible testing layers
+
+Replaced the seven-layer testing timeline with a static glass stack and seven numbered callouts. All original test titles and descriptions render directly in the page.
+
 ## 2026-11-12 — Testing Standards process strip
 
 Removed the six-step Quality Process strip from the GitHub source. The seven-layer testing protocol now closes the page with one section of bottom spacing. Verified the committed source. The build, desktop and mobile layout review, and deployment to the separate Sites source are pending because the execution environment is unavailable.

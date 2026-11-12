@@ -1,3 +1,7 @@
+## 2026-11-12 — Seven visible testing layers
+
+Use an exploded glass stack with one translucent plate and a numbered connector per test. Put the approved description next to its plate and retain the aligned stack at phone widths.
+
 ## 2026-11-12 — Mint Clinical rebrand
 
 Retain the Flow symbol, emerald palette, existing layouts, and The Clinical Standard heading. Render Mint Clinical on the wordmark and packaging.

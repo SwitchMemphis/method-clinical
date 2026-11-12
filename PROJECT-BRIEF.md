@@ -1,3 +1,7 @@
+## 2026-11-12 — Seven visible testing layers
+
+Give the seven-layer testing protocol a more visual treatment while keeping all seven titles and descriptions visible without interaction.
+
 ## 2026-11-12 — Mint Clinical rebrand
 
 Rebrand the current site as Mint Clinical, including the wordmark, catalog packaging, web and social metadata, and public copy.
