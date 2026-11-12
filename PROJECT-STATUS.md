@@ -1,3 +1,7 @@
+## 2026-11-12 — Field Journal Testing Standards draft
+
+Field Journal draft for review. All approved testing copy remains in the page and the six-step Quality Process strip is absent. Production publishing requires explicit approval.
+
 ## 2026-11-12 — Seven visible testing layers
 
 Replaced the seven-layer testing timeline with a static glass stack and seven numbered callouts. All original test titles and descriptions render directly in the page.

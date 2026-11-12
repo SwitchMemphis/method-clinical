@@ -1,3 +1,7 @@
+## 2026-11-12 — Field Journal Testing Standards draft
+
+Use the microscope objective still life in the full-width hero and the optical-cell still life above the protocol grid. The clinical standards use four label-and-description rows and stack their labels on phones. The two generated WebP images are illustrative studio compositions.
+
 ## 2026-11-12 — Seven visible testing layers
 
 Use an exploded glass stack with one translucent plate and a numbered connector per test. Put the approved description next to its plate and retain the aligned stack at phone widths.

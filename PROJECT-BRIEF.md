@@ -1,3 +1,7 @@
+## 2026-11-12 — Field Journal Testing Standards draft
+
+Implement the selected Field Journal direction for Testing Standards. Improve readability of the clinical standards and use two new images, with all seven tests readable without interaction.
+
 ## 2026-11-12 — Seven visible testing layers
 
 Give the seven-layer testing protocol a more visual treatment while keeping all seven titles and descriptions visible without interaction.
