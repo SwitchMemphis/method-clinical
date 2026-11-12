@@ -1,3 +1,72 @@
+## 2026-11-12 — Testing standards page
+Link the homepage testing CTA to a standalone page. Preserve the supplied reference copy, substituting Method Clinical for the original brand names.
+
+## 2026-11-12 — Smooth mint buttons
+Use a more pronounced mint color gradient on Sign in and both hero buttons. Remove the brushed lines.
+
+## 2026-11-12: Registration header proportions
+Make the Method Clinical logo larger and reduce the copy below it on the registration page.
+
+## 2026-11-12: On-site wholesale pricing form
+Keep the wholesale pricing inquiry on the Method Clinical site as an editable placeholder.
+
+## 2026-11-12 — Brushed mint buttons
+Give Sign in and both hero buttons a more visible mint texture.
+
+## 2026-11-12: Registration screenshot fit
+Match the supplied Method Clinical desktop registration screenshot, including its card proportions and Website above NPI.
+
+## 2026-11-12 — Sign in button texture
+Apply the homepage buttons’ mint sheen to the Sign in button in the top navigation.
+
+## 2026-11-12: Registration form ending
+Match the reference form ending with a full-width action followed by a centered note.
+
+## 2026-11-12 — Hero button texture
+Give Request wholesale pricing and View testing standards a mint surface with the soft diagonal sheen shown in the reference.
+
+## 2026-11-12: Wholesale pricing inquiries
+Route the homepage’s Request wholesale pricing button to a short, submit-ready contact form that asks who is reaching out and what they need.
+
+## 2026-11-12: NPI visible on opening
+Fit the full NPI field in the opening registration view, using the AP Labs screenshot as a spacing reference.
+
+## 2026-11-12: Mint registration review button
+Use the mint-filled resting state of Browse the catalog for the Review application button.
+
+## 2026-11-12: Registration review button
+Match the registration review button to the outlined Browse the catalog button.
+
+## 2026-11-12: Hero button shimmer trial
+Try the supplied pointer-responsive shimmer on Request wholesale pricing and View testing standards using the existing Method Clinical mint pills.
+
+## 2026-11-12: Centered registration form
+Match the centered provider account request composition in the supplied AP Labs screenshot using Method Clinical branding.
+
+## 2026-11-12: Registration page proportions
+Give the clinic registration page a smaller on-screen footprint so visitors can see more of the form at a glance.
+
+## 2026-11-11: Closed mobile vial
+Keep the testing card vial closed on mobile. Desktop retains the cap lift and card tilt on hover.
+
+## 2026-11-11: Hero button motion and vial backdrop
+Simplify the motion of the two hero buttons and replace the testing card's rocky backdrop with a dark emerald studio surface.
+
+## 2026-11-11: Testing section proportions
+Align the desktop heading and introduction, balance the widths of the vial and test columns, and line up the vial card with the closed test list.
+
+## 2026-11-11: Testing section spacing
+Use the open desktop space above the testing list for the existing introduction. Keep the stacked layout on smaller screens.
+
+## 2026-11-11: Vial artwork and testing transition
+Match the vial art to the approved Method Clinical Flow logo. On desktop, tilt the whole testing card with the mouse while the slate stays fixed within it. Preserve the mobile scroll lift. Blend the helix below the card into the surrounding page.
+
+## 2026-11-11: Testing vial animation
+Place a Method Clinical vial with a lifting cap in the homepage 7-layer testing figure. On desktop, hovering anywhere on the vial card lifts the cap and moves the background with the mouse. The cap reseats and the background recenters on pointer exit. Preserve the scroll-triggered lift on mobile. Use the approved NAD+ 500 mg label option 02, the Clean cap-lift screenshots, and the Green Slate hero as visual references. Retain the seven disclosures and selected-layer caption.
+
+## 2026-11-10: FAQ and menu order
+Move the FAQ off the homepage and keep it accessible from the existing menu. Put Register your clinic first.
+
 ## 2026-11-09: Compact registration form
 Show more of the clinic registration form within the first screen.
 
@@ -189,3 +258,49 @@ Owner requests “SPREAD THOSE WORDS OUT” on the FAQ header screenshot. Scope:
 
 ## 2026-11-08: Provider Access and browser logo
 Owner asks to replace the DNA symbols shown in the Provider Access panel and browser tab with the approved Method Clinical logo. Use the Flow mark already present in the header and preloader. Preserve layout, copy, palette, animations and section order.
+
+## Mobile verification card
+
+Compact the mobile verification card with a centered closed vial and a horizontal layer indicator. Scope is limited to the card below the desktop breakpoint.
+
+## Method Clinical catalog artwork
+
+Replace third-party catalog photos with Method Clinical product artwork on catalog rows and detail galleries. Cover all 94 listings and use form-specific packaging for nasal sprays, oral products, and supplies. Keep the reference assortment and its product data intact.
+
+## Catalog hero
+Replace the wholesale catalog banner texture with branded vial artwork, keeping the heading and supporting copy as live text.
+
+## Testing section catalog link
+Add a Browse the catalog action under the seven testing layers.
+
+## Vial label copy
+Use “Purity exceeds 99%” above “Physician use only” on every product vial depicted on the site.
+
+Restore the dark emerald contour background shown on the original NAD+ vial label across the vial packshots and catalog hero.
+
+## Desktop hover recovery
+Restore mouse hover on the testing vial card and the desktop helix. The compact mobile vial remains closed and the mobile hero keeps its existing video.
+
+
+## Catalog, registration and menu sign-in buttons
+
+Apply the supplied arrow-fill interaction to the homepage catalog and clinic registration calls to action and the menu sign-in button. Keep their existing destinations and Method Clinical action colors.
+
+
+## Mint button backgrounds
+
+Use the Request wholesale pricing mint for both hero actions and for the resting background of the three arrow-fill buttons.
+
+
+## Homepage header logo spacing
+
+Give the homepage header logo more room from the left edge of the rounded bar.
+
+
+## Website link preview
+
+Use the original Method Clinical logo and approved NAD+ studio vial in the website link preview.
+
+## Sign-in button contrast
+
+Make the Sign in button label readable on the mint background of the provider portal preview.
