@@ -1,0 +1,86 @@
+.button {
+  --disc-size: 2.75rem;
+  --disc-inset: 0.25rem;
+  --fill-duration: 450ms;
+  --fill-easing: cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+.label {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  min-width: 0;
+  padding: 0.75rem calc(var(--disc-size) + 1rem) 0.75rem 1.5rem;
+}
+
+.fill {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: var(--surface-section-deep);
+  color: var(--accent);
+  clip-path: inset(
+    calc((100% - var(--disc-size)) / 2) var(--disc-inset)
+    calc((100% - var(--disc-size)) / 2) calc(100% - var(--disc-inset) - var(--disc-size))
+    round var(--raw-radius-pill)
+  );
+  pointer-events: none;
+  transition: clip-path var(--fill-duration) var(--fill-easing);
+}
+
+.arrowDisc {
+  position: absolute;
+  inset-inline-end: var(--disc-inset);
+  top: 50%;
+  display: grid;
+  place-items: center;
+  width: var(--disc-size);
+  height: var(--disc-size);
+  overflow: hidden;
+  border-radius: 50%;
+  color: var(--accent);
+  pointer-events: none;
+  transform: translateY(-50%);
+}
+
+.arrowDisc svg {
+  grid-area: 1 / 1;
+  transition: transform var(--fill-duration) var(--fill-easing);
+}
+
+.arrowIncoming {
+  transform: translateX(-1.5rem) scale(0);
+}
+
+.button:is(:focus-visible, :active) .fill {
+  clip-path: inset(0 0 0 0 round var(--raw-radius-pill));
+}
+
+.button:is(:focus-visible, :active) .arrowIdle {
+  transform: translateX(1.5rem) scale(0);
+}
+
+.button:is(:focus-visible, :active) .arrowIncoming {
+  transform: none;
+}
+
+@media (any-hover: hover) {
+  .button:not(:disabled):hover .fill {
+    clip-path: inset(0 0 0 0 round var(--raw-radius-pill));
+  }
+
+  .button:not(:disabled):hover .arrowIdle {
+    transform: translateX(1.5rem) scale(0);
+  }
+
+  .button:not(:disabled):hover .arrowIncoming {
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fill,
+  .arrowDisc svg {
+    transition: none;
+  }
+}
