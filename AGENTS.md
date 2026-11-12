@@ -11,6 +11,10 @@ For every website change in the WebDev project, update both the site's GitHub re
 3. Apply the same change to the Drive source and replace the existing latest ZIP in place. Keep the unpacked source in sync when the site has a Drive source folder.
 4. Verify the Drive revision and the GitHub commit before reporting completion. Report any blocked destination and what remains to be done.
 
+### Production release approval
+
+For sites with GitHub connected to production hosting, commit routine website changes to a non-production branch and sync the Drive source as usual. Keep production on hold until Zander explicitly asks to publish that release to production. Until then, leave the production branch and production deploy settings alone. This includes direct pushes, PR merges, and manual production deploys. For Mint Clinical, treat `main` as the Netlify production branch. Record the working branch and Drive revision in the handoff.
+
 ## This is NOT the Next.js you know
 
 This version has breaking changes — APIs, conventions, and file structure may all
