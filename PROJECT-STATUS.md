@@ -4,7 +4,15 @@ Replaced the seven-layer testing timeline with a static glass stack and seven nu
 
 ## 2026-11-12 — Testing Standards process strip
 
-Removed the six-step Quality Process strip from the GitHub source. The seven-layer testing protocol now closes the page with one section of bottom spacing. Verified the committed source. The build, desktop and mobile layout review, and deployment to the separate Sites source are pending because the execution environment is unavailable.
+Removed the six-step Quality Process strip from the current Testing Standards layout. Lint, TypeScript, and production export passed. The exported page ends with the seven-layer testing protocol, and all seven items are present.
+
+## 2026-11-12 — Testing Standards visual refresh
+
+Production export, TypeScript, lint and the exported copy check passed. Chromium opened the page from the homepage CTA and verified desktop rendering and reflow at 390px and 320px. All 44 approved copy strings remain present.
+
+## 2026-11-12 — The Mint Standard
+
+Lint and the production export passed. Verified the exported homepage heading reads The Mint Standard with the existing accent class on Mint.
 
 ## 2026-11-12 — Mint Clinical rebrand
 

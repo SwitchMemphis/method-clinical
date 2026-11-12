@@ -2,6 +2,14 @@
 
 Give the seven-layer testing protocol a more visual treatment while keeping all seven titles and descriptions visible without interaction.
 
+## 2026-11-12 — Testing Standards visual refresh
+
+Refresh the standalone Testing Standards page with a more visual layout and two illustrative images. Retain the approved copy and homepage CTA.
+
+## 2026-11-12 — The Mint Standard
+
+Rename the homepage sourcing section to The Mint Standard.
+
 ## 2026-11-12 — Mint Clinical rebrand
 
 Rebrand the current site as Mint Clinical, including the wordmark, catalog packaging, web and social metadata, and public copy.

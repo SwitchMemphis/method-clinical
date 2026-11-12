@@ -125,8 +125,8 @@ export const HERO_CONTENT: HeroContent = {
 };
 
 export const SOURCING_CONTENT: SourcingContent = {
-  title: "The Clinical Standard",
-  titleAccent: "Clinical",
+  title: "The Mint Standard",
+  titleAccent: "Mint",
   reviewNote: "Draft statements for private review.",
   statements: [
     { title: "FDA Listed Facilities", description: "All active pharmaceutical ingredients are sourced from an FDA-registered 503B outsourcing facility." },

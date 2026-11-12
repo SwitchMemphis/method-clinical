@@ -2,6 +2,14 @@
 
 Use an exploded glass stack with one translucent plate and a numbered connector per test. Put the approved description next to its plate and retain the aligned stack at phone widths.
 
+## 2026-11-12 — Testing Standards visual refresh
+
+Pair the introductory copy with an emerald optical-bench still life. Adapt the feature grid and numbered timeline from 21st and the split composition and emerald lighting from GetLayers Malachite. Use the optical-glass still life in the origin section. Both WebP images are illustrative. Stack the hero, cards and process at narrow widths.
+
+## 2026-11-12 — The Mint Standard
+
+Use the existing mint accent on Mint in the homepage sourcing heading.
+
 ## 2026-11-12 — Mint Clinical rebrand
 
 Retain the Flow symbol, emerald palette, existing layouts, and The Clinical Standard heading. Render Mint Clinical on the wordmark and packaging.
