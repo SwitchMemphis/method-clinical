@@ -126,7 +126,7 @@ export const SOURCING_CONTENT: SourcingContent = {
   reviewNote: "Draft statements for private review.",
   statements: [
     { title: "FDA Listed Facilities", description: "All active pharmaceutical ingredients are sourced from an FDA-registered 503B outsourcing facility." },
-    { title: "Made in the U.S.", description: "Proudly made in the United States of America." },
+    { title: "Made in the U.S.", description: "Pharmaceutical-grade active ingredient, synthesized and lyophilized in the USA, then put through our own testing before a single vial leaves the facility." },
     { title: "ISO Clean Room", description: "Compounded domestically following cGMP standards." },
   ],
 };
