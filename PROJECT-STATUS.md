@@ -1,3 +1,31 @@
+## 2026-11-12 — Testing Standards horizon opener
+
+Reworked the Testing Standards opener in the supplied horizon style and prevented the hero from scrolling internally during anchor navigation. Delivery targets ChatGPT Sites and Drive.
+
+## 2026-11-12 — Clinical standards mint overlay
+
+Added the mint overlay to the clinical standards card. Delivery targets ChatGPT Sites and Drive.
+
+## 2026-11-12 — Clinical standards background revision
+
+Updated the clinical standards card with the autosampler still life. Delivery targets ChatGPT Sites and Drive.
+
+## 2026-11-12 — Mint-tinted clinical standards panel
+
+Updated the clinical standards image panel with a soft-focus pipette and sample rack. Delivery targets ChatGPT Sites and Drive.
+
+## 2026-11-12 — Clinical standards layout
+
+Built to clinical standards now uses the optical-glass image panel and four icon-led entries. Delivery targets ChatGPT Sites and Drive.
+
+## 2026-11-12 — Seven-layer vial and grid
+
+Reworked the Testing Standards protocol section with the existing Mint Clinical vial and seven visible descriptions. This revision targets the ChatGPT Sites page and the Drive source.
+
+## 2026-11-12 — Field Journal Testing Standards draft
+
+Field Journal draft for review. All approved testing copy remains in the page and the six-step Quality Process strip is absent. Production publishing requires explicit approval.
+
 ## 2026-11-12 — Seven visible testing layers
 
 Replaced the seven-layer testing timeline with a static glass stack and seven numbered callouts. All original test titles and descriptions render directly in the page.

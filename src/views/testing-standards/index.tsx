@@ -1,3 +1,4 @@
+import { ArrowDown, Building2, ClipboardCheck, FlaskConical, ShieldCheck } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -14,8 +15,14 @@ export const testingStandardsMetadata = generateMetadata({
 
 const labelClass = "text-utility-label leading-relaxed font-semibold tracking-widest text-accent uppercase";
 const headingClass = "text-balance text-3xl leading-display font-bold tracking-tight sm:text-4xl lg:text-5xl";
-const descriptionClass = "text-utility-body leading-relaxed text-foreground-muted";
 const stepNumber = (index: number) => String(index + 1).padStart(2, "0");
+
+const standardsIcons = new Map([
+  ["503B", Building2],
+  ["cGMP", ClipboardCheck],
+  ["ISO 14644", ShieldCheck],
+  ["ISO 17025", FlaskConical],
+]);
 
 export function TestingStandardsView() {
   return (
@@ -30,37 +37,52 @@ export function TestingStandardsView() {
             <Image src="/assets/mint-clinical-wordmark.png" width={548} height={175} alt="Mint Clinical" className="h-auto w-utility-logo-compact sm:w-registration-logo" />
           </Link>
 
-          <div className="mt-5 grid overflow-hidden rounded-card border border-border-subtle bg-surface-section-deep md:grid-cols-[minmax(0,5fr)_minmax(0,6fr)]">
-            <div className="flex flex-col justify-center gap-5 bg-radial-[at_0%_0%] from-accent/10 to-transparent p-6 sm:p-9 lg:p-12 xl:p-14">
-              <p className={labelClass}>{content.eyebrow}</p>
-              <h1 className="max-w-xs text-4xl leading-display font-extrabold tracking-tight sm:max-w-sm sm:text-5xl lg:text-6xl xl:text-7xl">
-                {content.title}
-              </h1>
-              <p className="max-w-md text-base leading-relaxed text-foreground-muted lg:text-lg">{content.introduction}</p>
-            </div>
-            <div className="relative aspect-video overflow-hidden bg-surface-section md:aspect-auto">
-              <Image
-                src="/assets/testing-standards/optical-bench.webp"
-                alt=""
-                fill
-                preload
-                sizes="(min-width: 1280px) 655px, (min-width: 768px) 54vw, 100vw"
-                className="object-cover object-center"
-              />
+          <div className={styles.hero}>
+            <div className={styles.heroGrid} aria-hidden="true" />
+            <div className={styles.heroHorizon} aria-hidden="true" />
+            <div className={styles.heroContent}>
+              <p className={`${labelClass} rounded-full border border-accent/25 bg-surface-section-deep px-4 py-2`}>{content.eyebrow}</p>
+              <h1 className={styles.heroTitle}>{content.title}</h1>
+              <p className="max-w-2xl text-base leading-relaxed text-foreground-muted sm:text-lg">{content.introduction}</p>
+              <a
+                href="#testing-protocol"
+                className="mt-2 inline-flex min-h-utility-target items-center gap-2 rounded-panel border border-accent/55 bg-surface-section-deep px-5 py-3 text-sm font-semibold text-foreground transition-colors hover:border-accent hover:text-accent focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent"
+              >
+                Explore the seven layers
+                <ArrowDown aria-hidden="true" className="size-4" />
+              </a>
             </div>
           </div>
         </header>
 
-        <section aria-labelledby="clinical-standards" className="grid gap-6 border-t border-border-subtle py-utility-section lg:grid-cols-[minmax(0,1fr)_minmax(0,2fr)] lg:gap-12">
-          <h2 id="clinical-standards" className={headingClass}>{content.clinicalTitle}</h2>
-          <ul role="list" className="grid gap-2 sm:grid-cols-2">
-            {content.clinicalStandards.map(({ title, description }) => (
-              <li key={title} className="grid content-start gap-3 rounded-panel border border-border-subtle bg-surface-section-deep p-5 sm:p-6 lg:p-7">
-                <h3 className="text-2xl leading-display font-bold tracking-tight text-accent sm:text-3xl">{title}</h3>
-                <p className={descriptionClass}>{description}</p>
-              </li>
-            ))}
-          </ul>
+        <section aria-labelledby="clinical-standards" className="grid gap-8 border-t border-border-subtle py-utility-section lg:grid-cols-[minmax(0,1fr)_minmax(0,2fr)] lg:items-center lg:gap-14">
+          <div className={styles.standardsPanel}>
+            <Image
+              src="/assets/testing-standards/clinical-lab-autosampler.webp"
+              alt=""
+              fill
+              sizes="(min-width: 1024px) 380px, 100vw"
+              className={styles.standardsImage}
+            />
+            <div className="relative z-10 grid justify-items-center gap-5 text-center sm:gap-7">
+              <FlaskConical aria-hidden="true" className="size-9 sm:size-11" strokeWidth={1.6} />
+              <h2 id="clinical-standards" className="max-w-[13ch] text-balance text-3xl leading-display font-bold tracking-tight sm:text-4xl lg:text-5xl">{content.clinicalTitle}</h2>
+            </div>
+          </div>
+          <dl className="grid gap-x-10 gap-y-8 sm:grid-cols-2 lg:gap-y-12">
+            {content.clinicalStandards.map(({ title, description }) => {
+              const Icon = standardsIcons.get(title) ?? ShieldCheck;
+              return (
+                <div key={title} className="grid min-w-0 content-start gap-3 sm:gap-4">
+                  <dt className="grid gap-3 text-xl leading-snug font-bold tracking-tight sm:gap-4 sm:text-2xl">
+                    <Icon aria-hidden="true" className="size-7 text-accent sm:size-8" strokeWidth={1.6} />
+                    {title}
+                  </dt>
+                  <dd className="max-w-prose text-base leading-relaxed text-foreground-muted sm:text-lg">{description}</dd>
+                </div>
+              );
+            })}
+          </dl>
         </section>
 
         <section aria-labelledby="origin-standards" className="rounded-card border border-border-subtle bg-surface-section-deep bg-linear-to-br from-accent/10 to-transparent p-6 sm:p-9 lg:p-12">
@@ -71,25 +93,44 @@ export function TestingStandardsView() {
               <li key={title} className="grid content-start gap-2 border-t border-accent/25 pt-4">
                 <span aria-hidden="true" className="font-mono text-utility-small font-semibold text-accent tabular-nums">{stepNumber(index)}</span>
                 <h3 className="text-lg leading-snug font-semibold">{title}</h3>
-                <p className={descriptionClass}>{description}</p>
+                <p className="text-utility-body leading-relaxed text-foreground-muted">{description}</p>
               </li>
             ))}
           </ol>
         </section>
 
-        <section aria-labelledby="testing-protocol" className="grid gap-6 pt-utility-section lg:gap-8">
-          <h2 id="testing-protocol" className={headingClass}>{content.protocolTitle}</h2>
-          <ol role="list" className={styles.protocol}>
+        <section aria-labelledby="testing-protocol" className="pt-utility-section">
+          <h2 id="testing-protocol" className={`${headingClass} mx-auto max-w-3xl scroll-mt-8 text-center`}>{content.protocolTitle}</h2>
+
+          <figure className={styles.vialDisplay}>
+            <div className={styles.vial}>
+              <Image
+                src="/assets/mint-testing-nad-body-flow.webp"
+                alt="Mint Clinical NAD+ vial"
+                width={584}
+                height={1057}
+                sizes="(min-width: 768px) 148px, 99px"
+                className={styles.vialBody}
+              />
+              <Image
+                src="/assets/mint-testing-nad-cap.webp"
+                alt=""
+                width={536}
+                height={338}
+                sizes="(min-width: 768px) 136px, 91px"
+                className={styles.vialCap}
+              />
+            </div>
+          </figure>
+
+          <ol role="list" className={styles.testGrid}>
             {content.protocol.map(({ title, description }, index) => (
-              <li key={title} className={styles.layer}>
-                <div aria-hidden="true" className={styles.optic}>
-                  <span className={styles.plate} />
-                  <span className={styles.number}>{stepNumber(index)}</span>
-                </div>
-                <div className={styles.copy}>
-                  <h3 className="text-lg leading-snug font-semibold tracking-tight sm:text-xl">{title}</h3>
-                  <p className={descriptionClass}>{description}</p>
-                </div>
+              <li key={title}>
+                <h3 className="flex items-baseline gap-3 text-lg leading-snug font-semibold tracking-tight sm:text-xl">
+                  <span aria-hidden="true" className="shrink-0 font-mono text-utility-small font-semibold text-accent tabular-nums">{stepNumber(index)}</span>
+                  {title}
+                </h3>
+                <p className="mt-3 max-w-xl text-base leading-relaxed text-foreground-muted">{description}</p>
               </li>
             ))}
           </ol>

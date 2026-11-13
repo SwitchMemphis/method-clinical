@@ -1,3 +1,31 @@
+## 2026-11-12 — Testing Standards horizon opener
+
+Center the opener above a CSS mint horizon and a faint grid. Add an anchor link to the seven-layer protocol.
+
+## 2026-11-12 — Clinical standards mint overlay
+
+Apply a translucent mint wash to the autosampler image and deepen the centered gradient behind the white title.
+
+## 2026-11-12 — Clinical standards background revision
+
+Use a mint-lit autosampler and glass sample vials with a localized dark overlay behind the centered title.
+
+## 2026-11-12 — Mint-tinted clinical standards panel
+
+Place a flask icon and the existing heading in the center of a tinted laboratory still life. Keep the four descriptions in the adjacent open grid.
+
+## 2026-11-12 — Clinical standards layout
+
+Reuse the optical-glass image in a dark emerald panel. Set the four standards in an open two-column grid, with one column on phones.
+
+## 2026-11-12 — Seven-layer vial and grid
+
+Reuse the assembled NAD+ vial artwork with a soft mint glow and faint elliptical lines on the existing page surface. Use internal dividers, three test columns on desktop, two on tablet, and one on phones. Monthly re-testing spans the last row.
+
+## 2026-11-12 — Field Journal Testing Standards draft
+
+Use the microscope objective still life in the full-width hero and the optical-cell still life above the protocol grid. The clinical standards use four label-and-description rows and stack their labels on phones. The two generated WebP images are illustrative studio compositions.
+
 ## 2026-11-12 — Seven visible testing layers
 
 Use an exploded glass stack with one translucent plate and a numbered connector per test. Put the approved description next to its plate and retain the aligned stack at phone widths.
