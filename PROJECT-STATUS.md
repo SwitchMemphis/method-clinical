@@ -524,3 +524,7 @@ Production build and lint passed. Verified the exported login button has the dee
 ## Mobile batch-confidence paragraph
 
 Hide the repeated batch-confidence paragraph below the existing Tailwind small breakpoint on the homepage and Testing Standards page. Keep the desktop copy and mobile standards details accessible.
+
+## Mobile helix transition and batch-confidence copy
+
+Fade the mobile helix into The Mint Standard using the shared section background. Remove the repeated batch-confidence paragraph from the homepage and Testing Standards page at all widths.

@@ -44,7 +44,6 @@ export function TestingStandardsView() {
             <div className={styles.heroContent}>
               <p className={`${labelClass} rounded-full border border-accent/25 bg-surface-section-deep px-4 py-2`}>{content.eyebrow}</p>
               <h1 className={styles.heroTitle}>{content.title}</h1>
-              <p className="hidden max-w-2xl text-base leading-relaxed text-foreground-muted sm:block sm:text-lg">{content.introduction}</p>
               <a
                 href="#testing-protocol"
                 className="mt-2 inline-flex min-h-utility-target items-center gap-2 rounded-panel border border-accent/55 bg-surface-section-deep px-5 py-3 text-sm font-semibold text-foreground transition-colors hover:border-accent hover:text-accent focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent"

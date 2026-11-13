@@ -31,9 +31,9 @@ export function Sourcing({ content }: { content: SourcingContent }) {
     >
       <animated.div
         aria-hidden="true"
-        className="pointer-events-none absolute inset-x-0 top-0 -z-10 h-72 bg-cover bg-no-repeat opacity-60 [mask-image:linear-gradient(to_bottom,black_40%,transparent)] md:inset-y-0 md:left-[42%] md:h-auto md:opacity-90 md:[mask-image:linear-gradient(to_right,transparent,black_30%)] lg:hidden"
+        className="pointer-events-none absolute inset-x-0 top-0 -z-10 h-72 bg-cover bg-no-repeat opacity-60 [mask-image:linear-gradient(to_bottom,transparent,black_24%,black_40%,transparent)] md:inset-y-0 md:left-[42%] md:h-auto md:opacity-90 md:[mask-image:linear-gradient(to_right,transparent,black_30%)] lg:hidden"
         style={{
-          backgroundImage: "linear-gradient(to bottom, var(--surface-section), transparent 18%, transparent 72%, var(--surface-section)), url('/assets/helix-scene-poster.webp')",
+          backgroundImage: "linear-gradient(to bottom, var(--surface-section), transparent 24%, transparent 72%, var(--surface-section)), url('/assets/helix-scene-poster.webp')",
           backgroundPosition: drift
             ? interpolatedProgress.to((progress) => `center ${38 + progress * 15}%`)
             : "center 45%",
@@ -55,9 +55,6 @@ export function Sourcing({ content }: { content: SourcingContent }) {
               </>
             ) : content.title}
           </h2>
-          <p className="mt-6 hidden text-sm leading-relaxed text-foreground-muted sm:block sm:text-base">
-            {content.reviewNote}
-          </p>
         </header>
 
         <ol className="relative mt-10 grid gap-5 md:mt-12 lg:grid-cols-3 lg:gap-7">

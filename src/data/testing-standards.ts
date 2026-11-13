@@ -3,7 +3,6 @@ export const testingStandardsPath = "/testing-standards/";
 export const testingStandards = {
   eyebrow: "Release standards",
   title: "Testing before trust.",
-  introduction: "Mint Clinical is designed for partners that require batch-level confidence. Products are tested in-house and third-party tested, with verification focused on identity, purity, quantity, sterility, and lot-to-lot consistency.",
   clinicalTitle: "Built to clinical standards",
   clinicalStandards: [
     { title: "503B", description: "Active pharmaceutical ingredient sourced from an FDA-registered 503B outsourcing facility." },
