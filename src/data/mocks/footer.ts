@@ -13,6 +13,7 @@ export const FOOTER_CONTENT = {
   ],
   legalTitle: "Legal & resources",
   legalLinks: [
+    { label: "Resources", href: "/resources/" },
     { label: "Privacy notice", href: "/privacy-policy/" },
     terms,
     { label: "Refund & return policy", href: "/policies/#returns" },

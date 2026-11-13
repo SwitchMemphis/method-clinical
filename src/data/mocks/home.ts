@@ -102,6 +102,7 @@ export const SITE_NAV: readonly NavLink[] = [
   { label: "Register your clinic", href: "/register/" },
   { label: "Catalog", href: "/catalog/" },
   { label: "FAQs", href: "/faq/" },
+  { label: "Resources", href: "/resources/" },
   { label: "Sourcing", href: "#why" },
   { label: "Testing", href: "#testing" },
 ];

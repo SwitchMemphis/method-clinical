@@ -1,3 +1,7 @@
+## 2026-11-12 — Resources
+
+Add a Mint Clinical Resources index and seven original guides covering the topics in the supplied AP Labs reference.
+
 ## 2026-11-12 — Homepage pricing button
 
 Remove the homepage Testing Standards CTA and use the larger Browse the catalog arrow button for Request wholesale pricing.
