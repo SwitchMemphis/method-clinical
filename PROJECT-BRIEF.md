@@ -1,3 +1,7 @@
+## 2026-11-13 — Loading logo alignment
+
+Center the full Mint Clinical logo and wordmark within the loading ring.
+
 ## 2026-11-12 — Resources
 
 Add a Mint Clinical Resources index and seven original guides covering the topics in the supplied AP Labs reference.

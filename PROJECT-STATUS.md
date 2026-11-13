@@ -1,3 +1,7 @@
+## 2026-11-13 — Loading logo alignment
+
+Measured the PNG alpha bounds and verified the responsive centering calculation at viewport widths from 320px to 1440px. Local Chromium could not start because the runtime denied socket creation. Delivery targets `staging/drive-sync` and the canonical Drive source.
+
 ## 2026-11-12 — Resources
 
 Added the Resources index and seven static article pages. Build, TypeScript, lint, article and return links, menu data, footer, canonical URLs and sitemap checks passed. Browser visual and interactive checks were unavailable in the local runtime. GitHub staging and ChatGPT Sites preview are the release targets. Netlify production remains on hold.

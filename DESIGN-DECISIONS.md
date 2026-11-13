@@ -1,3 +1,7 @@
+## 2026-11-13 — Loading logo alignment
+
+Offset both preloader logo layers by half the transparent right margin of the existing PNG. The shared logo artwork and loader timing are preserved.
+
 ## 2026-11-12 — Resources
 
 Keep the reference index hierarchy and three-column desktop card grid, then use Mint Clinical typography and color tokens. Link Resources after FAQs in the menu and from the footer. Write original guides and use FDA references where technical or regulatory claims require them.

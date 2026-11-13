@@ -149,8 +149,12 @@ export const Preloader = () => {
           />
         </svg>
 
-        {/* The faint lockup stays visible beneath the progress wipe. */}
-        <div className="relative w-[72%]">
+        {/* The wordmark PNG has 82 transparent pixels on the right. Move both
+            layers by half that space to center the visible artwork. */}
+        <div
+          className="relative w-[72%]"
+          style={{ translate: `${(41 / 548) * 100}%` }}
+        >
           <Image
             src="/assets/mint-clinical-wordmark.png"
             alt=""
