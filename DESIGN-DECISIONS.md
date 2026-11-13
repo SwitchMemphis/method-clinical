@@ -1,3 +1,7 @@
+## 2026-11-13 — Homepage typeface trial
+
+Preview Space Grotesk 600 on the homepage headline with a white first line and mint second line. Broader typography changes await approval.
+
 ## 2026-11-13 — Homepage hero typography
 
 Set the hero lead and mint accent with separate responsive typography tokens. Widen the desktop supporting copy to 42rem and balance its wrapping.
@@ -15,13 +19,13 @@ Share one byline between the cards and article headers. Store display dates and 
 Recolor the original wordmark artwork to the existing `#81F5B0` accent. Header logos share the mint PNG with the original transparency, dimensions and spacing.
 
 
-## 2026-11-13 — Resource article import
-
-Keep the existing resource destinations and image grid. Add breadcrumbs, read times, article-specific link groups, FAQ disclosures and related guide cards. Route partner inquiries to clinic registration and pricing inquiries to the existing preview form.
-
 ## 2026-11-13 — ISO cleanroom and cGMP sourcing copy
 
 Keep the standards in one sourcing card with the existing flask icon and responsive card layout. The copy covers U.S. compounding under cGMP, sterile handling and filling in an ISO 14644–classified cleanroom, ISO/IEC 17025 laboratory testing, ISO 9001 quality management, and the certificate of analysis.
+
+## 2026-11-13 — Resource article import
+
+Keep the existing resource destinations and image grid. Add breadcrumbs, read times, article-specific link groups, FAQ disclosures and related guide cards. Route partner inquiries to clinic registration and pricing inquiries to the existing preview form.
 
 ## 2026-11-13 — Sourcing card spacing
 

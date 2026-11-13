@@ -506,6 +506,13 @@ canvas[data-scene-unavailable] {
 }
 
 /* Homepage hero typography. */
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("/assets/space-grotesk-latin-600.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
 :root {
   --raw-size-hero-heading: clamp(28px, 8.8vw, 48px);
   --raw-size-hero-heading-accent: clamp(23px, 6.8vw, 40px);
@@ -521,6 +528,7 @@ canvas[data-scene-unavailable] {
   --hero-description-width: var(--raw-size-hero-description-width);
 }
 @theme inline {
+  --font-hero-heading: "Space Grotesk", var(--font-google-sans-flex), sans-serif;
   --text-hero-heading: var(--hero-heading);
   --text-hero-heading-accent: var(--hero-heading-accent);
   --text-hero-heading-desktop: var(--hero-heading-desktop);

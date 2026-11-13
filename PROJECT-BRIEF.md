@@ -1,3 +1,7 @@
+## 2026-11-13 — Homepage typeface trial
+
+Preview Space Grotesk 600 on the homepage headline with a white first line and mint second line. Broader typography changes await approval.
+
 ## 2026-11-13 — Homepage hero typography
 
 Apply the approved 76 px and 60 px desktop hero headline sizes and carry the hierarchy to mobile.
@@ -15,13 +19,13 @@ Add a Mint Team byline, editorial date and estimated read time to all seven clin
 Use the existing mint accent for the symbol and wordmark in the site headers.
 
 
-## 2026-11-13 — Resource article import
-
-Import the seven supplied article bodies and preserve the article link and CTA structure in the Mint Clinical brand.
-
 ## 2026-11-13 — ISO cleanroom and cGMP sourcing copy
 
 Use the approved ISO Cleanroom & cGMP Standards title and copy in the third card under The Mint Standard on the homepage.
+
+## 2026-11-13 — Resource article import
+
+Import the seven supplied article bodies and preserve the article link and CTA structure in the Mint Clinical brand.
 
 ## 2026-11-13 — Sourcing card spacing
 
