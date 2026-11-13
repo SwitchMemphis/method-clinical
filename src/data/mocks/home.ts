@@ -36,7 +36,7 @@ export interface HeroContent extends SectionIntro {
 export interface SourcingContent {
   titleAccent: string;
   title: string;
-  statements: readonly { title: string; description: string }[];
+  statements: readonly { title: string; description: string; action?: { label: string; href: string } }[];
 }
 
 export interface ServiceCard {
@@ -125,7 +125,17 @@ export const SOURCING_CONTENT: SourcingContent = {
     {
       title: "cGMP Standards",
       description:
-        "Compounded following cGMP standards, with sterile handling and filling in an ISO 14644–classified cleanroom. Every certificate of analysis is backed by independent laboratory testing under ISO/IEC 17025 and quality management under ISO 9001.",
+        "Compounded following cGMP standards, with sterile handling and filling in an ISO 14644–classified cleanroom.",
+    },
+    {
+      title: "ISO-verified testing",
+      description:
+        "Every certificate of analysis is backed by independent laboratory testing under ISO/IEC 17025 and quality management under ISO 9001.",
+    },
+    {
+      title: "The 7-Layer Test",
+      description: "See what we check at each layer and how to read the results.",
+      action: { label: "Explore the seven layers", href: "#testing" },
     },
   ],
 };

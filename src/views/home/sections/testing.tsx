@@ -9,6 +9,10 @@ export interface TestingProps {
 }
 
 export function Testing({ content }: TestingProps) {
+  const titleBreak = content.title.lastIndexOf(" ");
+  const titlePrefix = content.title.slice(0, Math.max(0, titleBreak));
+  const titleAccent = content.title.slice(titleBreak + 1);
+
   return (
     <section id="testing" aria-labelledby="testing-heading" className="relative isolate scroll-mt-28 overflow-hidden bg-surface-section px-5 py-16 md:px-10 md:py-24 lg:pt-testing-top lg:pb-testing-edge">
       <div aria-hidden="true" className="pointer-events-none absolute inset-y-0 right-0 -z-10 w-4/5 opacity-10 [mask-image:linear-gradient(to_bottom,transparent,black_30%,transparent)] md:w-1/2">
@@ -19,7 +23,7 @@ export function Testing({ content }: TestingProps) {
           <div>
             {content.eyebrow && <p className="text-xs leading-relaxed font-semibold tracking-widest text-accent uppercase lg:text-testing-label">{content.eyebrow}</p>}
             <h2 id="testing-heading" className="text-4xl leading-display font-extrabold tracking-tight sm:text-5xl md:text-6xl lg:text-testing-title">
-              {content.title}{" "}<span className="text-accent">{content.emphasis}</span>
+              {titlePrefix}{" "}<span className="text-accent">{titleAccent}</span>{" "}{content.emphasis}
             </h2>
           </div>
           <p className="max-w-4xl text-base leading-relaxed text-foreground-muted lg:max-w-testing-measure lg:pt-1.5 lg:text-testing-body lg:text-pretty">{content.description}</p>

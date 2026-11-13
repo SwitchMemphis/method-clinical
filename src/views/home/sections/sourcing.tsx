@@ -1,83 +1,148 @@
 "use client";
 
-import { animated, useReducedMotion } from "@react-spring/web";
-import { Building2, FlaskConical, MapPin } from "lucide-react";
+import { animated, useSpring } from "@react-spring/web";
+import { ArrowDown, Building2, ClipboardCheck, FlaskConical, MapPin } from "lucide-react";
 import { useRef } from "react";
 
-import { useRobot } from "@/components/common/robot-view";
 import type { SourcingContent } from "@/data/mocks/home";
-import { useProgressTrigger } from "@/hooks/animation/use-progress-trigger";
+import { TESTING_CONTENT } from "@/data/mocks/testing";
+import { useLoop } from "@/hooks/animation/use-render-loop";
 
-const statementIcons = [Building2, MapPin, FlaskConical];
+const statementIcons = [Building2, MapPin, FlaskConical, ClipboardCheck];
+const cardBackgrounds = ["facilities", "usa", "cgmp", "iso"] as const;
+const cardStyles = [
+  "border-accent bg-accent text-surface-section",
+  "border-border-subtle bg-surface-glass-subtle",
+  "border-accent/30 bg-accent/15",
+];
 
 export function Sourcing({ content }: { content: SourcingContent }) {
   const accentIndex = content.title.indexOf(content.titleAccent);
-  const section = useRef<HTMLElement>(null);
-  const reducedMotion = useReducedMotion();
-  const robot = useRobot();
-  const drift = !robot && reducedMotion === false;
-  const { interpolatedProgress } = useProgressTrigger({
-    enabled: drift,
-    elementRef: section,
-    config: { tension: 150, friction: 34 },
-  });
+  const sectionRef = useRef<HTMLElement>(null);
+  const panelRef = useRef<HTMLDivElement>(null);
+  const railRef = useRef<HTMLOListElement>(null);
+  const targetRef = useRef(0);
+  const keyboardNavigation = useRef(false);
+  const [{ x }, api] = useSpring(() => ({
+    x: 0,
+    config: { tension: 220, friction: 42, clamp: true },
+  }));
+
+  useLoop(() => {
+    const section = sectionRef.current;
+    const panel = panelRef.current;
+    const rail = railRef.current;
+    if (!section || !panel || !rail) return;
+
+    const runway = section.offsetHeight - panel.offsetHeight;
+    // Reserve the last third of a viewport for reading the final card before unpinning.
+    const scrub = runway - window.innerHeight / 3;
+    const travel = rail.scrollWidth - rail.clientWidth;
+    const progress = scrub > 0
+      ? Math.min(Math.max(-section.getBoundingClientRect().top / scrub, 0), 1)
+      : 0;
+    const target = keyboardNavigation.current && scrub > 0 ? -travel : -progress * travel;
+
+    if (target === targetRef.current) return;
+    targetRef.current = target;
+    api.start({ x: target });
+  }, { framerate: 0 });
 
   return (
     <section
-      ref={section}
+      ref={sectionRef}
       id="why"
       aria-labelledby="sourcing-heading"
-      className="relative z-10 isolate scroll-mt-24 overflow-hidden bg-surface-section px-4 pt-12 pb-16 md:px-10 md:pt-16 md:pb-24 lg:bg-transparent lg:pb-12"
+      className="relative z-10 scroll-mt-24 motion-safe:min-h-[400svh]"
     >
-      <animated.div
-        aria-hidden="true"
-        className="pointer-events-none absolute inset-x-0 top-0 -z-10 h-72 bg-cover bg-no-repeat opacity-60 [mask-image:linear-gradient(to_bottom,transparent,black_24%,black_40%,transparent)] md:inset-y-0 md:left-[42%] md:h-auto md:opacity-90 md:[mask-image:linear-gradient(to_right,transparent,black_30%)] lg:hidden"
-        style={{
-          backgroundImage: "linear-gradient(to bottom, var(--surface-section), transparent 24%, transparent 72%, var(--surface-section)), url('/assets/helix-scene-poster.webp')",
-          backgroundPosition: drift
-            ? interpolatedProgress.to((progress) => `center ${38 + progress * 15}%`)
-            : "center 45%",
-        }}
-      />
-
-      <div className="relative mx-auto max-w-6xl overflow-hidden rounded-card border border-border-subtle bg-surface-glass-subtle p-5 backdrop-blur-glass sm:p-8 md:rounded-section md:p-12 lg:px-12 lg:py-16">
+      <div
+        ref={panelRef}
+        className="relative isolate flex flex-col gap-8 overflow-clip rounded-t-section bg-surface-section px-5 pt-24 pb-5 md:gap-12 md:px-10 md:pb-10 motion-safe:sticky motion-safe:top-0 motion-safe:min-h-svh motion-safe:justify-center"
+      >
         <div
           aria-hidden="true"
-          className="pointer-events-none absolute inset-0 bg-radial-[at_50%_0%] from-accent/10 via-transparent to-transparent"
+          className="pointer-events-none absolute inset-0 -z-10 bg-radial-[at_75%_0%] from-accent/15 via-transparent to-transparent"
         />
-        <header className="relative mx-auto max-w-3xl text-center">
+        <header>
           <h2 id="sourcing-heading" className="text-4xl leading-display font-extrabold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl">
             {accentIndex >= 0 ? (
               <>
                 {content.title.slice(0, accentIndex)}
                 <span className="text-accent">{content.titleAccent}</span>
-                {content.title.slice(accentIndex + content.titleAccent.length)}
+                <br className="sm:hidden" />
+                <span className="hidden sm:inline">{" "}</span>
+                {content.title.slice(accentIndex + content.titleAccent.length).trimStart()}
               </>
             ) : content.title}
           </h2>
         </header>
 
-        <ol className="relative mt-10 grid gap-5 md:mt-12 lg:grid-cols-3 lg:gap-7">
-          {content.statements.map(({ title, description }, index) => {
-            const Icon = statementIcons[index] ?? Building2;
+        <animated.ol
+          ref={railRef}
+          className="grid auto-rows-fr items-stretch gap-3 md:gap-4 motion-safe:flex motion-safe:will-change-transform motion-reduce:md:grid-cols-3"
+          style={{ x }}
+        >
+          {content.statements.map(({ title, description, action }, index) => {
+            const Icon = statementIcons[index];
+            const background = cardBackgrounds[index];
+            const headingColor = Icon === MapPin ? "text-accent" : "";
             return (
-              <li key={title} className="grid content-start gap-5 rounded-card border border-border-subtle/70 bg-surface-section/80 p-6 lg:p-7">
-                <span aria-hidden="true" className="grid size-12 place-items-center rounded-2xl border border-accent/20 bg-accent/10 text-accent">
-                  <Icon className="size-6" strokeWidth={1.5} />
-                </span>
-                <div className="grid gap-3">
-                  <h3 className="text-xl leading-snug font-bold tracking-tight [text-box:normal] lg:text-2xl">
+              <li
+                key={title}
+                className={`relative isolate overflow-hidden flex min-h-72 text-accent flex-col justify-center gap-3 rounded-card border p-6 md:min-h-80 md:gap-4 md:p-8 motion-safe:w-[90%] motion-safe:shrink-0 motion-safe:sm:w-[62%] motion-safe:lg:w-[36%] ${background ? "border-accent/25 bg-surface-section" : cardStyles[index % cardStyles.length]}`}
+              >
+                {background && (
+                  <div
+                    aria-hidden="true"
+                    className="pointer-events-none absolute inset-0 -z-10 bg-cover bg-right"
+                    style={{
+                      backgroundImage: `linear-gradient(90deg, rgba(5, 22, 15, .93), rgba(5, 22, 15, .80) 60%, rgba(5, 22, 15, .57)), url(/assets/mint-standard/${background}.webp)`,
+                    }}
+                  />
+                )}
+                <div className={`flex flex-col gap-3 ${headingColor}`}>
+                  {Icon && <Icon aria-hidden="true" className="size-7" strokeWidth={1.5} />}
+                  <h3 className="text-2xl leading-snug font-bold tracking-tight [text-box:normal] md:text-3xl">
                     {title}
                   </h3>
-                  <p className="text-utility-body leading-relaxed text-foreground-muted [text-box:normal]">
+                </div>
+                {description && (
+                  <p className="max-w-lg text-lg leading-snug text-white [text-box:normal] md:text-xl">
                     {description}
                   </p>
-                </div>
+                )}
+                {action && (
+                  <>
+                    <ol aria-label="Seven testing layers" className="grid gap-1.5 py-1">
+                      {TESTING_CONTENT.layers.map(({ shortLabel }, layer) => (
+                        <li key={shortLabel} className="grid grid-cols-[auto_1fr_auto] items-center gap-3 text-xs md:text-sm">
+                          <span aria-hidden="true" className="font-mono text-accent">
+                            {String(layer + 1).padStart(2, "0")}
+                          </span>
+                          <span aria-hidden="true" className="h-1.5 rounded-full bg-linear-to-r from-accent/90 to-accent/15" />
+                          <span className="text-white">{shortLabel}</span>
+                        </li>
+                      ))}
+                    </ol>
+                    <a
+                      href={action.href}
+                      className="group inline-flex items-center gap-3 self-start font-semibold text-accent focus-visible:outline-2 focus-visible:outline-offset-4"
+                      onFocus={(event) => {
+                        keyboardNavigation.current = event.currentTarget.matches(":focus-visible");
+                      }}
+                      onBlur={() => { keyboardNavigation.current = false; }}
+                    >
+                      <span className="grid size-9 shrink-0 place-items-center rounded-full bg-accent text-surface-section">
+                        <ArrowDown aria-hidden="true" className="size-4" />
+                      </span>
+                      <span className="text-white group-hover:underline">{action.label}</span>
+                    </a>
+                  </>
+                )}
               </li>
             );
           })}
-        </ol>
-
+        </animated.ol>
       </div>
     </section>
   );
