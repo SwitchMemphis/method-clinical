@@ -1,3 +1,7 @@
+## 2026-11-13 — Resource article bylines
+
+Added matching bylines, editorial dates and read times to the resources index and all seven article headers.
+
 ## 2026-11-13 — Resource article imagery
 
 Added dedicated editorial photography for the white-label, supplier due diligence and certificate of analysis guides. The resource cards and matching article headers share the three optimized WebP files.

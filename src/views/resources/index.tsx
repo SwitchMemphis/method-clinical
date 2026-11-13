@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 import { ArrowFillButton } from "@/components/ui/arrow-fill-button";
-import { BlogsSection } from "@/components/ui/blogs-3";
+import { ArticleByline, BlogsSection } from "@/components/ui/blogs-3";
 import { RESOURCE_ARTICLES } from "@/data/resource-articles";
 import { RESOURCES, resourcePath } from "@/data/resources";
 import { generateMetadata } from "@/utils/seo/generate-page-metadata";
@@ -31,7 +31,9 @@ export function ResourcesView() {
           <p className={`${styles.intro} text-pretty text-foreground-muted`}>{description}</p>
         </header>
         <BlogsSection
-          articles={RESOURCES.map(({ slug, category, title, summary, image }) => ({
+          articles={RESOURCES.map(({ slug, category, title, summary, image, date, readTime }) => ({
+            date,
+            readTime,
             category,
             title,
             summary,
@@ -62,8 +64,11 @@ export function ResourceArticleView({ guide }: { guide: (typeof RESOURCES)[numbe
           </ol>
         </nav>
         <header className={`${styles.articleHeader} border-b border-border-subtle`}>
-          <p className="text-utility-small font-semibold text-accent">{guide.category} · {guide.readTime} min read</p>
+          <p className="text-utility-small font-semibold text-accent">{guide.category}</p>
           <h1 className={`${styles.headline} text-balance font-bold tracking-tight`}>{guide.title}</h1>
+          <div className="mt-4">
+            <ArticleByline date={guide.date} readTime={guide.readTime} />
+          </div>
           {article.intro.map((paragraph) => (
             <p key={paragraph} className={`${styles.intro} text-pretty text-foreground-muted`}>{paragraph}</p>
           ))}

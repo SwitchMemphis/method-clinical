@@ -1,3 +1,7 @@
+## 2026-11-13 — Resource article bylines
+
+Share one byline between the cards and article headers. Store display dates and estimated read times with the existing article data. The assigned editorial dates range from August 24 to November 13, 2026.
+
 ## 2026-11-13 — Mint header logo
 
 Recolor the original wordmark artwork to the existing `#81F5B0` accent. Header logos share the mint PNG with the original transparency, dimensions and spacing.

@@ -1,3 +1,7 @@
+## 2026-11-13 — Resource article bylines
+
+Add a Mint Team byline, editorial date and estimated read time to all seven clinic resource cards and article headers.
+
 ## 2026-11-13 — Mint header logo
 
 Use the existing mint accent for the symbol and wordmark in the site headers.
