@@ -3,6 +3,7 @@ type Resource = {
   category: "Operations" | "Wholesale Buying" | "Quality & Testing";
   title: string;
   summary: string;
+  image: string;
   sections: { title: string; body: string }[];
   sources?: { label: string; href: string }[];
 };
@@ -19,6 +20,7 @@ const compounding = {
 export const RESOURCES: Resource[] = [
   {
     slug: "clinic-inventory-planning",
+    image: "/assets/testing-standards/clinical-lab-autosampler.webp",
     category: "Operations",
     title: "A practical inventory plan for clinics",
     summary: "Build a purchasing rhythm around actual usage, lead times and the stock your clinic can release.",
@@ -30,6 +32,7 @@ export const RESOURCES: Resource[] = [
   },
   {
     slug: "private-label-fulfillment",
+    image: "/assets/testing-standards/optical-bench.webp",
     category: "Wholesale Buying",
     title: "What to establish before private-label fulfillment",
     summary: "Define what your clinic owns, what the fulfillment partner owns and how both sides trace a lot.",
@@ -41,6 +44,7 @@ export const RESOURCES: Resource[] = [
   },
   {
     slug: "storage-and-receiving",
+    image: "/assets/mobile-hero-lab-vials.webp",
     category: "Operations",
     title: "Receiving and storage checks for clinic teams",
     summary: "Create a repeatable receiving process with clear records, handling instructions and a path for exceptions.",
@@ -52,6 +56,7 @@ export const RESOURCES: Resource[] = [
   },
   {
     slug: "what-quality-tests-show",
+    image: "/assets/testing-standards/field-journal-microscope.webp",
     category: "Quality & Testing",
     title: "What a peptide testing panel actually tells you",
     summary: "Read purity, identity, sterility and endotoxin results as separate pieces of evidence.",
@@ -67,6 +72,7 @@ export const RESOURCES: Resource[] = [
   },
   {
     slug: "wholesale-buying-guide",
+    image: "/assets/clinic-growth-analytical-lab.webp",
     category: "Wholesale Buying",
     title: "A clinic’s guide to reviewing wholesale suppliers",
     summary: "Compare supplier documentation, responsibilities and receiving terms before placing an order.",
@@ -79,6 +85,7 @@ export const RESOURCES: Resource[] = [
   },
   {
     slug: "supplier-due-diligence-questions",
+    image: "/assets/testing-standards/optical-glass.webp",
     category: "Wholesale Buying",
     title: "Nine questions for a supplier due-diligence call",
     summary: "Use the same questions for every prospective supplier so your clinic can compare written answers.",
@@ -91,6 +98,7 @@ export const RESOURCES: Resource[] = [
   },
   {
     slug: "reading-a-certificate-of-analysis",
+    image: "/assets/testing-standards/field-journal-optical-cells.webp",
     category: "Quality & Testing",
     title: "How to review a certificate of analysis",
     summary: "Match the document to the shipment, interpret the result columns and flag missing evidence.",

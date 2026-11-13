@@ -1,3 +1,7 @@
+## 2026-11-13 — Resources editorial layout
+
+Use a left-aligned introduction, thin divider and unboxed cards with 16:9 crops from the existing Mint Clinical image library. Keep one, two and three columns at the established breakpoints. The card metadata uses real resource categories. Native Next.js image loading and links cover the template behavior without new dependencies.
+
 ## 2026-11-13 — Resources layout
 
 Use one column on phones, two on tablets and smaller desktops, and three on wide desktops. Give the grid 24–44 px gutters and the cards a clear label, title, summary and action rhythm. Use bounded type sizes and opt Resources content out of the landing page’s cap-height trim. Keep article prose to a comfortable reading measure.

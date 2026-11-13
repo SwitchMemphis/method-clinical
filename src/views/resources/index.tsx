@@ -1,6 +1,7 @@
-import { ArrowLeft, ArrowUpRight } from "lucide-react";
+import { ArrowLeft } from "lucide-react";
 import Link from "next/link";
 
+import { BlogsSection } from "@/components/ui/blogs-3";
 import { RESOURCES, resourcePath } from "@/data/resources";
 import { generateMetadata } from "@/utils/seo/generate-page-metadata";
 
@@ -21,23 +22,20 @@ export function ResourcesView() {
     <main className={`${styles.page} relative bg-surface-section px-utility-gutter pb-utility-section text-foreground`}>
       <div className="mx-auto max-w-utility-content">
         <Link href="/" className={backClass}><ArrowLeft size={16} aria-hidden="true" /> Mint Clinical home</Link>
-        <header className={`${styles.indexHeader} mx-auto text-center`}>
+        <header className={styles.indexHeader}>
           <p className="text-utility-small font-semibold text-accent">Resources</p>
           <h1 className={`${styles.headline} text-balance font-bold tracking-tight`}>Guides for clinics and wholesale buyers</h1>
-          <p className={`${styles.intro} ${styles.indexIntro} text-pretty text-foreground-muted`}>{description}</p>
+          <p className={`${styles.intro} text-pretty text-foreground-muted`}>{description}</p>
         </header>
-        <ul role="list" className={`${styles.grid} grid md:grid-cols-2 xl:grid-cols-3`}>
-          {RESOURCES.map((guide) => (
-            <li key={guide.slug}>
-              <Link href={resourcePath(guide.slug)} className={`${styles.card} group flex h-full flex-col rounded-card border border-border-subtle bg-surface-section-deep hover:border-accent ${focusClass}`}>
-                <p className="text-utility-small font-semibold text-accent">{guide.category}</p>
-                <h2 className={`${styles.cardTitle} font-bold tracking-tight`}>{guide.title}</h2>
-                <p className={`${styles.summary} text-utility-body text-pretty text-foreground-muted`}>{guide.summary}</p>
-                <span aria-hidden="true" className="mt-auto inline-flex items-center gap-2 text-utility-small font-semibold text-accent group-hover:underline">Read guide <ArrowUpRight size={16} /></span>
-              </Link>
-            </li>
-          ))}
-        </ul>
+        <BlogsSection
+          articles={RESOURCES.map(({ slug, category, title, summary, image }) => ({
+            category,
+            title,
+            summary,
+            image,
+            href: resourcePath(slug),
+          }))}
+        />
       </div>
     </main>
   );

@@ -1,3 +1,7 @@
+## 2026-11-13 — Resources editorial layout
+
+Adapt the supplied 21st.dev image-led layout for the public Resources index using the existing Mint Clinical guides and approved site imagery.
+
 ## 2026-11-13 — Resources layout
 
 Refine the Resources index and guide pages after review of the crowded card grid. Preserve the seven guides, their order, and the existing Mint Clinical visual identity.

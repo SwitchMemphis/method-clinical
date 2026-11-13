@@ -1,3 +1,7 @@
+## 2026-11-13 — Resources editorial layout
+
+Resources now uses an image-led index with seven existing guide destinations. The editorial treatment is limited to the index. Netlify production stays on hold.
+
 ## 2026-11-13 — Resources layout
 
 Refined Resources card spacing and article typography. The change is scoped to Resources. GitHub staging, Drive and the ChatGPT preview are the delivery targets.

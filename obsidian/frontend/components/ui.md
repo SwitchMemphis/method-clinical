@@ -1,3 +1,7 @@
+## 2026-11-13 — Resources editorial layout
+
+`BlogsSection` in `src/components/ui/blogs-3.tsx` renders linked editorial cards with a 16:9 image, category, title and summary. The Resources view supplies the existing guide data and routes.
+
 ---
 tags: [frontend, component, catalog, stable]
 updated: 2026-08-10
