@@ -57,7 +57,7 @@ export function WholesalePricingForm() {
         />
       </label>
       <Button type="submit" disabled={!ready} className="mt-1 w-full rounded-panel text-base font-semibold">
-        Review pricing request
+        Submit pricing request
       </Button>
       <p id="pricing-preview" className="text-center text-utility-small text-foreground-muted">
         Preview only. Use sample details. Entries stay in your browser.
