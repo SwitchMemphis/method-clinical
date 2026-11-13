@@ -10,14 +10,7 @@ export const testingStandards = {
     { title: "cGMP", description: "Produced under Current Good Manufacturing Practice — controlled, documented, repeatable." },
     { title: "ISO 14644", description: "Sterile handling and filling in an ISO 14644 classified cleanroom environment." },
     { title: "ISO 17025", description: "Independent lab standards (ISO 17025 · ISO 9001) behind every certificate of analysis." },
-  ],
-  originTitle: "Made in America — verified at every step",
-  originDescription: "Pharmaceutical-grade active ingredient, synthesized and lyophilized in the USA, then put through our own testing before a single vial leaves the facility.",
-  originSteps: [
-    { title: "Pharma-grade API", description: "Sourced from a 503B-grade manufacturer with verified identity." },
-    { title: "US synthesis & freeze-drying", description: "Synthesized and lyophilized domestically under strict process control." },
-    { title: "Seven-layer testing", description: "HPLC, mass spec, sterility, and endotoxin checks before release." },
-    { title: "Blind-ship fulfillment", description: "Packed and shipped under your clinic’s branding." },
+    { title: "Made in America", description: "Pharmaceutical-grade active ingredient, synthesized and lyophilized in the USA, then put through our own testing before a single vial leaves the facility." },
   ],
   protocolTitle: "The seven-layer testing protocol",
   protocol: [

@@ -1,3 +1,35 @@
+## 2026-11-12 — Made in America standards entry
+
+Move “Made in America” into the clinical standards grid as the fifth item below the second row and remove the standalone origin and fulfillment block.
+
+## 2026-11-12 — Testing Standards horizon opener
+
+Use the supplied horizon reference for the Testing Standards opener while preserving approved page copy.
+
+## 2026-11-12 — Clinical standards mint overlay
+
+Tint the autosampler background mint to improve the legibility of the centered title.
+
+## 2026-11-12 — Clinical standards background revision
+
+Replace the clinical standards background with a more recognizable laboratory image.
+
+## 2026-11-12 — Mint-tinted clinical standards panel
+
+Center the clinical standards heading over a mint-tinted, soft-focus medical testing image.
+
+## 2026-11-12 — Clinical standards layout
+
+Apply the reference layout to Built to clinical standards with an image panel and four icon-led standards. Keep the approved content.
+
+## 2026-11-12 — Seven-layer vial and grid
+
+Match the supplied open grid reference for the seven-layer section. Place the approved Mint Clinical vial above the grid and show all seven descriptions directly.
+
+## 2026-11-12 — Field Journal Testing Standards draft
+
+Implement the selected Field Journal direction for Testing Standards. Improve readability of the clinical standards and use two new images, with all seven tests readable without interaction.
+
 ## 2026-11-12 — Seven visible testing layers
 
 Give the seven-layer testing protocol a more visual treatment while keeping all seven titles and descriptions visible without interaction.
