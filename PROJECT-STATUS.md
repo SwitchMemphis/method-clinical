@@ -1,3 +1,7 @@
+## 2026-11-13 — Resource article imagery
+
+Added dedicated editorial photography for the white-label, supplier due diligence and certificate of analysis guides. The resource cards and matching article headers share the three optimized WebP files.
+
 ## 2026-11-13 — Resource link spacing
 
 Increased padding and link spacing in resource article callouts. Each link has a 44 px minimum target height, and long labels wrap within the panel.

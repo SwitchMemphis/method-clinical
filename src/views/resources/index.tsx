@@ -1,4 +1,5 @@
 import { ArrowLeft, ArrowRight, Minus, Plus } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 
 import { ArrowFillButton } from "@/components/ui/arrow-fill-button";
@@ -66,6 +67,15 @@ export function ResourceArticleView({ guide }: { guide: (typeof RESOURCES)[numbe
           {article.intro.map((paragraph) => (
             <p key={paragraph} className={`${styles.intro} text-pretty text-foreground-muted`}>{paragraph}</p>
           ))}
+          {guide.imageAlt && (
+            <Image
+              src={guide.image}
+              alt={guide.imageAlt}
+              width={1440}
+              height={810}
+              className="mt-6 h-auto w-full rounded-card"
+            />
+          )}
         </header>
         <div className={`${styles.articleBody} grid`}>
           {article.sections.map(({ heading, paragraphs, list, numbered, afterList, related }) => {

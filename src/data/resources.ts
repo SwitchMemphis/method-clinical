@@ -5,6 +5,7 @@ type Resource = {
   summary: string;
   readTime: number;
   image: string;
+  imageAlt?: string;
   sources?: { label: string; href: string }[];
 };
 
@@ -28,7 +29,8 @@ export const RESOURCES: Resource[] = [
   },
   {
     slug: "private-label-fulfillment",
-    image: "/assets/testing-standards/optical-bench.webp",
+    image: "/assets/resources/white-label-packaging.webp",
+    imageAlt: "Hands comparing a color swatch with a label, carton and vial mockup",
     category: "Wholesale Buying",
     title: "White-Label Peptides: How Clinics Build Their Own Brand",
     readTime: 6,
@@ -65,7 +67,8 @@ export const RESOURCES: Resource[] = [
   },
   {
     slug: "supplier-due-diligence-questions",
-    image: "/assets/testing-standards/optical-glass.webp",
+    image: "/assets/resources/supplier-due-diligence.webp",
+    imageAlt: "Clinic buyer reviewing a supplier checklist on a video call",
     category: "Wholesale Buying",
     title: "9 Questions to Ask Before Choosing a Wholesale Peptide Supplier",
     readTime: 7,
@@ -74,7 +77,8 @@ export const RESOURCES: Resource[] = [
   },
   {
     slug: "reading-a-certificate-of-analysis",
-    image: "/assets/testing-standards/field-journal-optical-cells.webp",
+    image: "/assets/resources/certificate-of-analysis.webp",
+    imageAlt: "Pen pointing to the results table and chromatogram on a sample certificate of analysis",
     category: "Quality & Testing",
     title: "How to Read a Peptide COA: A Clinic's Guide",
     readTime: 6,
