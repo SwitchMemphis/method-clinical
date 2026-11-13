@@ -515,7 +515,7 @@ canvas[data-scene-unavailable] {
 }
 
 /* Homepage hero typography. */
-root {
+:root {
   --raw-size-hero-heading: clamp(28px, 8.8vw, 48px);
   --raw-size-hero-heading-accent: clamp(23px, 6.8vw, 40px);
   --raw-size-hero-heading-desktop: 4.75rem;
