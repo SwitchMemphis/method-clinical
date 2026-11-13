@@ -60,20 +60,22 @@ export function Sourcing({ content }: { content: SourcingContent }) {
           </p>
         </header>
 
-        <ol className="relative mt-10 grid gap-4 md:mt-12 md:grid-cols-3 md:gap-5">
+        <ol className="relative mt-10 grid gap-5 md:mt-12 lg:grid-cols-3 lg:gap-7">
           {content.statements.map(({ title, description }, index) => {
             const Icon = statementIcons[index] ?? Building2;
             return (
-              <li key={title} className="rounded-card border border-border-subtle/70 bg-surface-section/80 p-6 lg:p-7">
+              <li key={title} className="grid content-start gap-5 rounded-card border border-border-subtle/70 bg-surface-section/80 p-6 lg:p-7">
                 <span aria-hidden="true" className="grid size-12 place-items-center rounded-2xl border border-accent/20 bg-accent/10 text-accent">
                   <Icon className="size-6" strokeWidth={1.5} />
                 </span>
-                <h3 className="mt-7 text-xl leading-snug font-bold tracking-tight lg:text-2xl">
-                  {title}
-                </h3>
-                <p className="mt-3 text-base leading-relaxed text-foreground-muted">
-                  {description}
-                </p>
+                <div className="grid gap-3">
+                  <h3 className="text-xl leading-snug font-bold tracking-tight [text-box:normal] lg:text-2xl">
+                    {title}
+                  </h3>
+                  <p className="text-utility-body leading-relaxed text-foreground-muted [text-box:normal]">
+                    {description}
+                  </p>
+                </div>
               </li>
             );
           })}

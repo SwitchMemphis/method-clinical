@@ -1,3 +1,7 @@
+## 2026-11-13 — Sourcing card spacing
+
+Adjusted icon, heading, body and grid spacing for the homepage sourcing cards. The content is unchanged. Delivery targets Drive, GitHub staging and the ChatGPT preview.
+
 ## 2026-11-13: Homepage sourcing copy
 
 Updated the Made in the U.S. card with the existing Testing Standards wording. Static export, TypeScript, lint and exported homepage copy checks passed. Netlify production remains on hold.

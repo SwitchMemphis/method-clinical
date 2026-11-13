@@ -1,3 +1,7 @@
+## 2026-11-13 — Sourcing card spacing
+
+Keep the sourcing cards top-aligned with consistent icon-to-heading and heading-to-copy gaps. Restore normal line boxes within the cards and stack them below the desktop breakpoint so longer copy has room.
+
 ## 2026-11-13 — Resources editorial layout
 
 Use a left-aligned introduction, thin divider and unboxed cards with 16:9 crops from the existing Mint Clinical image library. Keep one, two and three columns at the established breakpoints. The card metadata uses real resource categories. Native Next.js image loading and links cover the template behavior without new dependencies.

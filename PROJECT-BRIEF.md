@@ -1,3 +1,7 @@
+## 2026-11-13 — Sourcing card spacing
+
+Refine the homepage sourcing card spacing while preserving the three approved statements and their presentation order.
+
 ## 2026-11-13 — Resources editorial layout
 
 Adapt the supplied 21st.dev image-led layout for the public Resources index using the existing Mint Clinical guides and approved site imagery.
