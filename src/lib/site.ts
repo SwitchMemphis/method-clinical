@@ -10,7 +10,7 @@ import { BRAND } from "@/lib/brand";
 
 const vercelProduction = getServerEnv().VERCEL_PROJECT_PRODUCTION_URL;
 const defaultOrigin = process.env.NODE_ENV === "production"
-  ? "https://method-clinical-github.miniperiwinkle2.chatgpt.site"
+  ? "https://mintclinical.com"
   : "http://localhost:3000";
 
 export const siteConfig = {
