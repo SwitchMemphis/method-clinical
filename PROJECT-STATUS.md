@@ -1,3 +1,7 @@
+## 2026-11-13 — Wholesale pricing form validation
+
+Added a phone number field and required all five answers. The preview validates entries in the browser and displays a local confirmation after review.
+
 ## 2026-11-13 — Resource article bylines
 
 Added matching bylines, editorial dates and read times to the resources index and all seven article headers.

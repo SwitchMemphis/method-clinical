@@ -1,17 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import { Button } from "@/components/ui/button";
 import { generateMetadata } from "@/utils/seo/generate-page-metadata";
-import { controlClass, labelClass } from "@/views/register/form-fields";
+
+import { WholesalePricingForm } from "./wholesale-pricing-form";
 
 const title = "Request wholesale pricing";
 const description = "Tell us about your practice and what you’d like pricing for.";
-const fields = [
-  { id: "pricing-name", label: "Full name", type: "text", autoComplete: "name" },
-  { id: "pricing-business", label: "Clinic or business name", type: "text", autoComplete: "organization" },
-  { id: "pricing-email", label: "Work email", type: "email", autoComplete: "email" },
-] as const;
 
 export const wholesalePricingMetadata = {
   ...generateMetadata({
@@ -34,24 +29,7 @@ export function WholesalePricingView() {
           <p className="text-utility-body text-foreground-muted">{description}</p>
         </header>
 
-        <form aria-labelledby="wholesale-pricing-heading" aria-describedby="pricing-preview" className="flex flex-col gap-3 rounded-card border border-border-subtle bg-surface-section-deep p-4 sm:p-5">
-          {fields.map(({ id, label, type, autoComplete }) => (
-            <label key={id} htmlFor={id} className={labelClass}>
-              {label}
-              <input id={id} type={type} autoComplete={autoComplete} className={controlClass} />
-            </label>
-          ))}
-          <label htmlFor="pricing-inquiry" className={labelClass}>
-            What would you like pricing for?
-            <textarea id="pricing-inquiry" rows={4} className={`${controlClass} resize-y`} />
-          </label>
-          <Button type="submit" disabled className="mt-1 w-full rounded-panel text-base font-semibold">
-            Send pricing request
-          </Button>
-          <p id="pricing-preview" className="text-center text-utility-small text-foreground-muted">
-            Preview only. Use sample details. Entries stay in your browser.
-          </p>
-        </form>
+        <WholesalePricingForm />
       </div>
     </main>
   );
