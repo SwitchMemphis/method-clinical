@@ -1,3 +1,7 @@
+## 2026-11-13: Homepage sourcing copy
+
+Updated the Made in the U.S. card with the existing Testing Standards wording. Static export, TypeScript, lint and exported homepage copy checks passed. Netlify production remains on hold.
+
 ## 2026-11-13 — Resources editorial layout
 
 Resources now uses an image-led index with seven existing guide destinations. The editorial treatment is limited to the index. Netlify production stays on hold.
