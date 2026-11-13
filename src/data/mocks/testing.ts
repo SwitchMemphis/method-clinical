@@ -15,9 +15,6 @@ export interface TestingContent {
   title: string;
   emphasis: string;
   description: string;
-  diagramLabel: string;
-  diagramRange: string;
-  selectionLabel: string;
   listLabel: string;
   whyLabel: string;
   differenceLabel: string;
@@ -29,9 +26,6 @@ export const TESTING_CONTENT: TestingContent = {
   title: "The 7-layer",
   emphasis: "test",
   description: "Purity alone doesn't make a peptide safe to put in front of a clinic. We run a full seven-layer panel on every single batch — and this is exactly the proof your providers should be asking every supplier for.",
-  diagramLabel: "Mint / Verification layers",
-  diagramRange: "01–07",
-  selectionLabel: "Selected layer",
   listLabel: "Seven testing layers",
   whyLabel: "Why it matters",
   differenceLabel: "What sets us apart",

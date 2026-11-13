@@ -68,11 +68,6 @@ export function TestingVial({ content, selectedIndex }: { content: TestingConten
         }}
       >
         <div aria-hidden="true" className="pointer-events-none absolute inset-0 bg-radial-[at_50%_45%] from-accent/10 via-transparent to-transparent" />
-        <div className="relative flex items-center justify-between gap-3 px-4 py-3 text-[length:var(--testing-caption)] font-medium tracking-wider text-foreground-muted uppercase md:p-6 lg:h-testing-figure-header lg:px-testing-figure-inset lg:py-0 lg:text-testing-label">
-          <span>{content.diagramLabel}</span>
-          <span className="shrink-0 text-accent">{content.diagramRange}</span>
-        </div>
-
         <div
           className="relative isolate grid h-[clamp(13.5rem,64vw,16rem)] place-items-center overflow-hidden md:h-testing-diagram lg:h-testing-diagram-fit"
           data-vial-state={isOpen ? "open" : "closed"}
@@ -120,12 +115,6 @@ export function TestingVial({ content, selectedIndex }: { content: TestingConten
           </ol>
         </div>
 
-        <figcaption className="relative flex min-h-11 flex-wrap items-center justify-between gap-2 border-t border-border-subtle px-4 py-3 text-xs text-foreground-muted md:min-h-12 md:px-6 md:py-6 lg:min-h-testing-caption-fit lg:px-testing-figure-inset lg:py-testing-inset">
-          <span className="text-[length:var(--testing-caption)] tracking-wide uppercase lg:text-testing-label">{content.selectionLabel}</span>
-          <strong className="text-sm font-semibold text-accent md:text-xl lg:text-testing-row-title">
-            {String(selectedIndex + 1).padStart(2, "0")} / {content.layers[selectedIndex].shortLabel}
-          </strong>
-        </figcaption>
       </animated.figure>
     </div>
   );
