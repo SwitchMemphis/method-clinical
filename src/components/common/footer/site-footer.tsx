@@ -11,7 +11,7 @@ export function SiteFooter() {
       <div className="mx-auto grid max-w-utility-content gap-6 px-utility-gutter py-7 sm:grid-cols-2 lg:grid-cols-4 lg:gap-8 lg:py-8">
         <div className="flex flex-col items-start gap-3">
           <Link href="/" aria-label="Mint Clinical home" className="focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent">
-            <Image src="/assets/mint-clinical-wordmark.png" alt="Mint Clinical" width={548} height={175} className="h-auto w-utility-logo-compact" />
+            <Image src="/assets/mint-clinical-wordmark-accent.png" alt="Mint Clinical" width={548} height={175} className="h-auto w-utility-logo-compact" />
           </Link>
           <p className="max-w-xs text-footer-copy leading-relaxed text-foreground-muted">{content.descriptor}</p>
         </div>
