@@ -5,7 +5,7 @@ export const REGISTRATION_CONTENT = {
   helper: "Preview only. Use sample details.",
   desktopHelper: "Fields marked * are required. Please use sample details in this preview.",
   preview: "Preview only. Applications are not sent and NPI verification is not connected.",
-  review: "Review application",
+  review: "Submit application & verify NPI",
   reviewTitle: "Application preview",
   reviewNotice: "Not submitted. These details are shown for review only. No account has been created and no NPI has been verified.",
   steps: ["Contact information", "Business profile", "Business address", "Referral", "Additional notes"],
