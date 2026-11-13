@@ -121,7 +121,7 @@ export const HERO_CONTENT: HeroContent = {
 export const SOURCING_CONTENT: SourcingContent = {
   title: "The Mint Standard",
   titleAccent: "Mint",
-  reviewNote: "Draft statements for private review.",
+  reviewNote: "Mint Clinical is designed for partners that require batch-level confidence. Products are tested in-house and third-party tested, with verification focused on identity, purity, quantity, sterility, and lot-to-lot consistency.",
   statements: [
     { title: "FDA Listed Facilities", description: "All active pharmaceutical ingredients are sourced from an FDA-registered 503B outsourcing facility." },
     { title: "Made in the U.S.", description: "Pharmaceutical-grade active ingredient, synthesized and lyophilized in the USA, then put through our own testing before a single vial leaves the facility." },
