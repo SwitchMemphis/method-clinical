@@ -101,10 +101,8 @@ export interface TeamContent {
 export const SITE_NAV: readonly NavLink[] = [
   { label: "Register your clinic", href: "/register/" },
   { label: "Catalog", href: "/catalog/" },
+  { label: "Clinic Resources", href: "/resources/" },
   { label: "FAQs", href: "/faq/" },
-  { label: "Resources", href: "/resources/" },
-  { label: "Sourcing", href: "#why" },
-  { label: "Testing", href: "#testing" },
 ];
 
 export const HEADER_CTA: CtaLink = { label: "Sign in", href: "/login/" };
