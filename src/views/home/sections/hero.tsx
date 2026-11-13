@@ -22,7 +22,7 @@ export const Hero = ({ content }: HeroProps) => {
   return (
     <section
       id="hero"
-      className="relative flex min-h-svh flex-col overflow-hidden bg-surface-section px-5 pt-32 pb-16 md:px-10 lg:z-10 lg:block lg:h-lvh lg:min-h-0 lg:bg-transparent lg:p-0"
+      className="relative flex min-h-svh flex-col justify-center overflow-hidden bg-surface-section px-5 pt-32 pb-16 md:px-10 lg:z-10 lg:block lg:h-lvh lg:min-h-0 lg:bg-transparent lg:p-0"
     >
       <div aria-hidden="true" className="pointer-events-none absolute inset-0 lg:hidden">
         <div className="absolute inset-0 bg-[url('/assets/mobile-hero-helix.4k.afcb2392.webp')] bg-cover bg-center" />
