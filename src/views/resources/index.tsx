@@ -1,7 +1,9 @@
-import { ArrowLeft } from "lucide-react";
+import { ArrowLeft, ArrowRight, Minus, Plus } from "lucide-react";
 import Link from "next/link";
 
+import { ArrowFillButton } from "@/components/ui/arrow-fill-button";
 import { BlogsSection } from "@/components/ui/blogs-3";
+import { RESOURCE_ARTICLES } from "@/data/resource-articles";
 import { RESOURCES, resourcePath } from "@/data/resources";
 import { generateMetadata } from "@/utils/seo/generate-page-metadata";
 
@@ -42,22 +44,102 @@ export function ResourcesView() {
 }
 
 export function ResourceArticleView({ guide }: { guide: (typeof RESOURCES)[number] }) {
+  const article = RESOURCE_ARTICLES[guide.slug];
+  const relatedGuides = article.keepReading.map((slug) => RESOURCES.find((resource) => resource.slug === slug)!);
+
   return (
     <main className={`${styles.page} relative bg-surface-section px-utility-gutter pb-utility-section text-foreground`}>
       <article className="mx-auto max-w-policy-content">
         <Link href="/resources/" className={backClass}><ArrowLeft size={16} aria-hidden="true" /> All resources</Link>
+        <nav aria-label="Breadcrumb" className="mt-4">
+          <ol className="flex flex-wrap items-center gap-2 text-utility-small text-foreground-muted">
+            <li><Link href="/" className={backClass}>Home</Link></li>
+            <li aria-hidden="true">›</li>
+            <li><Link href="/resources/" className={backClass}>Resources</Link></li>
+            <li aria-hidden="true">›</li>
+            <li>{guide.category}</li>
+          </ol>
+        </nav>
         <header className={`${styles.articleHeader} border-b border-border-subtle`}>
-          <p className="text-utility-small font-semibold text-accent">{guide.category}</p>
+          <p className="text-utility-small font-semibold text-accent">{guide.category} · {guide.readTime} min read</p>
           <h1 className={`${styles.headline} text-balance font-bold tracking-tight`}>{guide.title}</h1>
-          <p className={`${styles.intro} text-pretty text-foreground-muted`}>{guide.summary}</p>
+          {article.intro.map((paragraph) => (
+            <p key={paragraph} className={`${styles.intro} text-pretty text-foreground-muted`}>{paragraph}</p>
+          ))}
         </header>
         <div className={`${styles.articleBody} grid`}>
-          {guide.sections.map((section) => (
-            <section key={section.title}>
-              <h2 className="text-utility-section-title font-bold leading-snug">{section.title}</h2>
-              <p className={`${styles.articleParagraph} text-utility-body text-foreground-muted`}>{section.body}</p>
-            </section>
-          ))}
+          {article.sections.map(({ heading, paragraphs, list, numbered, afterList, related }) => {
+            const List = numbered ? "ol" : "ul";
+            return (
+              <section key={heading}>
+                <h2 className="text-utility-section-title font-bold leading-snug">{heading}</h2>
+                {paragraphs?.map((paragraph) => (
+                  <p key={paragraph} className={`${styles.articleParagraph} text-utility-body text-foreground-muted`}>{paragraph}</p>
+                ))}
+                {list && (
+                  <List className={`${styles.articleParagraph} grid gap-3 pl-5 text-utility-body text-foreground-muted marker:text-accent ${numbered ? "list-decimal" : "list-disc"}`}>
+                    {list.map((item) => <li key={item}>{item}</li>)}
+                  </List>
+                )}
+                {afterList && <p className={`${styles.articleParagraph} text-utility-body text-foreground-muted`}>{afterList}</p>}
+                {related && (
+                  <aside className="mt-5 rounded-panel border border-border-subtle bg-surface-section-deep px-5 py-4">
+                    <h3 className="text-utility-small font-bold text-foreground">{related.label}</h3>
+                    <ul className="mt-2 grid gap-1">
+                      {related.links.map(([slug, label]) => (
+                        <li key={slug}>
+                          <Link href={resourcePath(slug)} className={backClass}>
+                            <span>{label}</span><ArrowRight size={16} aria-hidden="true" className="shrink-0" />
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
+                  </aside>
+                )}
+              </section>
+            );
+          })}
+          <div>
+            <ArrowFillButton href={article.partner ? "/register/" : "/wholesale-pricing/"}>
+              {article.partner ? "Become a wholesale partner" : "Request wholesale pricing"}
+            </ArrowFillButton>
+          </div>
+          <section aria-labelledby="resource-faq">
+            <h2 id="resource-faq" className="text-utility-section-title font-bold">FAQ</h2>
+            <div className="mt-4 rounded-panel border border-border-subtle bg-surface-section-deep">
+              {article.faq.map(([question, answer]) => (
+                <details key={question} className="group border-b border-border-subtle last:border-b-0">
+                  <summary className={`flex min-h-12 cursor-pointer list-none items-center justify-between gap-4 rounded-panel px-5 py-3 text-utility-body font-semibold [&::-webkit-details-marker]:hidden ${focusClass}`}>
+                    {question}
+                    <Plus size={16} aria-hidden="true" className="shrink-0 text-accent group-open:hidden" />
+                    <Minus size={16} aria-hidden="true" className="hidden shrink-0 text-accent group-open:block" />
+                  </summary>
+                  <p className="px-5 pb-5 text-utility-body leading-relaxed text-foreground-muted">{answer}</p>
+                </details>
+              ))}
+            </div>
+          </section>
+          <section className="rounded-card border border-border-subtle bg-surface-section-deep p-5 sm:p-7">
+            <h2 className="text-utility-section-title font-bold">Source from a supplier that tests every batch.</h2>
+            <p className={`${styles.articleParagraph} text-utility-body text-foreground-muted`}>Explore Mint Clinical’s seven-layer testing standards or ask about wholesale pricing for your clinic.</p>
+            <div className="mt-5 flex flex-wrap items-center gap-x-5 gap-y-2">
+              <ArrowFillButton href="/wholesale-pricing/">Request wholesale pricing</ArrowFillButton>
+              <Link href="/testing-standards/" className={backClass}>View testing standards</Link>
+            </div>
+          </section>
+          <section aria-labelledby="resource-more">
+            <h2 id="resource-more" className="mb-4 text-utility-section-title font-bold">Keep reading</h2>
+            <ul className="grid gap-4 sm:grid-cols-2">
+              {relatedGuides.map((resource) => (
+                <li key={resource.slug}>
+                  <Link href={resourcePath(resource.slug)} className={`block h-full rounded-panel border border-border-subtle p-5 hover:border-accent ${focusClass}`}>
+                    <h3 className="font-bold text-accent">{resource.title}</h3>
+                    <p className="mt-2 text-utility-body leading-relaxed text-foreground-muted">{resource.summary}</p>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </section>
         </div>
         {guide.sources && (
           <section className="border-t border-border-subtle pt-6">

@@ -1,3 +1,7 @@
+## 2026-11-13 — Resource article import
+
+Keep the existing resource destinations and image grid. Add breadcrumbs, read times, article-specific link groups, FAQ disclosures and related guide cards. Route partner inquiries to clinic registration and pricing inquiries to the existing preview form.
+
 ## 2026-11-13 — ISO cleanroom and cGMP sourcing copy
 
 Keep the standards in one sourcing card with the existing flask icon and responsive card layout. The copy covers U.S. compounding under cGMP, sterile handling and filling in an ISO 14644–classified cleanroom, ISO/IEC 17025 laboratory testing, ISO 9001 quality management, and the certificate of analysis.

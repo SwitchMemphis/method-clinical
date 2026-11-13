@@ -1,3 +1,7 @@
+## 2026-11-13 — Resource article import
+
+Imported seven supplied article bodies and added 14 FAQ disclosures with original answers where the pasted answers were blank. Shared actions use Mint Clinical routes. The shared CTA uses site-supported wording and the existing Mint Clinical footer. Netlify production stays on hold.
+
 ## 2026-11-13 — ISO cleanroom and cGMP sourcing copy
 
 Updated the third homepage sourcing card with the approved title and body. Delivery targets GitHub staging, the canonical Drive source, and the ChatGPT Site.
