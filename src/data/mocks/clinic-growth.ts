@@ -19,6 +19,6 @@ export const CLINIC_GROWTH_CONTENT: ClinicGrowthContent = {
     "Support that goes beyond the sale",
   ],
   invitation: "Let’s build something extraordinary together.",
-  description: "Your patients. Your reputation. Our commitment. Quality you can prove — a partner you can trust.",
+  description: "Your patients. Your reputation. Our commitment. Quality you can prove and a partner you can trust.",
   action: { label: "Register your clinic", href: "/register/" },
 };
