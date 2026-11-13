@@ -1,3 +1,8 @@
+## 2026-11-13 — Mint header logo
+
+Updated the Mint Clinical header logos on the homepage, catalog, product, sign-in, registration, Testing Standards and wholesale pricing pages. Delivery targets GitHub staging, Drive and the ChatGPT preview.
+
+
 ## 2026-11-13 — Resource article import
 
 Imported seven supplied article bodies and added 14 FAQ disclosures with original answers where the pasted answers were blank. Shared actions use Mint Clinical routes. The shared CTA uses site-supported wording and the existing Mint Clinical footer. Netlify production stays on hold.

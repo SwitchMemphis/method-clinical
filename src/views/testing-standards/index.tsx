@@ -35,7 +35,7 @@ export function TestingStandardsView() {
             aria-label="Mint Clinical home"
             className="inline-flex min-h-utility-target items-center rounded-panel focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent"
           >
-            <Image src="/assets/mint-clinical-wordmark.png" width={548} height={175} alt="Mint Clinical" className="h-auto w-utility-logo-compact sm:w-registration-logo" />
+            <Image src="/assets/mint-clinical-wordmark-accent.png" width={548} height={175} alt="Mint Clinical" className="h-auto w-utility-logo-compact sm:w-registration-logo" />
           </Link>
 
           <div className={styles.hero}>

@@ -1,3 +1,8 @@
+## 2026-11-13 — Mint header logo
+
+Recolor the original wordmark artwork to the existing `#81F5B0` accent. Header logos share the mint PNG with the original transparency, dimensions and spacing.
+
+
 ## 2026-11-13 — Resource article import
 
 Keep the existing resource destinations and image grid. Add breadcrumbs, read times, article-specific link groups, FAQ disclosures and related guide cards. Route partner inquiries to clinic registration and pricing inquiries to the existing preview form.

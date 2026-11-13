@@ -24,7 +24,7 @@ export function CatalogProductView({ product, related }: { product: CatalogProdu
     <div className="bg-surface-section">
       <header className="mx-auto flex max-w-utility-content items-center justify-between gap-4 px-utility-gutter py-6">
         <Link href="/" aria-label="Mint Clinical home">
-          <Image src="/assets/mint-clinical-wordmark.png" width={548} height={175} alt="Mint Clinical" className="h-auto w-utility-logo-compact sm:w-utility-logo" priority />
+          <Image src="/assets/mint-clinical-wordmark-accent.png" width={548} height={175} alt="Mint Clinical" className="h-auto w-utility-logo-compact sm:w-utility-logo" priority />
         </Link>
         <Link href="/catalog/" className="flex min-h-11 items-center gap-2 text-sm text-foreground-muted hover:text-accent"><ArrowLeft size={16} aria-hidden="true" /> Catalog</Link>
       </header>

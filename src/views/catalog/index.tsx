@@ -20,7 +20,7 @@ export function CatalogView() {
     <div className="bg-surface-section">
       <header className="flex w-full items-center justify-between gap-3 px-utility-gutter py-6">
         <Link href="/" aria-label="Mint Clinical home">
-          <Image src="/assets/mint-clinical-wordmark.png" width={548} height={175} alt="Mint Clinical" className="h-auto w-utility-logo-compact sm:w-utility-logo" priority />
+          <Image src="/assets/mint-clinical-wordmark-accent.png" width={548} height={175} alt="Mint Clinical" className="h-auto w-utility-logo-compact sm:w-utility-logo" priority />
         </Link>
         <Link href="/" className="flex min-h-utility-target items-center gap-2 text-utility-body text-foreground-muted hover:text-accent">
           <ArrowLeft size={16} aria-hidden="true" /> Back to site

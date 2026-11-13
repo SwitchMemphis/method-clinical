@@ -22,7 +22,7 @@ export function LoginView() {
       <div aria-hidden="true" className="absolute inset-0 -z-10 bg-linear-to-b from-surface-section/90 via-surface-section/45 to-surface-section/90 lg:bg-linear-to-r lg:from-surface-section/90 lg:via-surface-section/35 lg:to-surface-section/50" />
       <header className="mx-auto flex w-full max-w-utility-content items-center justify-between gap-3 px-utility-gutter py-6">
         <Link href="/" aria-label="Mint Clinical home" className="focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent">
-          <Image src="/assets/mint-clinical-wordmark.png" width={548} height={175} alt="Mint Clinical" className="h-auto w-utility-logo-compact sm:w-utility-logo" priority />
+          <Image src="/assets/mint-clinical-wordmark-accent.png" width={548} height={175} alt="Mint Clinical" className="h-auto w-utility-logo-compact sm:w-utility-logo" priority />
         </Link>
         <Link href="/" className="flex min-h-utility-target items-center gap-2 text-utility-body text-foreground hover:text-accent">
           <ArrowLeft size={16} aria-hidden="true" /> Back to site

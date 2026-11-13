@@ -1,3 +1,8 @@
+## 2026-11-13 — Mint header logo
+
+Use the existing mint accent for the symbol and wordmark in the site headers.
+
+
 ## 2026-11-13 — Resource article import
 
 Import the seven supplied article bodies and preserve the article link and CTA structure in the Mint Clinical brand.

@@ -77,7 +77,7 @@ export const SiteHeader = ({ navLinks, cta, socials }: SiteHeaderProps) => {
 
         <Link href="#hero" prefetch={false} className="pointer-events-auto relative flex min-h-11 min-w-0 items-center">
           <Image
-            src="/assets/mint-clinical-wordmark.png"
+            src="/assets/mint-clinical-wordmark-accent.png"
             alt="Mint Clinical"
             width={548}
             height={175}
