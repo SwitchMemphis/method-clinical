@@ -7,6 +7,15 @@
    Grammar: --raw-<category>-<name>[-<shade>]
    See obsidian/frontend/design-system.md → "Token naming convention".
    --------------------------------------------------------------------------- */
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("/assets/space-grotesk-latin-variable.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 300 700;
+  font-display: swap;
+}
+
+
 :root {
   --raw-color-white: #040d09;
   --raw-color-black: #eeeee7;
@@ -189,7 +198,7 @@
   --radius-action: var(--corner-action);
   --blur-glass: var(--glass-blur);
 
-  --font-sans: var(--font-google-sans-flex);
+  --font-sans: "Space Grotesk", Arial, sans-serif;
 
   --color-debug-surface: var(--debug-surface);
   --color-debug-border: var(--debug-border);
@@ -506,14 +515,7 @@ canvas[data-scene-unavailable] {
 }
 
 /* Homepage hero typography. */
-@font-face {
-  font-family: "Space Grotesk";
-  src: url("/assets/space-grotesk-latin-600.woff2") format("woff2");
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-}
-:root {
+root {
   --raw-size-hero-heading: clamp(28px, 8.8vw, 48px);
   --raw-size-hero-heading-accent: clamp(23px, 6.8vw, 40px);
   --raw-size-hero-heading-desktop: 4.75rem;
@@ -528,7 +530,6 @@ canvas[data-scene-unavailable] {
   --hero-description-width: var(--raw-size-hero-description-width);
 }
 @theme inline {
-  --font-hero-heading: "Space Grotesk", var(--font-google-sans-flex), sans-serif;
   --text-hero-heading: var(--hero-heading);
   --text-hero-heading-accent: var(--hero-heading-accent);
   --text-hero-heading-desktop: var(--hero-heading-desktop);

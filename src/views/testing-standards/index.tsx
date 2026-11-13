@@ -113,7 +113,7 @@ export function TestingStandardsView() {
             {content.protocol.map(({ title, description }, index) => (
               <li key={title}>
                 <h3 className="flex items-baseline gap-3 text-lg leading-snug font-semibold tracking-tight sm:text-xl">
-                  <span aria-hidden="true" className="shrink-0 font-mono text-utility-small font-semibold text-accent tabular-nums">{stepNumber(index)}</span>
+                  <span aria-hidden="true" className="shrink-0 text-utility-small font-semibold text-accent tabular-nums">{stepNumber(index)}</span>
                   {title}
                 </h3>
                 <p className="mt-3 max-w-xl text-base leading-relaxed text-foreground-muted">{description}</p>

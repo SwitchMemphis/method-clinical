@@ -1,3 +1,7 @@
+## 2026-11-13 — Site typography
+
+Approved Space Grotesk across Mint Clinical using a locally hosted variable font. The homepage headline keeps weight 600 and its white and mint split.
+
 ## 2026-11-13 — Homepage typeface trial
 
 Preview Space Grotesk 600 on the homepage headline with a white first line and mint second line. Broader typography changes await approval.

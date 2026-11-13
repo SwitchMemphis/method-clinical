@@ -109,7 +109,7 @@ export function TestingVial({ content, selectedIndex }: { content: TestingConten
               <li
                 key={layer.title}
                 className={cn(
-                  "flex items-center gap-2 font-mono text-xs tabular-nums transition-colors duration-[var(--duration-fast)] motion-reduce:transition-none max-md:grid max-md:size-5 max-md:place-items-center max-md:rounded-full max-md:text-[0.625rem]",
+                  "flex items-center gap-2 text-xs tabular-nums transition-colors duration-[var(--duration-fast)] motion-reduce:transition-none max-md:grid max-md:size-5 max-md:place-items-center max-md:rounded-full max-md:text-[0.625rem]",
                   index === selectedIndex ? "font-semibold text-accent max-md:bg-accent/10" : "text-foreground-muted",
                 )}
               >

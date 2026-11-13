@@ -8,7 +8,7 @@
  * Two separate signals, deliberately:
  *
  * - `loaded` — the page is genuinely ready. Fonts matter here: without waiting
- *   for them the curtain lifts onto text that then reflows as Google Sans Flex
+ *   for them the curtain lifts onto text that then reflows as Space Grotesk
  *   swaps in.
  * - `revealed` — the curtain has finished its exit. Hero motion keys off this,
  *   not off `loaded`, so the reveal plays *after* the overlay is gone rather
