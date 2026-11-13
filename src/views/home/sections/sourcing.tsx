@@ -55,7 +55,7 @@ export function Sourcing({ content }: { content: SourcingContent }) {
               </>
             ) : content.title}
           </h2>
-          <p className="mt-6 text-sm leading-relaxed text-foreground-muted sm:text-base">
+          <p className="mt-6 hidden text-sm leading-relaxed text-foreground-muted sm:block sm:text-base">
             {content.reviewNote}
           </p>
         </header>

@@ -520,3 +520,7 @@ Production build and changed-file lint passed. Verified the exported homepage an
 ## Sign-in button contrast
 
 Production build and lint passed. Verified the exported login button has the deep green label, mint fill, and disabled preview state. The label and fill colors have a 14.1:1 contrast ratio.
+
+## Mobile batch-confidence paragraph
+
+Hide the repeated batch-confidence paragraph below the existing Tailwind small breakpoint on the homepage and Testing Standards page. Keep the desktop copy and mobile standards details accessible.
