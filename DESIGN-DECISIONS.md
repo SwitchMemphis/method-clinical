@@ -1,3 +1,7 @@
+## 2026-11-13 — Homepage hero copy
+
+Use “Peptide supply” as the lead and “for licensed providers.” as the mint accent at every breakpoint.
+
 ## 2026-11-13 — Resource article bylines
 
 Share one byline between the cards and article headers. Store display dates and estimated read times with the existing article data. The assigned editorial dates range from August 24 to November 13, 2026.

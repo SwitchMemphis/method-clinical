@@ -19,7 +19,6 @@ export const Hero = ({ content }: HeroProps) => {
     ? content.title.indexOf(content.titleAccent)
     : -1;
   const titleLead = content.title.slice(0, accentIndex);
-  const mobileBreak = titleLead.indexOf(" ") + 1;
   return (
     <section
       id="hero"
@@ -47,21 +46,7 @@ export const Hero = ({ content }: HeroProps) => {
             <h1 aria-label={content.title} className="flex flex-col text-hero-heading leading-display font-extrabold tracking-tight lg:text-6xl">
               {accentIndex >= 0 && content.titleAccent ? (
                 <>
-                  <span className="block lg:hidden">
-                    {mobileBreak > 0 && (
-                      <TextEngine tag="span" {...HEADING_MOTION}>
-                        {titleLead.slice(0, mobileBreak).trimEnd()}
-                      </TextEngine>
-                    )}
-                    <TextEngine tag="span" {...HEADING_MOTION}>
-                      {titleLead.slice(mobileBreak)}
-                    </TextEngine>
-                  </span>
-                  <span className="hidden lg:block">
-                    <TextEngine tag="span" {...HEADING_MOTION}>
-                      {titleLead}
-                    </TextEngine>
-                  </span>
+                  <TextEngine tag="span" {...HEADING_MOTION}>{titleLead.trimEnd()}</TextEngine>
                   <TextEngine tag="span" className="text-accent" {...HEADING_MOTION}>
                     {content.title.slice(accentIndex)}
                   </TextEngine>

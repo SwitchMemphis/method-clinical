@@ -108,10 +108,9 @@ export const HEADER_CTA: CtaLink = { label: "Sign in", href: "/login/" };
 
 export const HERO_CONTENT: HeroContent = {
   eyebrow: "01 Flow / Provider supply",
-  title: "Wholesale peptides for licensed providers.",
-  titleAccent: "licensed providers.",
-  description:
-    "Clinical-grade peptides, seven-layer tested with a Certificate of Analysis on every lot — supplied wholesale to licensed clinics, spas, and modern practices.",
+  title: "Peptide supply for licensed providers.",
+  titleAccent: "for licensed providers.",
+  description: "Wholesale access for clinics, medical spas, and modern practices.",
   action: { label: "Request wholesale pricing", href: "/wholesale-pricing/" },
   trustLine: "Mint Clinical / 01 Flow",
   serviceChips: ["Compound catalog", "Lot documentation", "Provider access"],

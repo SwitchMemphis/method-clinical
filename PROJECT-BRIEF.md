@@ -1,3 +1,7 @@
+## 2026-11-13 — Homepage hero copy
+
+Use “Peptide supply for licensed providers.” and “Wholesale access for clinics, medical spas, and modern practices.” in the Mint Clinical homepage hero.
+
 ## 2026-11-13 — Resource article bylines
 
 Add a Mint Team byline, editorial date and estimated read time to all seven clinic resource cards and article headers.

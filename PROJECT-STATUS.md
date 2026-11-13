@@ -1,3 +1,7 @@
+## 2026-11-13 — Homepage hero copy
+
+Applied the approved headline and supporting copy to the homepage hero.
+
 ## 2026-11-13 — Wholesale pricing form validation
 
 Added a phone number field and required all five answers. The preview validates entries in the browser and displays a local confirmation after review.
