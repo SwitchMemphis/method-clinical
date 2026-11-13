@@ -83,12 +83,12 @@ export function ResourceArticleView({ guide }: { guide: (typeof RESOURCES)[numbe
                 )}
                 {afterList && <p className={`${styles.articleParagraph} text-utility-body text-foreground-muted`}>{afterList}</p>}
                 {related && (
-                  <aside className="mt-5 rounded-panel border border-border-subtle bg-surface-section-deep px-5 py-4">
-                    <h3 className="text-utility-small font-bold text-foreground">{related.label}</h3>
-                    <ul className="mt-2 grid gap-1">
+                  <aside className="mt-5 rounded-panel border border-border-subtle bg-surface-section-deep px-5 py-5 sm:px-6">
+                    <h3 className="text-utility-small leading-snug font-bold text-foreground">{related.label}</h3>
+                    <ul className="mt-3 grid gap-2">
                       {related.links.map(([slug, label]) => (
                         <li key={slug}>
-                          <Link href={resourcePath(slug)} className={backClass}>
+                          <Link href={resourcePath(slug)} className={`inline-flex min-h-utility-target max-w-full items-center gap-3 py-2 text-utility-body leading-snug text-accent hover:underline ${focusClass}`}>
                             <span>{label}</span><ArrowRight size={16} aria-hidden="true" className="shrink-0" />
                           </Link>
                         </li>

@@ -1,3 +1,7 @@
+## 2026-11-13 — Resource link spacing
+
+Increased padding and link spacing in resource article callouts. Each link has a 44 px minimum target height, and long labels wrap within the panel.
+
 ## 2026-11-13 — Mint header logo
 
 Updated the Mint Clinical header logos on the homepage, catalog, product, sign-in, registration, Testing Standards and wholesale pricing pages. Delivery targets GitHub staging, Drive and the ChatGPT preview.
