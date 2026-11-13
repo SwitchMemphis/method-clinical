@@ -1,3 +1,7 @@
+## 2026-11-13 — ISO cleanroom and cGMP sourcing copy
+
+Keep the standards in one sourcing card with the existing flask icon and responsive card layout. The copy covers U.S. compounding under cGMP, sterile handling and filling in an ISO 14644–classified cleanroom, ISO/IEC 17025 laboratory testing, ISO 9001 quality management, and the certificate of analysis.
+
 ## 2026-11-13 — Sourcing card spacing
 
 Keep the sourcing cards top-aligned with consistent icon-to-heading and heading-to-copy gaps. Restore normal line boxes within the cards and stack them below the desktop breakpoint so longer copy has room.

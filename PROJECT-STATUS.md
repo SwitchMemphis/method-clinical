@@ -1,3 +1,7 @@
+## 2026-11-13 — ISO cleanroom and cGMP sourcing copy
+
+Updated the third homepage sourcing card with the approved title and body. Delivery targets GitHub staging, the canonical Drive source, and the ChatGPT Site.
+
 ## 2026-11-13 — Sourcing card spacing
 
 Adjusted icon, heading, body and grid spacing for the homepage sourcing cards. The content is unchanged. Delivery targets Drive, GitHub staging and the ChatGPT preview.

@@ -1,3 +1,7 @@
+## 2026-11-13 — ISO cleanroom and cGMP sourcing copy
+
+Use the approved ISO Cleanroom & cGMP Standards title and copy in the third card under The Mint Standard on the homepage.
+
 ## 2026-11-13 — Sourcing card spacing
 
 Refine the homepage sourcing card spacing while preserving the three approved statements and their presentation order.
