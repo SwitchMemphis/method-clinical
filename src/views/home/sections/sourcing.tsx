@@ -51,7 +51,9 @@ export function Sourcing({ content }: { content: SourcingContent }) {
               <>
                 {content.title.slice(0, accentIndex)}
                 <span className="text-accent">{content.titleAccent}</span>
-                {content.title.slice(accentIndex + content.titleAccent.length)}
+                <br className="sm:hidden" />
+                <span className="hidden sm:inline">{" "}</span>
+                {content.title.slice(accentIndex + content.titleAccent.length).trimStart()}
               </>
             ) : content.title}
           </h2>
