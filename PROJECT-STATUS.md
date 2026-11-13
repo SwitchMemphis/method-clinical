@@ -1,3 +1,7 @@
+## 2026-11-13 — Homepage hero typography
+
+Adjusted the homepage hero typography and supporting copy measure.
+
 ## 2026-11-13 — Homepage hero copy
 
 Applied the approved headline and supporting copy to the homepage hero.

@@ -1,3 +1,7 @@
+## 2026-11-13 — Homepage hero typography
+
+Apply the approved 76 px and 60 px desktop hero headline sizes and carry the hierarchy to mobile.
+
 ## 2026-11-13 — Homepage hero copy
 
 Use “Peptide supply for licensed providers.” and “Wholesale access for clinics, medical spas, and modern practices.” in the Mint Clinical homepage hero.

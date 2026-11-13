@@ -43,11 +43,11 @@ export const Hero = ({ content }: HeroProps) => {
       <RevealOnReady className="z-10 lg:absolute lg:top-[28.55%] lg:left-10 lg:w-[44.75rem]">
         <div className="flex flex-col gap-6 lg:gap-12">
           <div className="flex flex-col gap-4 lg:gap-8">
-            <h1 aria-label={content.title} className="flex flex-col text-hero-heading leading-display font-extrabold tracking-tight lg:text-6xl">
+            <h1 aria-label={content.title} className="flex flex-col text-hero-heading leading-display font-extrabold tracking-tight lg:text-hero-heading-desktop">
               {accentIndex >= 0 && content.titleAccent ? (
                 <>
                   <TextEngine tag="span" {...HEADING_MOTION}>{titleLead.trimEnd()}</TextEngine>
-                  <TextEngine tag="span" className="text-accent" {...HEADING_MOTION}>
+                  <TextEngine tag="span" className="text-hero-heading-accent text-accent lg:text-hero-heading-accent-desktop" {...HEADING_MOTION}>
                     {content.title.slice(accentIndex)}
                   </TextEngine>
                 </>
@@ -58,7 +58,7 @@ export const Hero = ({ content }: HeroProps) => {
           </div>
           <TextEngine
             tag="p"
-            className="max-w-lg text-hero-description leading-relaxed font-normal text-foreground-muted lg:w-hero-description lg:max-w-none"
+            className="max-w-lg text-balance text-hero-description leading-relaxed font-normal text-foreground-muted lg:w-hero-description lg:max-w-none"
             deferMount
             {...BODY_MOTION}
           >

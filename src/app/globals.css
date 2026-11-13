@@ -505,17 +505,26 @@ canvas[data-scene-unavailable] {
   --text-registration-section-title: var(--registration-section-title);
 }
 
-/* Owner-requested larger opening paragraph, local to Hero. */
+/* Homepage hero typography. */
 :root {
   --raw-size-hero-heading: clamp(28px, 8.8vw, 48px);
+  --raw-size-hero-heading-accent: clamp(23px, 6.8vw, 40px);
+  --raw-size-hero-heading-desktop: 4.75rem;
+  --raw-size-hero-heading-accent-desktop: 3.75rem;
   --raw-size-hero-description: clamp(18px, 1.65vw, 26px);
-  --raw-size-hero-description-width: 38rem;
+  --raw-size-hero-description-width: 42rem;
   --hero-heading: var(--raw-size-hero-heading);
+  --hero-heading-accent: var(--raw-size-hero-heading-accent);
+  --hero-heading-desktop: var(--raw-size-hero-heading-desktop);
+  --hero-heading-accent-desktop: var(--raw-size-hero-heading-accent-desktop);
   --hero-description: var(--raw-size-hero-description);
   --hero-description-width: var(--raw-size-hero-description-width);
 }
 @theme inline {
   --text-hero-heading: var(--hero-heading);
+  --text-hero-heading-accent: var(--hero-heading-accent);
+  --text-hero-heading-desktop: var(--hero-heading-desktop);
+  --text-hero-heading-accent-desktop: var(--hero-heading-accent-desktop);
   --text-hero-description: var(--hero-description);
   --spacing-hero-description: var(--hero-description-width);
 }

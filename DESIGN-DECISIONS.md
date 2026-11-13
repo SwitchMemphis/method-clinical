@@ -1,3 +1,7 @@
+## 2026-11-13 — Homepage hero typography
+
+Set the hero lead and mint accent with separate responsive typography tokens. Widen the desktop supporting copy to 42rem and balance its wrapping.
+
 ## 2026-11-13 — Homepage hero copy
 
 Use “Peptide supply” as the lead and “for licensed providers.” as the mint accent at every breakpoint.
