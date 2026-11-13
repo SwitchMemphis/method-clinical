@@ -1,3 +1,7 @@
+## 2026-11-13 — Resources layout
+
+Refine the Resources index and guide pages after review of the crowded card grid. Preserve the seven guides, their order, and the existing Mint Clinical visual identity.
+
 ## 2026-11-13 — Loading logo alignment
 
 Center the full Mint Clinical logo and wordmark within the loading ring.

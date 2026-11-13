@@ -1,3 +1,7 @@
+## 2026-11-13 — Resources layout
+
+Refined Resources card spacing and article typography. The change is scoped to Resources. GitHub staging, Drive and the ChatGPT preview are the delivery targets.
+
 ## 2026-11-13 — Loading logo alignment
 
 Measured the PNG alpha bounds and verified the responsive centering calculation at viewport widths from 320px to 1440px. Local Chromium could not start because the runtime denied socket creation. Delivery targets `staging/drive-sync` and the canonical Drive source.

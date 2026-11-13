@@ -1,3 +1,7 @@
+## 2026-11-13 — Resources layout
+
+Use one column on phones, two on tablets and smaller desktops, and three on wide desktops. Give the grid 24–44 px gutters and the cards a clear label, title, summary and action rhythm. Use bounded type sizes and opt Resources content out of the landing page’s cap-height trim. Keep article prose to a comfortable reading measure.
+
 ## 2026-11-13 — Loading logo alignment
 
 Offset both preloader logo layers by half the transparent right margin of the existing PNG. The shared logo artwork and loader timing are preserved.
