@@ -128,7 +128,7 @@ export const SOURCING_CONTENT: SourcingContent = {
     {
       title: "cGMP Standards",
       description:
-        "Compounded in the U.S. following cGMP standards, with sterile handling and filling in an ISO 14644–classified cleanroom. Every certificate of analysis is backed by independent laboratory testing under ISO/IEC 17025 and quality management under ISO 9001.",
+        "Compounded following cGMP standards, with sterile handling and filling in an ISO 14644–classified cleanroom. Every certificate of analysis is backed by independent laboratory testing under ISO/IEC 17025 and quality management under ISO 9001.",
     },
   ],
 };
