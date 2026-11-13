@@ -1,3 +1,7 @@
+## 2026-11-12 — Homepage pricing button
+
+Reuse the existing ArrowFillButton and catalog border treatment for the homepage pricing CTA. Its destination remains the on-site wholesale pricing form.
+
 ## 2026-11-12 — Made in America standards entry
 
 Center the fifth entry across the two-column standards grid and use the existing single-column reading order on phones. Use a mint map-pin icon and keep the supplied paragraph verbatim.

@@ -1,3 +1,7 @@
+## 2026-11-12 — Homepage pricing button
+
+Remove the homepage Testing Standards CTA and use the larger Browse the catalog arrow button for Request wholesale pricing.
+
 ## 2026-11-12 — Made in America standards entry
 
 Move “Made in America” into the clinical standards grid as the fifth item below the second row and remove the standalone origin and fulfillment block.

@@ -1,3 +1,7 @@
+## 2026-11-12 — Homepage pricing button
+
+Removed the Testing Standards button from the homepage and matched the pricing CTA to the catalog arrow button. Build, TypeScript, and exported link and style checks passed. GitHub delivery targets staging/testing-standards. Netlify production stays on hold.
+
 ## 2026-11-12 — Made in America standards entry
 
 The Testing Standards page now has five clinical standards and no standalone origin section. The build, TypeScript, lint, and exported order, responsive CSS, image, and protocol checks passed. The local Chromium launch was blocked by the runtime. GitHub delivery targets `staging/testing-standards`; production remains on hold.
