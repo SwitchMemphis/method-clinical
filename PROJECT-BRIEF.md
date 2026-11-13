@@ -1,3 +1,15 @@
+## 2026-11-12 — Resources
+
+Add a Mint Clinical Resources index and seven original guides covering the topics in the supplied AP Labs reference.
+
+## 2026-11-12 — Homepage pricing button
+
+Remove the homepage Testing Standards CTA and use the larger Browse the catalog arrow button for Request wholesale pricing.
+
+## 2026-11-12 — Made in America standards entry
+
+Move “Made in America” into the clinical standards grid as the fifth item below the second row and remove the standalone origin and fulfillment block.
+
 ## 2026-11-12 — Testing Standards horizon opener
 
 Use the supplied horizon reference for the Testing Standards opener while preserving approved page copy.

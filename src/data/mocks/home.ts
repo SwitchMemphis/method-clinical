@@ -1,5 +1,3 @@
-import { testingStandardsPath } from "@/data/testing-standards";
-
 /**
  * Copy and content for the home page, lifted from the Figma frame
  * "Concept 4" (node `1518:1970`).
@@ -28,7 +26,7 @@ export interface SectionIntro {
 export interface HeroContent extends SectionIntro {
   /** Existing title phrase emphasized with the brand accent. */
   titleAccent?: string;
-  actions: readonly CtaLink[];
+  action: CtaLink;
   /** Small proof line under the fold divider. */
   trustLine: string;
   /** Service chips floating over the scene. */
@@ -104,6 +102,7 @@ export const SITE_NAV: readonly NavLink[] = [
   { label: "Register your clinic", href: "/register/" },
   { label: "Catalog", href: "/catalog/" },
   { label: "FAQs", href: "/faq/" },
+  { label: "Resources", href: "/resources/" },
   { label: "Sourcing", href: "#why" },
   { label: "Testing", href: "#testing" },
 ];
@@ -116,10 +115,7 @@ export const HERO_CONTENT: HeroContent = {
   titleAccent: "licensed providers.",
   description:
     "Clinical-grade peptides, seven-layer tested with a Certificate of Analysis on every lot — supplied wholesale to licensed clinics, spas, and modern practices.",
-  actions: [
-    { label: "Request wholesale pricing", href: "/wholesale-pricing/" },
-    { label: "View testing standards", href: testingStandardsPath },
-  ],
+  action: { label: "Request wholesale pricing", href: "/wholesale-pricing/" },
   trustLine: "Mint Clinical / 01 Flow",
   serviceChips: ["Compound catalog", "Lot documentation", "Provider access"],
 };

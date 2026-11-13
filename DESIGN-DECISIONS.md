@@ -1,3 +1,15 @@
+## 2026-11-12 — Resources
+
+Keep the reference index hierarchy and three-column desktop card grid, then use Mint Clinical typography and color tokens. Link Resources after FAQs in the menu and from the footer. Write original guides and use FDA references where technical or regulatory claims require them.
+
+## 2026-11-12 — Homepage pricing button
+
+Reuse the existing ArrowFillButton and catalog border treatment for the homepage pricing CTA. Its destination remains the on-site wholesale pricing form.
+
+## 2026-11-12 — Made in America standards entry
+
+Center the fifth entry across the two-column standards grid and use the existing single-column reading order on phones. Use a mint map-pin icon and keep the supplied paragraph verbatim.
+
 ## 2026-11-12 — Testing Standards horizon opener
 
 Center the opener above a CSS mint horizon and a faint grid. Add an anchor link to the seven-layer protocol.

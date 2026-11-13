@@ -3,8 +3,7 @@
 import { RobotText as TextEngine } from "@/components/common/robot-text";
 
 import { RevealOnReady } from "@/components/common/preloader";
-import mintStyles from "@/components/ui/mint-sheen.module.css";
-import { ShimmerButton } from "@/components/ui/shimmer-button";
+import { ArrowFillButton } from "@/components/ui/arrow-fill-button";
 import type { HeroContent } from "@/data/mocks/home";
 import {
   BODY_MOTION,
@@ -79,13 +78,9 @@ export const Hero = ({ content }: HeroProps) => {
           >
             {content.description}
           </TextEngine>
-          <div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap">
-            {content.actions.map((action) => (
-              <ShimmerButton key={action.href} href={action.href} className={mintStyles.sheen}>
-                {action.label}
-              </ShimmerButton>
-            ))}
-          </div>
+          <ArrowFillButton href={content.action.href} className="self-start border-action-secondary-border">
+            {content.action.label}
+          </ArrowFillButton>
         </div>
       </RevealOnReady>
     </section>

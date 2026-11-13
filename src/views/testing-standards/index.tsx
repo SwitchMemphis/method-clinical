@@ -1,4 +1,4 @@
-import { ArrowDown, Building2, ClipboardCheck, FlaskConical, ShieldCheck } from "lucide-react";
+import { ArrowDown, Building2, ClipboardCheck, FlaskConical, MapPin, ShieldCheck } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -22,6 +22,7 @@ const standardsIcons = new Map([
   ["cGMP", ClipboardCheck],
   ["ISO 14644", ShieldCheck],
   ["ISO 17025", FlaskConical],
+  ["Made in America", MapPin],
 ]);
 
 export function TestingStandardsView() {
@@ -55,7 +56,7 @@ export function TestingStandardsView() {
           </div>
         </header>
 
-        <section aria-labelledby="clinical-standards" className="grid gap-8 border-t border-border-subtle py-utility-section lg:grid-cols-[minmax(0,1fr)_minmax(0,2fr)] lg:items-center lg:gap-14">
+        <section aria-labelledby="clinical-standards" className="grid gap-8 border-t border-border-subtle pt-utility-section lg:grid-cols-[minmax(0,1fr)_minmax(0,2fr)] lg:items-center lg:gap-14">
           <div className={styles.standardsPanel}>
             <Image
               src="/assets/testing-standards/clinical-lab-autosampler.webp"
@@ -73,8 +74,8 @@ export function TestingStandardsView() {
             {content.clinicalStandards.map(({ title, description }) => {
               const Icon = standardsIcons.get(title) ?? ShieldCheck;
               return (
-                <div key={title} className="grid min-w-0 content-start gap-3 sm:gap-4">
-                  <dt className="grid gap-3 text-xl leading-snug font-bold tracking-tight sm:gap-4 sm:text-2xl">
+                <div key={title} className="group grid min-w-0 content-start gap-3 sm:gap-4 sm:last:col-span-2 sm:last:justify-items-center sm:last:text-center">
+                  <dt className="grid gap-3 text-xl leading-snug font-bold tracking-tight sm:gap-4 sm:text-2xl sm:group-last:justify-items-center">
                     <Icon aria-hidden="true" className="size-7 text-accent sm:size-8" strokeWidth={1.6} />
                     {title}
                   </dt>
@@ -83,20 +84,6 @@ export function TestingStandardsView() {
               );
             })}
           </dl>
-        </section>
-
-        <section aria-labelledby="origin-standards" className="rounded-card border border-border-subtle bg-surface-section-deep bg-linear-to-br from-accent/10 to-transparent p-6 sm:p-9 lg:p-12">
-          <h2 id="origin-standards" className="max-w-2xl text-balance text-2xl leading-display font-bold tracking-tight sm:text-3xl lg:text-4xl">{content.originTitle}</h2>
-          <p className="mt-4 max-w-3xl text-base leading-relaxed text-foreground-muted sm:text-lg">{content.originDescription}</p>
-          <ol role="list" className="mt-8 grid gap-x-6 gap-y-5 sm:grid-cols-2 lg:mt-10 lg:grid-cols-4">
-            {content.originSteps.map(({ title, description }, index) => (
-              <li key={title} className="grid content-start gap-2 border-t border-accent/25 pt-4">
-                <span aria-hidden="true" className="font-mono text-utility-small font-semibold text-accent tabular-nums">{stepNumber(index)}</span>
-                <h3 className="text-lg leading-snug font-semibold">{title}</h3>
-                <p className="text-utility-body leading-relaxed text-foreground-muted">{description}</p>
-              </li>
-            ))}
-          </ol>
         </section>
 
         <section aria-labelledby="testing-protocol" className="pt-utility-section">

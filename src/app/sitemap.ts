@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 
+import { RESOURCES, resourcePath } from "@/data/resources";
 import { siteConfig } from "@/lib/site";
 
 /**
@@ -7,6 +8,8 @@ import { siteConfig } from "@/lib/site";
  */
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
+    { url: `${siteConfig.url}/resources/`, changeFrequency: "monthly", priority: 0.6 },
+    ...RESOURCES.map(({ slug }) => ({ url: `${siteConfig.url}${resourcePath(slug)}`, changeFrequency: "yearly" as const, priority: 0.5 })),
     ...["register", "policies"].map(path => ({ url: `${siteConfig.url}/${path}/`, changeFrequency: "monthly" as const, priority: 0.3 })),
     {
       url: siteConfig.url,

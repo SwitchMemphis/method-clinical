@@ -1,3 +1,15 @@
+## 2026-11-12 — Resources
+
+Added the Resources index and seven static article pages. Build, TypeScript, lint, article and return links, menu data, footer, canonical URLs and sitemap checks passed. Browser visual and interactive checks were unavailable in the local runtime. GitHub staging and ChatGPT Sites preview are the release targets. Netlify production remains on hold.
+
+## 2026-11-12 — Homepage pricing button
+
+Removed the Testing Standards button from the homepage and matched the pricing CTA to the catalog arrow button. Build, TypeScript, and exported link and style checks passed. GitHub delivery targets staging/testing-standards. Netlify production stays on hold.
+
+## 2026-11-12 — Made in America standards entry
+
+The Testing Standards page now has five clinical standards and no standalone origin section. The build, TypeScript, lint, and exported order, responsive CSS, image, and protocol checks passed. The local Chromium launch was blocked by the runtime. GitHub delivery targets `staging/testing-standards`; production remains on hold.
+
 ## 2026-11-12 — Testing Standards horizon opener
 
 Reworked the Testing Standards opener in the supplied horizon style and prevented the hero from scrolling internally during anchor navigation. Delivery targets ChatGPT Sites and Drive.
