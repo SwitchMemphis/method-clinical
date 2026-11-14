@@ -7,7 +7,7 @@ export function ProductGallery({ productName, images }: { productName: string; i
   const { strengths, selectedIndex, setSelectedIndex } = useProductStrength();
   const hasVariantImages = images.length === strengths.length;
   const selected = hasVariantImages ? selectedIndex : 0;
-  const strength = hasVariantImages && strengths[selected] !== "—" ? strengths[selected] : "";
+  const strength = hasVariantImages && strengths[selected] !== "Not specified" ? strengths[selected] : "";
 
   return (
     <figure className="flex min-w-0 flex-col justify-center rounded-card border border-border-subtle bg-surface-section-deep p-5 md:p-8">

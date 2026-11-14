@@ -36,7 +36,7 @@ export interface HeroContent extends SectionIntro {
 export interface SourcingContent {
   titleAccent: string;
   title: string;
-  statements: readonly { title: string; description: string; action?: { label: string; href: string } }[];
+  statements: readonly { title: string; description: string; scrollCue?: string }[];
 }
 
 export interface ServiceCard {
@@ -135,7 +135,7 @@ export const SOURCING_CONTENT: SourcingContent = {
     {
       title: "The 7-Layer Test",
       description: "See what we check at each layer and how to read the results.",
-      action: { label: "Explore the seven layers", href: "#testing" },
+      scrollCue: "Scroll to explore the seven layers",
     },
   ],
 };

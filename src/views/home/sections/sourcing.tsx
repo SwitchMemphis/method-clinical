@@ -22,7 +22,6 @@ export function Sourcing({ content }: { content: SourcingContent }) {
   const panelRef = useRef<HTMLDivElement>(null);
   const railRef = useRef<HTMLOListElement>(null);
   const targetRef = useRef(0);
-  const keyboardNavigation = useRef(false);
   const [{ x }, api] = useSpring(() => ({
     x: 0,
     config: { tension: 220, friction: 42, clamp: true },
@@ -41,7 +40,7 @@ export function Sourcing({ content }: { content: SourcingContent }) {
     const progress = scrub > 0
       ? Math.min(Math.max(-section.getBoundingClientRect().top / scrub, 0), 1)
       : 0;
-    const target = keyboardNavigation.current && scrub > 0 ? -travel : -progress * travel;
+    const target = -progress * travel;
 
     if (target === targetRef.current) return;
     targetRef.current = target;
@@ -82,21 +81,24 @@ export function Sourcing({ content }: { content: SourcingContent }) {
           className="grid auto-rows-fr items-stretch gap-3 md:gap-4 motion-safe:flex motion-safe:will-change-transform motion-reduce:md:grid-cols-3"
           style={{ x }}
         >
-          {content.statements.map(({ title, description, action }, index) => {
+          {content.statements.map(({ title, description, scrollCue }, index) => {
             const Icon = statementIcons[index];
             const background = cardBackgrounds[index];
             const headingColor = Icon === MapPin ? "text-accent" : "";
             return (
               <li
                 key={title}
-                className={`relative isolate overflow-hidden flex min-h-72 text-accent flex-col justify-center gap-3 rounded-card border p-6 md:min-h-80 md:gap-4 md:p-8 motion-safe:w-[90%] motion-safe:shrink-0 motion-safe:sm:w-[62%] motion-safe:lg:w-[36%] ${background ? "border-accent/25 bg-surface-section" : cardStyles[index % cardStyles.length]}`}
+                className={`relative isolate @container overflow-hidden flex min-h-72 text-accent flex-col justify-center gap-3 rounded-card border p-6 md:min-h-80 md:gap-4 md:p-8 motion-safe:w-[90%] motion-safe:shrink-0 motion-safe:sm:w-[62%] motion-safe:lg:w-[36%] ${background ? "border-accent/25 bg-surface-section" : cardStyles[index % cardStyles.length]}`}
               >
                 {background && (
                   <div
                     aria-hidden="true"
                     className="pointer-events-none absolute inset-0 -z-10 bg-cover bg-right"
                     style={{
-                      backgroundImage: `linear-gradient(90deg, rgba(5, 22, 15, .93), rgba(5, 22, 15, .80) 60%, rgba(5, 22, 15, .57)), url(/assets/mint-standard/${background}.webp)`,
+                      backgroundSize: background === "cgmp" ? "100% 100%, auto max(100%, 122cqw)" : undefined,
+                      backgroundImage: `linear-gradient(90deg, ${background === "cgmp"
+                        ? "rgba(5, 22, 15, .78), rgba(5, 22, 15, .65) 60%, rgba(5, 22, 15, .37)"
+                        : "rgba(5, 22, 15, .93), rgba(5, 22, 15, .80) 60%, rgba(5, 22, 15, .57)"}), url(/assets/mint-standard/${background}.webp)`,
                     }}
                   />
                 )}
@@ -111,7 +113,7 @@ export function Sourcing({ content }: { content: SourcingContent }) {
                     {description}
                   </p>
                 )}
-                {action && (
+                {scrollCue && (
                   <>
                     <ol aria-label="Seven testing layers" className="grid gap-1.5 py-1">
                       {TESTING_CONTENT.layers.map(({ shortLabel }, layer) => (
@@ -124,19 +126,12 @@ export function Sourcing({ content }: { content: SourcingContent }) {
                         </li>
                       ))}
                     </ol>
-                    <a
-                      href={action.href}
-                      className="group inline-flex items-center gap-3 self-start font-semibold text-accent focus-visible:outline-2 focus-visible:outline-offset-4"
-                      onFocus={(event) => {
-                        keyboardNavigation.current = event.currentTarget.matches(":focus-visible");
-                      }}
-                      onBlur={() => { keyboardNavigation.current = false; }}
-                    >
+                    <p className="inline-flex items-center gap-3 self-start font-semibold">
                       <span className="grid size-9 shrink-0 place-items-center rounded-full bg-accent text-surface-section">
                         <ArrowDown aria-hidden="true" className="size-4" />
                       </span>
-                      <span className="text-white group-hover:underline">{action.label}</span>
-                    </a>
+                      <span className="text-white">{scrollCue}</span>
+                    </p>
                   </>
                 )}
               </li>

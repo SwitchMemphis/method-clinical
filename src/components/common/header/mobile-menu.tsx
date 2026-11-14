@@ -303,12 +303,23 @@ const MenuPanel = ({
                 <Link
                   href={link.href}
                   prefetch={false}
-                  className="flex items-baseline gap-4 py-1 text-[clamp(2.5rem,12vw,4rem)] leading-display font-light tracking-[-0.03em]"
+                  className="group/menu-link relative isolate flex w-fit max-w-full text-[clamp(2.5rem,12vw,4rem)] leading-display font-light tracking-[-0.03em] focus-visible:outline-none"
                 >
-                  <span className="shrink-0 text-sm leading-body font-medium tracking-normal opacity-85">
-                    {String(index + 1).padStart(2, "0")}
+                  <span className="flex min-w-0 items-baseline gap-4 px-3 py-2 [text-box:normal]">
+                    <span className="shrink-0 text-sm leading-body font-medium tracking-normal opacity-85">
+                      {String(index + 1).padStart(2, "0")}
+                    </span>
+                    <span className="min-w-0 text-balance [text-box:normal]">{link.label}</span>
                   </span>
-                  <span className="text-balance">{link.label}</span>
+                  <span
+                    aria-hidden="true"
+                    className="pointer-events-none absolute inset-0 flex min-w-0 items-baseline gap-4 rounded-action bg-surface-section-deep px-3 py-2 text-accent [text-box:normal] [clip-path:inset(50%_0_50%_100%_round_var(--raw-radius-pill))] transition-[clip-path] duration-[450ms] ease-[cubic-bezier(0.785,0.135,0.15,0.86)] group-hover/menu-link:[clip-path:inset(0_round_var(--raw-radius-pill))] group-focus-visible/menu-link:[clip-path:inset(0_round_var(--raw-radius-pill))] motion-reduce:transition-none"
+                  >
+                    <span className="shrink-0 text-sm leading-body font-medium tracking-normal opacity-85">
+                      {String(index + 1).padStart(2, "0")}
+                    </span>
+                    <span className="min-w-0 text-balance [text-box:normal]">{link.label}</span>
+                  </span>
                 </Link>
               </animated.div>
             </li>

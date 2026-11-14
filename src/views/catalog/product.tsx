@@ -11,9 +11,9 @@ import { ProductOptions, ProductStrengthProvider } from "./product-options";
 export function CatalogProductView({ product, related }: { product: CatalogProduct; related: readonly CatalogProduct[] }) {
   const facts = [
     ["Purity", product.purity],
-    ["Form", /nasal spray/i.test(product.name) ? "Liquid nasal spray" : product.specs["Physical Form"] ?? "—"],
+    ["Form", /nasal spray/i.test(product.name) ? "Liquid nasal spray" : product.specs["Physical Form"] ?? "Not specified"],
     ["Available strengths", product.strengths.join(" · ")],
-    ["CAS number", product.specs["CAS Number"] ?? "—"],
+    ["CAS number", product.specs["CAS Number"] ?? "Not specified"],
   ];
   const analytical = [
     ["Molecular formula", product.specs["Molecular Formula"] ?? product.formula],
@@ -53,7 +53,7 @@ export function CatalogProductView({ product, related }: { product: CatalogProdu
               <dl className="mt-6 grid grid-cols-2 gap-4 rounded-panel border border-border-subtle bg-surface-section p-4 text-sm">
                 {facts.map(([label, value]) => <div key={label} className="min-w-0"><dt className="font-semibold">{label}</dt><dd className="mt-1 text-foreground-muted">{value}</dd></div>)}
               </dl>
-              {product.strengths.some((value) => value !== "—") && <ProductOptions />}
+              {product.strengths.some((value) => value !== "Not specified") && <ProductOptions />}
               <Button href="/register/" withArrow className="mt-6 max-w-full text-base font-semibold whitespace-normal">Register your clinic</Button>
               <p className="mt-4 text-sm leading-relaxed text-foreground-muted">AP Labs reference data for design review. Mint Clinical availability, pricing, and lot results are pending.</p>
             </section>

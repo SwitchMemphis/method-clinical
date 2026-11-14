@@ -25,7 +25,7 @@ export const FAQ_CONTENT: FaqContent = {
     },
     {
       question: "Are your peptides third-party tested, and do you provide a COA?",
-      answer: "Every batch goes through a seven-layer testing panel — HPLC purity (≥99%), mass spectrometry identity, sterility/bioburden, bacterial endotoxin (LAL), heavy metals, and net peptide content. A lot-matched Certificate of Analysis (COA) ships with every order, and we re-test each SKU and publish a fresh COA one to two times per month so the document always matches the lot in hand.",
+      answer: "Every batch goes through a seven-layer testing panel, HPLC purity (≥99%), mass spectrometry identity, sterility/bioburden, bacterial endotoxin (LAL), heavy metals, and net peptide content. A lot-matched Certificate of Analysis (COA) ships with every order, and we re-test each SKU and publish a fresh COA one to two times per month so the document always matches the lot in hand.",
     },
     {
       question: "How do I get wholesale pricing or apply for an account?",
@@ -38,7 +38,7 @@ export const FAQ_CONTENT: FaqContent = {
     },
     {
       question: "Do you offer white-label or private-label peptides?",
-      answer: "Yes. We custom-label vials, cartons, and inserts in your branding and blind-ship every order directly to your clinics — your customer never sees us. You set your own pricing and keep the margin while we handle manufacturing, labeling, fulfillment, and logistics.",
+      answer: "Yes. We custom-label vials, cartons, and inserts in your branding and blind-ship every order directly to your clinics. Your customer never sees us. You set your own pricing and keep the margin while we handle manufacturing, labeling, fulfillment, and logistics.",
     },
     {
       question: "How fast do wholesale orders ship?",
@@ -46,11 +46,11 @@ export const FAQ_CONTENT: FaqContent = {
     },
     {
       question: "Who can purchase these products?",
-      answer: "For physician use only. Products are supplied exclusively to licensed practitioners, clinics, and qualified purchasers — not to the general public. They have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease.",
+      answer: "For physician use only. Products are supplied exclusively to licensed practitioners, clinics, and qualified purchasers, not to the general public. They have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease.",
     },
     {
       question: "What makes Mint Clinical different from other peptide suppliers?",
-      answer: "Most suppliers run a single purity test and reuse one certificate for a year. Mint Clinical runs a full seven-layer panel on every batch, publishes a fresh lot-matched COA one to two times per month, and offers white-label fulfillment with a dedicated account manager — the proof and support clinics need from a wholesale partner.",
+      answer: "Most suppliers run a single purity test and reuse one certificate for a year. Mint Clinical runs a full seven-layer panel on every batch, publishes a fresh lot-matched COA one to two times per month, and offers white-label fulfillment with a dedicated account manager, the proof and support clinics need from a wholesale partner.",
     },
   ],
 };

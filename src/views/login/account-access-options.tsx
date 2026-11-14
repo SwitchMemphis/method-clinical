@@ -33,7 +33,7 @@ export function AccountAccessOptions() {
       <p id="login-preview" className="mt-2 text-utility-small leading-relaxed text-foreground-muted" role="status">
         {message || "Preview only. Account sign-in is unavailable."}
       </p>
-      <p className="mt-5 border-t border-border-subtle pt-5 text-center text-utility-small leading-relaxed text-foreground-muted">
+      <p className="mt-3 border-t border-border-subtle pt-3 text-center text-utility-small leading-relaxed text-foreground-muted">
         Ordered as a guest before? Use the email address from your order when setting up access.
       </p>
     </div>

@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useEffect } from "react";
 
-import mintStyles from "@/components/ui/mint-sheen.module.css";
+import { ArrowFillButton } from "@/components/ui/arrow-fill-button";
 import type { CtaLink, NavLink, SocialLink } from "@/data/mocks/home";
 
 import { MobileMenu } from "./mobile-menu";
@@ -86,13 +86,13 @@ export const SiteHeader = ({ navLinks, cta, socials }: SiteHeaderProps) => {
         </Link>
 
         <div className="flex shrink-0 items-center gap-1 md:gap-2">
-          <Link
+          <ArrowFillButton
             href={cta.href}
             prefetch={false}
-            className={`pointer-events-auto relative inline-flex min-h-11 items-center whitespace-nowrap rounded-full bg-accent px-2.5 text-xs font-semibold text-action-primary-foreground sm:px-4 sm:text-sm ${mintStyles.sheen}`}
+            className="pointer-events-auto min-h-11 whitespace-nowrap rounded-full bg-accent text-xs [--fill-label-inline:0.625rem] sm:text-sm sm:[--fill-label-inline:1rem]"
           >
             {cta.label}
-          </Link>
+          </ArrowFillButton>
           <MobileMenu navLinks={navLinks} cta={cta} socials={socials} panelClassName="rounded-full" />
         </div>
       </animated.div>

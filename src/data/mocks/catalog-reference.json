@@ -27,11 +27,11 @@
     "name": "5-Amino-1MQ (50 mg) + SLU-PP-332 (1 mg) Tablets",
     "subtitle": "",
     "category": "Peptide Blends",
-    "formula": "—",
+    "formula": "Not specified",
     "strengths": [
       "50 mg / 1 mg · 30 ct"
     ],
-    "purity": "—",
+    "purity": "Not specified",
     "specs": {},
     "images": [
       "/assets/mint-catalog/5-amino-1mq-50-mg-slu-pp-332-1-mg-tablets-50-mg-1-mg-30-ct-01-50-mg-1-mg-30-ct.webp"
@@ -42,11 +42,11 @@
     "name": "5-Amino-1MQ Tablets",
     "subtitle": "",
     "category": "GLP-1 & Metabolic",
-    "formula": "—",
+    "formula": "Not specified",
     "strengths": [
       "50 mg · 30 ct"
     ],
-    "purity": "—",
+    "purity": "Not specified",
     "specs": {},
     "images": [
       "/assets/mint-catalog/5-amino-1mq-tablets-50-mg-30-ct-01-50-mg-30-ct.webp"
@@ -57,11 +57,11 @@
     "name": "Adamax",
     "subtitle": "",
     "category": "Research Peptides",
-    "formula": "—",
+    "formula": "Not specified",
     "strengths": [
       "10 mg"
     ],
-    "purity": "—",
+    "purity": "Not specified",
     "specs": {},
     "images": [
       "/assets/mint-catalog/adamax-10-mg-01-10-mg-purity-label.webp"
@@ -72,11 +72,11 @@
     "name": "Adamax Nasal Spray",
     "subtitle": "",
     "category": "Liquid Sprays",
-    "formula": "—",
+    "formula": "Not specified",
     "strengths": [
       "10 mg · 10 mL"
     ],
-    "purity": "—",
+    "purity": "Not specified",
     "specs": {},
     "images": [
       "/assets/mint-catalog/adamax-nasal-spray-10-mg-10-ml-01-10-mg-10-ml.webp"
@@ -135,7 +135,7 @@
     "name": "Bacteriostatic Water",
     "subtitle": "",
     "category": "Lab Supplies",
-    "formula": "—",
+    "formula": "Not specified",
     "strengths": [
       "30 mL"
     ],
@@ -180,11 +180,11 @@
     "name": "BPC-157 (500 mcg) + KPV (500 mcg) + Larazotide (500 mcg) Tablets",
     "subtitle": "",
     "category": "Peptide Blends",
-    "formula": "—",
+    "formula": "Not specified",
     "strengths": [
       "500 mcg / 500 mcg / 500 mcg · 30 ct"
     ],
-    "purity": "—",
+    "purity": "Not specified",
     "specs": {},
     "images": [
       "/assets/mint-catalog/bpc-157-500-mcg-kpv-500-mcg-larazotide-500-mcg-tablets-500-mcg-500-mcg-500-mcg-30-ct-01-500-mcg-500-mcg-500-mcg-30-ct.webp"
@@ -219,11 +219,11 @@
     "name": "BPC-157 Tablets",
     "subtitle": "",
     "category": "Research Peptides",
-    "formula": "—",
+    "formula": "Not specified",
     "strengths": [
       "500 mcg · 30 ct"
     ],
-    "purity": "—",
+    "purity": "Not specified",
     "specs": {},
     "images": [
       "/assets/mint-catalog/bpc-157-tablets-500-mcg-30-ct-01-500-mcg-30-ct.webp"
@@ -263,7 +263,7 @@
     "strengths": [
       "5 mg / 5 mg"
     ],
-    "purity": "—",
+    "purity": "Not specified",
     "specs": {},
     "images": [
       "/assets/mint-catalog/cagrisema-5-mg-5-mg-01-5-mg-5-mg-purity-label.webp"
@@ -340,7 +340,7 @@
       "5 mg",
       "10 mg"
     ],
-    "purity": "—",
+    "purity": "Not specified",
     "specs": {
       "CAS Number": "863288-34-0",
       "Molecular Formula": "C152H252N44O42",
@@ -362,7 +362,7 @@
       "5 mg",
       "10 mg"
     ],
-    "purity": "—",
+    "purity": "Not specified",
     "specs": {
       "Molecular Formula": "C165H269N47O46",
       "Molecular Weight": "3647.25 g/mol",
@@ -378,7 +378,7 @@
     "name": "Custom Boxes & Packaging",
     "subtitle": "",
     "category": "Research Peptides",
-    "formula": "—",
+    "formula": "Not specified",
     "strengths": [
       "Box Style 1",
       "Box Style 2",
@@ -386,7 +386,7 @@
       "Box Style 4",
       "Box Style 5"
     ],
-    "purity": "—",
+    "purity": "Not specified",
     "specs": {},
     "images": [
       "/assets/mint-catalog/custom-boxes-packaging-box-style-1-01.webp"
@@ -416,11 +416,11 @@
     "name": "Dihexa Tablets",
     "subtitle": "",
     "category": "Research Peptides",
-    "formula": "—",
+    "formula": "Not specified",
     "strengths": [
       "10 mg · 30 ct"
     ],
-    "purity": "—",
+    "purity": "Not specified",
     "specs": {},
     "images": [
       "/assets/mint-catalog/dihexa-tablets-10-mg-30-ct-01-10-mg-30-ct.webp"
@@ -478,11 +478,11 @@
     "name": "Epithalon Tablets",
     "subtitle": "",
     "category": "Bioregulators",
-    "formula": "—",
+    "formula": "Not specified",
     "strengths": [
       "3 mg · 30 ct"
     ],
-    "purity": "—",
+    "purity": "Not specified",
     "specs": {},
     "images": [
       "/assets/mint-catalog/epithalon-tablets-3-mg-30-ct-01-3-mg-30-ct.webp"
@@ -556,11 +556,11 @@
     "name": "GHK-Cu IR Tablets",
     "subtitle": "",
     "category": "Research Peptides",
-    "formula": "—",
+    "formula": "Not specified",
     "strengths": [
       "2 mg/tablet · 30cc bottle · 30 ct"
     ],
-    "purity": "—",
+    "purity": "Not specified",
     "specs": {},
     "images": [
       "/assets/mint-catalog/ghk-cu-ir-tablets-2-mg-tablet-30cc-bottle-30-ct-01-2-mg-tablet-30cc-bottle-30-ct.webp"
@@ -576,7 +576,7 @@
       "5 mg",
       "10 mg"
     ],
-    "purity": "—",
+    "purity": "Not specified",
     "specs": {
       "CAS Number": "158861-67-7",
       "Molecular Formula": "C45H55N9O6",
@@ -599,7 +599,7 @@
       "5 mg",
       "10 mg"
     ],
-    "purity": "—",
+    "purity": "Not specified",
     "specs": {
       "CAS Number": "87616-84-0",
       "Molecular Formula": "C46H56N12O6",
@@ -680,7 +680,7 @@
     "strengths": [
       "10 mg"
     ],
-    "purity": "—",
+    "purity": "Not specified",
     "specs": {
       "CAS Number": "33515-09-2",
       "Molecular Formula": "C55H75N17O13",
@@ -697,18 +697,18 @@
     "name": "HCG",
     "subtitle": "Human chorionic gonadotropin",
     "category": "Research Peptides",
-    "formula": "—",
+    "formula": "Not specified",
     "strengths": [
       "5000 IU",
       "10000 IU"
     ],
-    "purity": "—",
+    "purity": "Not specified",
     "specs": {
       "Physical Form": "Lyophilized powder",
       "CAS Number": "9002-61-3",
       "Molecular Weight": "~36.7 kDa g/mol",
       "Amino Acid Count": "237 in the mature heterodimer (α-chain 92, β-chain 145)",
-      "Sequence": "Heterodimeric glycoprotein — two non-covalently associated chains, not a single peptide sequence. Glycosylation is heterogeneous, so no single molecular formula applies."
+      "Sequence": "Heterodimeric glycoprotein, two non-covalently associated chains, not a single peptide sequence. Glycosylation is heterogeneous, so no single molecular formula applies."
     },
     "images": [
       "/assets/mint-catalog/hcg-5000-iu-01-5000-iu-purity-label.webp",
@@ -724,7 +724,7 @@
     "strengths": [
       "10 iu"
     ],
-    "purity": "—",
+    "purity": "Not specified",
     "specs": {
       "CAS Number": "66004-57-7",
       "Molecular Formula": "C78H125N23O23S2",
@@ -829,11 +829,11 @@
     "name": "Klotho-derived Peptide 1",
     "subtitle": "",
     "category": "Research Peptides",
-    "formula": "—",
+    "formula": "Not specified",
     "strengths": [
       "KP1"
     ],
-    "purity": "—",
+    "purity": "Not specified",
     "specs": {},
     "images": [
       "/assets/mint-catalog/klotho-derived-peptide-1-kp1-01-kp1.webp"
@@ -922,11 +922,11 @@
     "name": "Lipo Pure (Lipotropic)",
     "subtitle": "",
     "category": "Research Peptides",
-    "formula": "—",
+    "formula": "Not specified",
     "strengths": [
       "10 mL"
     ],
-    "purity": "—",
+    "purity": "Not specified",
     "specs": {},
     "images": [
       "/assets/mint-catalog/lipo-pure-lipotropic-10-ml-01-10-ml-purity-label.webp"
@@ -942,7 +942,7 @@
       "5 mg",
       "10 mg"
     ],
-    "purity": "—",
+    "purity": "Not specified",
     "specs": {
       "CAS Number": "154947-66-7",
       "Molecular Formula": "C205H340N60O53",
@@ -1117,7 +1117,7 @@
       "2 mg",
       "10 mg"
     ],
-    "purity": "—",
+    "purity": "Not specified",
     "specs": {
       "CAS Number": "50-56-6",
       "Molecular Formula": "C43H66N12O12S2",
@@ -1139,7 +1139,7 @@
     "strengths": [
       "10 mg · 10 mL"
     ],
-    "purity": "—",
+    "purity": "Not specified",
     "specs": {
       "CAS Number": "50-56-6",
       "Molecular Formula": "C43H66N12O12S2",
@@ -1168,7 +1168,7 @@
       "Molecular Formula": "C27H42N6O8",
       "Molecular Weight": "578.70 g/mol",
       "Amino Acid Count": "4 residues plus one adamantylglycine",
-      "Sequence": "Ac-Asp-Gly-Gly-Leu-(adamantylglycine)-NH2 — the C-terminal residue is adamantylglycine, NOT Ala-Gly"
+      "Sequence": "Ac-Asp-Gly-Gly-Leu-(adamantylglycine)-NH2, the C-terminal residue is adamantylglycine, NOT Ala-Gly"
     },
     "images": [
       "/assets/mint-catalog/p-21-5-mg-01-5-mg-purity-label.webp",
@@ -1314,7 +1314,7 @@
     "name": "Reconstitution Kit",
     "subtitle": "",
     "category": "Lab Supplies",
-    "formula": "—",
+    "formula": "Not specified",
     "strengths": [
       "1 kit"
     ],
@@ -1329,7 +1329,7 @@
     "name": "Reconstitution Solution",
     "subtitle": "",
     "category": "Lab Supplies",
-    "formula": "—",
+    "formula": "Not specified",
     "strengths": [
       "30 mL"
     ],
@@ -1605,11 +1605,11 @@
     "name": "SLU-PP-332 (1 mg) + BAM-15 (10 mg) Tablets",
     "subtitle": "",
     "category": "Peptide Blends",
-    "formula": "—",
+    "formula": "Not specified",
     "strengths": [
       "1 mg / 10 mg · 30 ct"
     ],
-    "purity": "—",
+    "purity": "Not specified",
     "specs": {},
     "images": [
       "/assets/mint-catalog/slu-pp-332-1-mg-bam-15-10-mg-tablets-1-mg-10-mg-30-ct-01-1-mg-10-mg-30-ct.webp"
@@ -1620,11 +1620,11 @@
     "name": "SLU-PP-332 Tablets",
     "subtitle": "",
     "category": "Research Peptides",
-    "formula": "—",
+    "formula": "Not specified",
     "strengths": [
       "1 mg · 30 ct"
     ],
-    "purity": "—",
+    "purity": "Not specified",
     "specs": {},
     "images": [
       "/assets/mint-catalog/slu-pp-332-tablets-1-mg-30-ct-01-1-mg-30-ct.webp"
@@ -1639,7 +1639,7 @@
     "strengths": [
       "10 mg"
     ],
-    "purity": "—",
+    "purity": "Not specified",
     "specs": {
       "CAS Number": "868844-74-0",
       "Molecular Formula": "C34H60N14O13",
@@ -1798,9 +1798,9 @@
   {
     "slug": "thymalin-10-mg",
     "name": "Thymalin",
-    "subtitle": "Thymus polypeptide complex (calf thymus) — a peptide fraction, not a single defined molecule",
+    "subtitle": "Thymus polypeptide complex (calf thymus), a peptide fraction, not a single defined molecule",
     "category": "Bioregulators",
-    "formula": "—",
+    "formula": "Not specified",
     "strengths": [
       "10 mg",
       "20 mg"
@@ -1928,7 +1928,7 @@
     "strengths": [
       "5 mg"
     ],
-    "purity": "—",
+    "purity": "Not specified",
     "specs": {
       "CAS Number": "37221-79-7",
       "Molecular Formula": "C147H238N44O42S",

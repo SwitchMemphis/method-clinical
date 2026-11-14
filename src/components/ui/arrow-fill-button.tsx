@@ -1,5 +1,4 @@
 // Adapted from the supplied Hyperiux Vault Arrow Fill Button.
-import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 import type { ComponentProps } from "react";
 
@@ -31,10 +30,6 @@ export function ArrowFillButton({
       <span className={styles.label}>{children}</span>
       <span aria-hidden="true" className={cn(styles.label, styles.fill)}>
         {children}
-      </span>
-      <span aria-hidden="true" className={styles.arrowDisc}>
-        <ArrowRight className={styles.arrowIdle} size={18} strokeWidth={1.8} />
-        <ArrowRight className={styles.arrowIncoming} size={18} strokeWidth={1.8} />
       </span>
     </>
   );

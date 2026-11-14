@@ -6,7 +6,7 @@ import { generateMetadata } from "@/utils/seo/generate-page-metadata";
 import { LegalDocument } from "./legal-document";
 
 export const privacyPolicyMetadata: Metadata = generateMetadata({
-  title: `${privacyPolicy.title} — Mint Clinical`,
+  title: `${privacyPolicy.title} | Mint Clinical`,
   description: privacyPolicy.intro,
   url: "/privacy-policy",
 });
