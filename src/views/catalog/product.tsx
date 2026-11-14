@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowLeft, ArrowUpRight, TestTubeDiagonal } from "lucide-react";
 
-import { Button } from "@/components/ui/button";
+import { ArrowFillButton } from "@/components/ui/arrow-fill-button";
 import { catalogProductUrl, type CatalogProduct } from "@/data/mocks/catalog";
 import { MolecularFormula } from "./molecular-formula";
 import { ProductGallery } from "./product-gallery";
@@ -54,7 +54,7 @@ export function CatalogProductView({ product, related }: { product: CatalogProdu
                 {facts.map(([label, value]) => <div key={label} className="min-w-0"><dt className="font-semibold">{label}</dt><dd className="mt-1 text-foreground-muted">{value}</dd></div>)}
               </dl>
               {product.strengths.some((value) => value !== "Not specified") && <ProductOptions />}
-              <Button href="/register/" withArrow className="mt-6 max-w-full text-base font-semibold whitespace-normal">Register your clinic</Button>
+              <ArrowFillButton href="/register/" className="mt-6 border-action-secondary-border">Register your clinic</ArrowFillButton>
               <p className="mt-4 text-sm leading-relaxed text-foreground-muted">AP Labs reference data for design review. Mint Clinical availability, pricing, and lot results are pending.</p>
             </section>
           </div>

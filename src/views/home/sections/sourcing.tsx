@@ -1,12 +1,10 @@
 "use client";
 
-import { animated, useSpring } from "@react-spring/web";
 import { ArrowDown, Building2, ClipboardCheck, FlaskConical, MapPin } from "lucide-react";
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
 
 import type { SourcingContent } from "@/data/mocks/home";
 import { TESTING_CONTENT } from "@/data/mocks/testing";
-import { useLoop } from "@/hooks/animation/use-render-loop";
 
 const statementIcons = [Building2, MapPin, FlaskConical, ClipboardCheck];
 const cardBackgrounds = ["facilities", "usa", "cgmp", "iso"] as const;
@@ -21,31 +19,67 @@ export function Sourcing({ content }: { content: SourcingContent }) {
   const sectionRef = useRef<HTMLElement>(null);
   const panelRef = useRef<HTMLDivElement>(null);
   const railRef = useRef<HTMLOListElement>(null);
-  const targetRef = useRef(0);
-  const [{ x }, api] = useSpring(() => ({
-    x: 0,
-    config: { tension: 220, friction: 42, clamp: true },
-  }));
-
-  useLoop(() => {
+  useEffect(() => {
     const section = sectionRef.current;
     const panel = panelRef.current;
     const rail = railRef.current;
     if (!section || !panel || !rail) return;
 
-    const runway = section.offsetHeight - panel.offsetHeight;
-    // Reserve the last third of a viewport for reading the final card before unpinning.
-    const scrub = runway - window.innerHeight / 3;
-    const travel = rail.scrollWidth - rail.clientWidth;
-    const progress = scrub > 0
-      ? Math.min(Math.max(-section.getBoundingClientRect().top / scrub, 0), 1)
-      : 0;
-    const target = -progress * travel;
+    const motion = window.matchMedia("(prefers-reduced-motion: no-preference)");
+    let travel = 0;
+    let scrub = 0;
+    let frame = 0;
+    let previous = 0;
 
-    if (target === targetRef.current) return;
-    targetRef.current = target;
-    api.start({ x: target });
-  }, { framerate: 0 });
+    function update() {
+      frame = 0;
+      if (!motion.matches || !section || !rail) return;
+      const progress = scrub > 0
+        ? Math.min(Math.max(-section.getBoundingClientRect().top / scrub, 0), 1)
+        : 0;
+      const position = -progress * travel;
+      if (position === previous) return;
+      rail.style.translate = `${position}px`;
+      previous = position;
+    }
+
+    function scheduleUpdate() {
+      if (motion.matches && !frame) frame = requestAnimationFrame(update);
+    }
+
+    function measure() {
+      if (!section || !panel || !rail) return;
+      if (!motion.matches) {
+        section.style.removeProperty("min-height");
+        rail.style.removeProperty("translate");
+        previous = 0;
+        return;
+      }
+
+      travel = Math.max(0, rail.scrollWidth - rail.clientWidth);
+      scrub = travel * 0.85;
+      const readingRoom = travel ? Math.min(100, panel.clientHeight * 0.12) : 0;
+      section.style.minHeight = `${panel.offsetHeight + scrub + readingRoom}px`;
+      scheduleUpdate();
+    }
+
+    const observer = new ResizeObserver(measure);
+    observer.observe(panel);
+    observer.observe(rail);
+    for (const card of rail.children) observer.observe(card);
+    motion.addEventListener("change", measure);
+    window.addEventListener("scroll", scheduleUpdate, { passive: true });
+    measure();
+
+    return () => {
+      observer.disconnect();
+      motion.removeEventListener("change", measure);
+      window.removeEventListener("scroll", scheduleUpdate);
+      cancelAnimationFrame(frame);
+      section.style.removeProperty("min-height");
+      rail.style.removeProperty("translate");
+    };
+  }, []);
 
   return (
     <section
@@ -76,10 +110,9 @@ export function Sourcing({ content }: { content: SourcingContent }) {
           </h2>
         </header>
 
-        <animated.ol
+        <ol
           ref={railRef}
           className="grid auto-rows-fr items-stretch gap-3 md:gap-4 motion-safe:flex motion-safe:will-change-transform motion-reduce:md:grid-cols-3"
-          style={{ x }}
         >
           {content.statements.map(({ title, description, scrollCue }, index) => {
             const Icon = statementIcons[index];
@@ -137,7 +170,7 @@ export function Sourcing({ content }: { content: SourcingContent }) {
               </li>
             );
           })}
-        </animated.ol>
+        </ol>
       </div>
     </section>
   );

@@ -10,6 +10,9 @@ import {
   HEADING_MOTION,
 } from "@/lib/motion/text-presets";
 
+import { HeroVideo } from "./hero-video";
+import { HeroScrollCue } from "./hero-scroll-cue";
+
 export interface HeroProps {
   content: HeroContent;
 }
@@ -26,17 +29,7 @@ export const Hero = ({ content }: HeroProps) => {
     >
       <div aria-hidden="true" className="pointer-events-none absolute inset-0 lg:hidden">
         <div className="absolute inset-0 bg-[url('/assets/mobile-hero-helix.4k.afcb2392.webp')] bg-cover bg-center" />
-        <video
-          aria-hidden="true"
-          className="absolute inset-0 hidden size-full object-cover motion-safe:max-lg:block"
-          autoPlay
-          loop
-          muted
-          playsInline
-          preload="none"
-        >
-          <source src="/assets/mobile-hero-helix.4k.3d8606b9.mp4" type="video/mp4" media="(width < 64rem) and (prefers-reduced-motion: no-preference)" />
-        </video>
+        <HeroVideo />
         <div className="absolute inset-0 bg-linear-to-b from-surface-section/60 via-surface-section/70 to-surface-section/15" />
         <div className="absolute inset-x-0 bottom-0 h-24 bg-linear-to-b from-transparent to-surface-section" />
       </div>
@@ -69,6 +62,7 @@ export const Hero = ({ content }: HeroProps) => {
           </ArrowFillButton>
         </div>
       </RevealOnReady>
+      <HeroScrollCue />
     </section>
   );
 };

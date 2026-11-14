@@ -174,9 +174,8 @@ export const MobileMenu = ({
     window.setTimeout(() => {
       const target = document.querySelector<HTMLElement>(href);
       if (!target) return;
-      const lenis = useScroll.getState().lenis;
-      if (lenis) lenis.scrollTo(target);
-      else target.scrollIntoView({ behavior: "smooth" });
+      const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      target.scrollIntoView({ behavior: reducedMotion ? "instant" : "smooth" });
     }, NAV_AFTER_CLOSE);
   };
 
@@ -305,7 +304,7 @@ const MenuPanel = ({
                   prefetch={false}
                   className="group/menu-link relative isolate flex w-fit max-w-full text-[clamp(2.5rem,12vw,4rem)] leading-display font-light tracking-[-0.03em] focus-visible:outline-none"
                 >
-                  <span className="flex min-w-0 items-baseline gap-4 px-3 py-2 [text-box:normal]">
+                  <span className="flex min-w-0 items-baseline gap-4 py-2 pr-6 pl-3 md:pr-9 [text-box:normal]">
                     <span className="shrink-0 text-sm leading-body font-medium tracking-normal opacity-85">
                       {String(index + 1).padStart(2, "0")}
                     </span>
@@ -313,7 +312,7 @@ const MenuPanel = ({
                   </span>
                   <span
                     aria-hidden="true"
-                    className="pointer-events-none absolute inset-0 flex min-w-0 items-baseline gap-4 rounded-action bg-surface-section-deep px-3 py-2 text-accent [text-box:normal] [clip-path:inset(50%_0_50%_100%_round_var(--raw-radius-pill))] transition-[clip-path] duration-[450ms] ease-[cubic-bezier(0.785,0.135,0.15,0.86)] group-hover/menu-link:[clip-path:inset(0_round_var(--raw-radius-pill))] group-focus-visible/menu-link:[clip-path:inset(0_round_var(--raw-radius-pill))] motion-reduce:transition-none"
+                    className="pointer-events-none absolute inset-0 flex min-w-0 items-baseline gap-4 rounded-action bg-surface-section-deep py-2 pr-6 pl-3 text-accent md:pr-9 [text-box:normal] [clip-path:inset(50%_0_50%_100%_round_var(--raw-radius-pill))] transition-[clip-path] duration-[450ms] ease-[cubic-bezier(0.785,0.135,0.15,0.86)] group-hover/menu-link:[clip-path:inset(0_round_var(--raw-radius-pill))] group-focus-visible/menu-link:[clip-path:inset(0_round_var(--raw-radius-pill))] motion-reduce:transition-none"
                   >
                     <span className="shrink-0 text-sm leading-body font-medium tracking-normal opacity-85">
                       {String(index + 1).padStart(2, "0")}

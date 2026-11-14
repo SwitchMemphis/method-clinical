@@ -110,7 +110,7 @@ export const HERO_CONTENT: HeroContent = {
   eyebrow: "01 Flow / Provider supply",
   title: "Peptide supply for licensed providers.",
   titleAccent: "for licensed providers.",
-  description: "Wholesale access for clinics, medical spas, and modern practices.",
+  description: "Wholesale access for clinics, medical spas, and\u00a0modern\u00a0practices.",
   action: { label: "Request wholesale pricing", href: "/wholesale-pricing/" },
   trustLine: "Mint Clinical / 01 Flow",
   serviceChips: ["Compound catalog", "Lot documentation", "Provider access"],

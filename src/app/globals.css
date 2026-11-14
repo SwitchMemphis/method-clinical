@@ -520,7 +520,7 @@ canvas[data-scene-unavailable] {
   --raw-size-hero-heading-accent: clamp(23px, 6.8vw, 40px);
   --raw-size-hero-heading-desktop: 4.75rem;
   --raw-size-hero-heading-accent-desktop: 3.75rem;
-  --raw-size-hero-description: clamp(18px, 1.65vw, 26px);
+  --raw-size-hero-description: clamp(19px, 1.75vw, 28px);
   --raw-size-hero-description-width: 42rem;
   --hero-heading: var(--raw-size-hero-heading);
   --hero-heading-accent: var(--raw-size-hero-heading-accent);
